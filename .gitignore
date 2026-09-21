@@ -1,0 +1,10 @@
+data/*/*.pt
+data/*/*.csv
+data/arxiv/arxiv/
+data/arxiv/*.zip
+data/arxiv/*.tsv
+data/arxiv/*.tsv.gz
+data/arxiv/emb_minilm.npy
+garden/__pycache__/
+results/moves_*.npz
+results/error_nodes_*.csv

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Integration of natural language generation with speech synthesis for producing spoken output from semantic representations",
+  "Prosody and intonation modeling techniques for concept-to-speech generation systems",
+  "Methods for determining intonation contours and generating natural-sounding speech from high-level linguistic representations"
+ ],
+ "raw": "{\"candidates\": [\"Integration of natural language generation with speech synthesis for producing spoken output from semantic representations\", \"Prosody and intonation modeling techniques for concept-to-speech generation systems\", \"Methods for determining intonation contours and generating natural-sounding speech from high-level linguistic representations\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 842,
+  "output_tokens": 66,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Learning Intonation Rules for Concept-to-Speech Generation We aim to design and develop a Concept-to-Speech (CTS) generation system, a speech synthesis system producing speech from semantic representations, by integrating language generation with speech synthesis. We focus on five issues (1) how to employ newly available accurate discourse, semantic, and syntactic information produced by a natural language generation system to improve the quality of synthesized speech. (2) how to extend an exist\n\n[Document 2] Prosody Modeling in Concept-to-Speech Generation: Methodological Issues Generation of Intensive Care data), a system that generates multimedia briefings of a patient's status after having a bypass operation (Dalal et al. 1996; McKeown et al. 1997). We first describe information MAGIC generates in the process of producing language, turning next to the corpora we collected. We then provide a description of the more traditional approach to prosody modeling, using machine learning that generalizes o\n\n[Document 3] A Semantics of Contrast and Information Structure for Specifying Intonation in Spoken Language Generation In this dissertation I present a model for the determination of intonation contours from context and provide two implemented systems which apply this theory to the problem of generating spoken language with appropriate intonation from high-level semantic representations. The theory and implementations presented here are based on an information structure framework that mediates between intona\n\n[Document 4] Natural-Sounding Speech Synthesis Using Variable-Length Units The goal of this work was to develop a speech synthesis system which concatenates variable-length units to create naturalsounding speech. Our initial work in this area showed that by careful design of system responses to ensure consistent intonation contours, natural-sounding speech synthesis was achievable with word- and phrase-level concatenation. In order to extend the flexibility of this framework, we focused on the problem of gen\n\n[Document 5] Clause Aggregation Using Linguistic Knowledge By combining multiple clauses into one single sentence, a text generation system can express the same amount of information in fewer words and at the same time, produce a great variety of complex constructions. In this paper, we describe hypotactic and paratactic operators for generating complex sentences from clause-sized semantic representations. These two types of operators are portable and reusable because they are based on general resources such\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

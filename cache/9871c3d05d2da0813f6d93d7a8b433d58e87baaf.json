@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Event-based architecture and notification systems for distributed component integration",
+  "Composite event semantics and temporal ordering in event-driven distributed systems",
+  "Event notification services for heterogeneous systems with asynchronous communication"
+ ],
+ "raw": "{\"candidates\": [\"Event-based architecture and notification systems for distributed component integration\", \"Composite event semantics and temporal ordering in event-driven distributed systems\", \"Event notification services for heterogeneous systems with asynchronous communication\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 784,
+  "output_tokens": 51,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] A Parameterized Algebra for Event Notification Services Event notification services are used in various applications such as digital libraries, stock tickers, traffic control, or facility management. However, to our knowledge, a common semantics of events in event notification services has not been defined so far. In this paper, we propose a parameterized event algebra which describes the semantics of composite events for event notification systems. The parameters serve as a basis for flexible h\n\n[Document 2] Event Composition in Time-dependent Distributed Systems Many interesting application systems, ranging from workflow  management and CSCW to air traffic control, are eventdriven  and time-dependent and must interact with heterogeneous  components in the real world. Event services are used  to glue together distributed components. They assume a virtual  global time base to trigger actions and to order events.  The notion of a global time that is provided by synchronized  local clocks in distribute\n\n[Document 3] Using Events for the Scalable Federation of Heterogeneous Components The thesis of this paper is that, using our eventbased development principles, components that were not designed to interoperate, can be made to work together quickly and easily. The only requirement is that each component must be made event-based by adding an interface for registering interest in events and an interface for injecting actions. A component notifies an event to a distributed client if the parameters of an event, \n\n[Document 4] Communication Primitives for Ubiquitous Systems or RPC Considered Harmful RPC is widely used to access and modify remote state. Its procedural call semantics are argued as an efficient unifying paradigm for both local and remote access. Our experience with ubiquitous device control systems has shown otherwise. RPC semantics of a synchronous, blocking invocation on a statically typed interface are overly restrictive, inflexible, and fail to provide an efficient unifying abstraction for accessing \n\n[Document 5] How Does the Observation Strategy Influence the Correctness of Alerting Services? Application elds of alerting services range from digital libraries\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Accessible digital education and technology design for deaf users and sign language",
+  "Inclusive e-learning systems addressing deaf accessibility beyond captioning and audio transcription",
+  "Human-computer interaction design for deaf community communication and information access"
+ ],
+ "raw": "{\"candidates\": [\"Accessible digital education and technology design for deaf users and sign language\", \"Inclusive e-learning systems addressing deaf accessibility beyond captioning and audio transcription\", \"Human-computer interaction design for deaf community communication and information access\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 635,
+  "output_tokens": 54,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 3 representative documents (out of 5 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: swift a signwriting editor to bridge between deaf world and e learning Abstract: SWift (SignWriting improved fast transcriber) is an advanced editor for SignWriting (SW). At present, SW is a promising alternative to provide documents in an easyto- grasp written form of (any) Sign Language, the gestural way of communication which is widely adopted by the deaf community. SWift was developed for SW users, either deaf or not, to support collaboration and exchange of ideas. The application all\n\n[Document 2] Title: towards improving the e learning experience for deaf students e lux Abstract: Deaf people are more heavily affected by the digital divide than many would expect. Moreover, most accessibility guidelines addressing their needs just deal with captioning and audio-content transcription. However, this approach to the problem does not consider that deaf people have big troubles with vocal languages, even in their written form. At present, only a few organizations, like W3C, produced guidelines \n\n[Document 3] Title: a concrete example of inclusive design deaf oriented accessibility Abstract: One of the continuing challenges of Human Computer Interaction research is the full inclusion of people with special needs into the digital world. In particular, this crucial category includes people that experiences some kind of limitation in exploiting traditional information communication channels. One immediately thinks about blind people, and several researches aim at addressing their needs. On the contrary,\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

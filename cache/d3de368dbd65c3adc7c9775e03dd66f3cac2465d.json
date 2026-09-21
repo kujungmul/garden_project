@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Structured light range imaging using color patterns for rapid 3D shape capture",
+  "Multi-projector systems and color stripe techniques for single-shot depth acquisition",
+  "Calibration and coding methods for structured light vision systems with color patterns"
+ ],
+ "raw": "{\"candidates\": [\"Structured light range imaging using color patterns for rapid 3D shape capture\", \"Multi-projector systems and color stripe techniques for single-shot depth acquisition\", \"Calibration and coding methods for structured light vision systems with color patterns\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 747,
+  "output_tokens": 57,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 4 representative documents (out of 5 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: a single shot camera projector calibration system for imperfect planar targets Abstract: Existing camera-projector calibration methods typically warp feature points from a camera image to a projector image using estimated homographies, and often suffer from errors in camera parameters and noise due to imperfect planarity of the calibration target. In this paper we propose a simple yet robust solution that explicitly deals with these challenges. Following the structured light (SL) camera-p\n\n[Document 2] Title: multi projector color structured light vision Abstract: Research interest in rapid structured-light imaging has grown increasingly for the modeling of moving objects, and a number of methods have been suggested for the range capture in a single video frame. The imaging area of a 3D object using a single projector is restricted since the structured light is projected only onto a limited area of the object surface. Employing additional projectors to broaden the imaging area is a challenging\n\n[Document 3] Title: high contrast color stripe pattern for rapid structured light range imaging Abstract: For structured-light range imaging, color stripes can be used for increasing the number of distinguishable light patterns compared to binary BW stripes. Therefore, an appropriate use of color patterns can reduce the number of light projections and range imaging is achievable in single video frame or in \"one shot\". On the other hand, the reliability and range resolution attainable from color stripes is ge\n\n[Document 4] Title: color stripe structured light robust to surface color and discontinuity Abstract: Multiple color stripes have been employed for structured light-based rapid range imaging to increase the number of uniquely identifiable stripes. The use of multiple color stripes poses two problems: (1) object surface color may disturb the stripe color and (2) the number of adjacent stripes required for identifying a stripe may not be maintained near surface discontinuities such as occluding boundaries. In \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

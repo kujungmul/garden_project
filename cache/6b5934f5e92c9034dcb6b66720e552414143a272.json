@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Maximum clique problem algorithms and heuristic approaches for large graphs",
+  "Clique detection methods including genetic algorithms and quadratic programming formulations",
+  "Graph matching and isomorphism problems solved via maximum clique reduction techniques"
+ ],
+ "raw": "{\"candidates\": [\"Maximum clique problem algorithms and heuristic approaches for large graphs\", \"Clique detection methods including genetic algorithms and quadratic programming formulations\", \"Graph matching and isomorphism problems solved via maximum clique reduction techniques\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1108,
+  "output_tokens": 54,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of computer-science papers.\n\n[Document 1] On Maximum Clique Problems In Very Large Graphs . We present an approach for clique and quasi-clique computations in very large multi-digraphs. We discuss graph decomposition schemes used to break up the problem into several pieces of manageable dimensions. A semiexternal greedy randomized adaptive search procedure (GRASP) for finding approximate solutions to the maximum clique problem and maximum quasiclique problem in very large sparse graphs is presented. We experiment with this heuristic on \n\n[Document 2] A Simple Heuristic Based Genetic Algorithm for the Maximum Clique Problem This paper proposes a novel heuristic based genetic algorithm  (HGA) for the maximum clique problem, which consists of the combination of a simple genetic algorithm and a naive heuristic algorithm. The heuristic based genetic algorithm is tested on the so-called DIMACS benchmark graphs, with up to 4000 nodes and up to 5506380 edges, consisting of randomly generated graphs with known maximum clique and of graphs derived fro\n\n[Document 3] The Maximum Clique Problem Contents  1 Introduction 2 1.1 Notations and Definitions . . . . . . . . . . . . . . . . . . . . . . . . 3 2 Problem Formulations 4 2.1 Integer Programming Formulations . . . . . . . . . . . . . . . . . . . 5 2.2 Continuous Formulations . . . . . . . . . . . . . . . . . . . . . . . . 8 3 Computational Complexity 12 4 Bounds and Estimates 15 5 Exact Algorithms 19 5.1 Enumerative Algorithms . . . . . . . . . . . . . . . . . . . . . . . . . 19 5.2 Exact Algorithms for the\n\n[Document 4] Continuous-based Heuristics for Graph and Tree Isomorphisms, with Application to Computer Vision We present a new (continuous) quadratic programming approach for graph- and tree-isomorphism problems which is based on an equivalent maximum clique formulation. The approach is centered around a fundamental result proved by Motzkin and Straus in the mid-1960s, and recently expanded in various ways, which allows us to formulate the maximum clique problem in terms of a standard quadratic program. The \n\n[Document 5] Shock Graphs and Shape Matching We have been developing a theory for the generic representation of 2-D shape, where structural descriptions are derived from the shocks (singularities) of a curve evolution process, acting on bounding contours. We now apply the theory to the problem of shape matching. The shocks are organized into a directed, acyclic shock graph, and complexity is managed by attending to the most significant (central) shape components first. The space of all such graphs is highly \n\n[Document 6] A Search Engine for 3D Models As the number of 3D models available on the Web grows, there is an increasing need for a  search engine to help people find them. Unfortunately, traditional text-based search techniques  are not always effective for 3D data. In this paper, we investigate new shape-based search  methods. The key challenges are to develop query methods simple enough for novice users  and matching algorithms robust enough to work for arbitrary polygonal models. We present a  web-based \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

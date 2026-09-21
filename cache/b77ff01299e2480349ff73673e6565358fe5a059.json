@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "One-way functions with algebraic properties and their cryptographic applications in complexity theory",
+  "Strong noninvertibility and associative structures in theoretical cryptography and computational hardness",
+  "Cryptographic primitives based on one-way functions with algebraic constraints and protocol design"
+ ],
+ "raw": "{\"candidates\": [\"One-way functions with algebraic properties and their cryptographic applications in complexity theory\", \"Strong noninvertibility and associative structures in theoretical cryptography and computational hardness\", \"Cryptographic primitives based on one-way functions with algebraic constraints and protocol design\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1080,
+  "output_tokens": 64,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 6 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: low ambiguity in strong total associative one way functions Abstract: Rabi and Sherman present a cryptographic paradigm based on associative, one-way functions that are strong (i.e., hard to invert even if one of their arguments is given) and total. Hemaspaandra and Rothe proved that such powerful one-way functions exist exactly if (standard) one-way functions exist, thus showing that the associative one-way function approach is as plausible as previous approaches. In the present paper, w\n\n[Document 2] Title: if p neq np then some strongly noninvertible functions are invertible Abstract: Rabi, Rivest, and Sherman alter the standard notion of noninvertibility to a new notion they call strong noninvertibility, and show -- via explicit cryptographic protocols for secret-key agreement ([RS93,RS97] attribute this to Rivest and Sherman) and digital signatures [RS93,RS97] -- that strongly noninvertible functions would be very useful components in protocol design. Their definition of strong noninverti\n\n[Document 3] Title: some facets of complexity theory and cryptography a five lectures tutorial Abstract: In this tutorial, selected topics of cryptology and of computational complexity theory are presented. We give a brief overview of the history and the foundations of classical cryptography, and then move on to modern public-key cryptography. Particular attention is paid to cryptographic protocols and the problem of constructing the key components of such protocols such as one-way functions. A function is o\n\n[Document 4] Title: enforcing and defying associativity commutativity totality and strong noninvertibility for one way functions in complexity theory Abstract: Rabi and Sherman [RS97,RS93] proved that the hardness of factoring is a sufficient condition for there to exist one-way functions (i.e., p-time computable, honest, p-time noninvertible functions; this paper is in the worst-case model, not the average-case model) that are total, commutative, and associative but not strongly noninvertible. In this paper\n\n[Document 5] Title: double blind comparisons using groups with infeasible inversion Abstract: Double Blind Comparison is a new cryptographic primitive that allows a user who is in possession of a ciphertext to determine if the corresponding plaintext is identical to the plaintext for a different ciphertext held by a different user, but only if both users co-operate. Neither user knows anything about the plaintexts corresponding to either ciphertext, and neither user learns anything about the plaintexts as a \n\n[Document 6] Title: a new cryptosystem based on hidden order groups Abstract: Let $G_1$ be a cyclic multiplicative group of order $n$. It is known that the Diffie-Hellman problem is random self-reducible in $G_1$ with respect to a fixed generator $g$ if $\\phi(n)$ is known. That is, given $g, g^x\\in G_1$ and having oracle access to a `Diffie-Hellman Problem' solver with fixed generator $g$, it is possible to compute $g^{1/x} \\in G_1$ in polynomial time (see theorem 3.2). On the other hand, it is not known if \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

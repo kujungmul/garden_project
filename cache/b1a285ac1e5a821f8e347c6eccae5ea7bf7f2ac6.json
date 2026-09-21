@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Small vibration motors for educational projects and DIY robotics applications",
+  "Affordable miniature electric motors with integrated weights for science education and vibrobot construction",
+  "Budget-friendly micro vibration motors suitable for classroom experiments and hobbyist engineering projects"
+ ],
+ "raw": "{\"candidates\": [\"Small vibration motors for educational projects and DIY robotics applications\", \"Affordable miniature electric motors with integrated weights for science education and vibrobot construction\", \"Budget-friendly micro vibration motors suitable for classroom experiments and hobbyist engineering projects\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 808,
+  "output_tokens": 60,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a co-purchase network of Amazon photography products (customer reviews).\n\n[Document 1] Awesome motors These are wonderful motors! They are surprisingly powerful for their size. I was worried that some might be duds, but all 10 are working. The only thing I didn't like is that the leads are kinda short. I didn't want to extend the leads so I worked around it by stripping the plastic off just a little bit to expose more of the wire. I am going to use the motors for a Cub Scout project. I'm glad I was able to find so many with such a good price!\n\n[Document 2] Great quality, durable, and inexpensive! These little motors are great, well built, and (currently, anyway) VERY inexpensive! We used these for a science experiment in my moms 4th grade class. They held up just fine to two weeks of fourth graders using them heavily. I was actually surprised that none of the lead wires broke off. Do note though, the weights on the end are VERY well secured. We did end up damaging one motor trying to get the weight on the end off. These are great, and the school i\n\n[Document 3] Most of these worked great! I think we only had 1 with really ... Most of these worked great! I think we only had 1 with really short leads that was difficult to use.\n\n[Document 4] Great for larger vibrobots or banana shakers <div id=\"video-block-R39BYUZ4KSFT4R\" class=\"a-section a-spacing-small a-spacing-top-mini video-block\"></div><input type=\"hidden\" name=\"\" value=\"https://images-na.ssl-images-amazon.com/images/I/91o9YJvWPES.mp4\" class=\"video-url\"><input type=\"hidden\" name=\"\" value=\"https://images-na.ssl-images-amazon.com/images/I/91GWrkLV8KS.png\" class=\"video-slate-img-url\">&nbsp;These motors have some serious vibration action. Great for larger vibrobots or banana shake\n\n[Document 5] Five Stars Good product.\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

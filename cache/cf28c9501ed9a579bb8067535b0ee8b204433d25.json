@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Machine learning and reinforcement learning techniques applied to robotics and autonomous agent systems",
+  "Intelligent systems combining learning, reasoning, and communication in multiagent and mobile computing environments",
+  "Practical applications of machine learning algorithms to vision-based robots and agent behavior modeling"
+ ],
+ "raw": "{\"candidates\": [\"Machine learning and reinforcement learning techniques applied to robotics and autonomous agent systems\", \"Intelligent systems combining learning, reasoning, and communication in multiagent and mobile computing environments\", \"Practical applications of machine learning algorithms to vision-based robots and agent behavior modeling\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1045,
+  "output_tokens": 62,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of computer-science papers.\n\n[Document 1] A Layered Approach to Learning Client Behaviors in the RoboCup Soccer Server In the past few years, Multiagent Systems (MAS) has emerged as an active subfield of Artificial Intelligence (AI). Because of the inherent complexity of MAS, there is much interest in using Machine Learning (ML) techniques to help build multiagent systems. Robotic soccer is a particularly good domain for studying MAS and Multiagent Learning. Our approach to using ML as a tool for building Soccer Server clients involves \n\n[Document 2] Reinforcement Learning for a Vision Based Mobile Robot Reinforcement learning systems improve behaviour based on scalar rewards from a critic. In this work vision based behaviours, servoing and wandering, are learned through a Q-learning method which handles continuous states and actions. There is no requirement for camera calibration, an actuator model, or a knowledgeable teacher. Learning through observing the actions of other behaviours improves learning speed. Experiments were performed on a\n\n[Document 3] A Conceptual Annotation Approach to Indexing in a Web-Based Information System All the specialists have agreed that the possibility of adding to multimedia WWW objects some sort of `conceptual ' annotations describing their information content would greatly contribute to solve the problem of their `intelligent ' indexing and retrieval. We propose to associate with the Web objects not the final conceptual annotation, but a simple natural language (NL) caption, in the form of short texts represent\n\n[Document 4] Communicating Agents We study the problem of endowing logic-based agents that can reason about their own beliefs as well as the beliefs of other agents with communication skills. We show how communication performatives from existing agent communication languages as well as their preconditions and eects can be expressed within logic-based agents in terms of the agents' beliefs. We illustrate the resulting language for programming logic-based agents by means of examples. 1 Introduction  In an earl\n\n[Document 5] Planned Disconnections for Mobile Databases As mobility permeates todays computing environment, we envision application infrastructures that will increasingly use mobile technologies. Traditional database applications will need to integrate mobile entities: people and computers. In this paper, we develop a distributed database framework for mobile environments. A key requirement in such an environment is to support frequent connection and disconnection of database sites.  1 Introduction  As mobi\n\n[Document 6] Is Machine Colour Constancy Good Enough? . This paper presents a negative result: current machine colour constancy algorithms are not good enough for colour-based object recognition. This result has surprised us since we have previously used the better of these algorithms successfully to correct the colour balance of images for display. Colour balancing has been the typical application of colour constancy, rarely has it been actually put to use in a computer vision system, so our goal was to sho\n\n[Document 7] A Data Preparation Framework based on a Multidatabase Language Integration and analysis of data from different sources have to deal with several problems resulting from potential heterogeneities. The activities addressing these problems are called data preparation and are supported by various available tools. However, these tools process mostly in a batch-like manner not supporting the iterative and explorative nature of the integration and analysis process. In this work we present a framework f\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

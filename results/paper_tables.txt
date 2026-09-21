@@ -1,0 +1,138 @@
+% ---- clustering quality ----
+% NMI
+Louvain & 0.381$\pm$0.015 & 0.135$\pm$0.016 & 0.397$\pm$0.008 & 0.397$\pm$0.003 \\
+SN-modularity & 0.418$\pm$0.015 & 0.202$\pm$0.017 & 0.424$\pm$0.011 & 0.406$\pm$0.004 \\
+SemMod (centroid) & 0.505$\pm$0.010 & 0.239$\pm$0.010 & 0.461$\pm$0.013 & 0.457$\pm$0.004 \\
+SemMod (description) & 0.494$\pm$0.021 & 0.241$\pm$0.017 & 0.435$\pm$0.012 & 0.430$\pm$0.006 \\
+SemMod + non-local (centroid) & 0.556$\pm$0.011 & 0.404$\pm$0.027 & 0.455$\pm$0.011 & 0.482$\pm$0.003 \\
+SemMod + non-local (description) & 0.554$\pm$0.015 & 0.402$\pm$0.028 & 0.463$\pm$0.006 & 0.482$\pm$0.006 \\
+GARDEN (agreement) & 0.562$\pm$0.015 & 0.418$\pm$0.011 & 0.462$\pm$0.006 & 0.478$\pm$0.001 \\
+desc-weighted centroid tau=3 & 0.518$\pm$0.007 & 0.243$\pm$0.018 & 0.459$\pm$0.005 & 0.462$\pm$0.002 \\
+self-weighted centroid tau=3 & 0.515$\pm$0.006 & 0.239$\pm$0.028 & 0.466$\pm$0.013 & 0.457$\pm$0.004 \\
+% ARI
+Louvain & 0.286$\pm$0.018 & 0.092$\pm$0.011 & 0.360$\pm$0.006 & 0.255$\pm$0.008 \\
+SN-modularity & 0.329$\pm$0.016 & 0.127$\pm$0.011 & 0.361$\pm$0.010 & 0.260$\pm$0.009 \\
+SemMod (centroid) & 0.459$\pm$0.014 & 0.193$\pm$0.024 & 0.410$\pm$0.019 & 0.303$\pm$0.020 \\
+SemMod (description) & 0.438$\pm$0.030 & 0.189$\pm$0.020 & 0.385$\pm$0.019 & 0.278$\pm$0.015 \\
+SemMod + non-local (centroid) & 0.508$\pm$0.020 & 0.401$\pm$0.034 & 0.405$\pm$0.013 & 0.282$\pm$0.015 \\
+SemMod + non-local (description) & 0.501$\pm$0.033 & 0.406$\pm$0.032 & 0.414$\pm$0.007 & 0.304$\pm$0.037 \\
+GARDEN (agreement) & 0.519$\pm$0.028 & 0.425$\pm$0.012 & 0.414$\pm$0.008 & 0.291$\pm$0.023 \\
+desc-weighted centroid tau=3 & 0.481$\pm$0.010 & 0.194$\pm$0.019 & 0.415$\pm$0.006 & 0.334$\pm$0.025 \\
+self-weighted centroid tau=3 & 0.476$\pm$0.012 & 0.196$\pm$0.029 & 0.420$\pm$0.015 & 0.305$\pm$0.020 \\
+% ACC
+Louvain & 0.517$\pm$0.040 & 0.360$\pm$0.028 & 0.508$\pm$0.013 & 0.370$\pm$0.010 \\
+SN-modularity & 0.569$\pm$0.038 & 0.402$\pm$0.014 & 0.525$\pm$0.011 & 0.376$\pm$0.010 \\
+SemMod (centroid) & 0.680$\pm$0.019 & 0.471$\pm$0.013 & 0.571$\pm$0.024 & 0.401$\pm$0.015 \\
+SemMod (description) & 0.675$\pm$0.019 & 0.477$\pm$0.016 & 0.587$\pm$0.021 & 0.390$\pm$0.007 \\
+SemMod + non-local (centroid) & 0.716$\pm$0.015 & 0.624$\pm$0.020 & 0.563$\pm$0.010 & 0.394$\pm$0.012 \\
+SemMod + non-local (description) & 0.701$\pm$0.024 & 0.636$\pm$0.018 & 0.569$\pm$0.003 & 0.410$\pm$0.026 \\
+GARDEN (agreement) & 0.706$\pm$0.020 & 0.651$\pm$0.006 & 0.568$\pm$0.005 & 0.396$\pm$0.017 \\
+desc-weighted centroid tau=3 & 0.703$\pm$0.018 & 0.477$\pm$0.021 & 0.568$\pm$0.009 & 0.431$\pm$0.017 \\
+self-weighted centroid tau=3 & 0.700$\pm$0.017 & 0.470$\pm$0.045 & 0.579$\pm$0.025 & 0.407$\pm$0.014 \\
+% purity
+Louvain & 0.584$\pm$0.025 & 0.407$\pm$0.012 & 0.598$\pm$0.007 & 0.502$\pm$0.006 \\
+SN-modularity & 0.605$\pm$0.007 & 0.452$\pm$0.020 & 0.603$\pm$0.010 & 0.507$\pm$0.006 \\
+SemMod (centroid) & 0.717$\pm$0.007 & 0.511$\pm$0.020 & 0.664$\pm$0.014 & 0.523$\pm$0.008 \\
+SemMod (description) & 0.695$\pm$0.025 & 0.520$\pm$0.010 & 0.645$\pm$0.015 & 0.514$\pm$0.014 \\
+SemMod + non-local (centroid) & 0.751$\pm$0.010 & 0.672$\pm$0.031 & 0.662$\pm$0.012 & 0.580$\pm$0.005 \\
+SemMod + non-local (description) & 0.748$\pm$0.014 & 0.679$\pm$0.027 & 0.668$\pm$0.005 & 0.570$\pm$0.007 \\
+GARDEN (agreement) & 0.754$\pm$0.014 & 0.689$\pm$0.013 & 0.667$\pm$0.006 & 0.561$\pm$0.004 \\
+desc-weighted centroid tau=3 & 0.726$\pm$0.003 & 0.520$\pm$0.014 & 0.665$\pm$0.008 & 0.533$\pm$0.004 \\
+self-weighted centroid tau=3 & 0.725$\pm$0.002 & 0.508$\pm$0.039 & 0.671$\pm$0.016 & 0.524$\pm$0.008 \\
+% Q
+Louvain & 0.766$\pm$0.002 & 0.788$\pm$0.001 & 0.645$\pm$0.003 & 0.712$\pm$0.002 \\
+SN-modularity & 0.769$\pm$0.002 & 0.789$\pm$0.003 & 0.643$\pm$0.002 & 0.711$\pm$0.001 \\
+SemMod (centroid) & 0.740$\pm$0.005 & 0.775$\pm$0.013 & 0.615$\pm$0.004 & 0.686$\pm$0.002 \\
+SemMod (description) & 0.733$\pm$0.009 & 0.781$\pm$0.009 & 0.584$\pm$0.011 & 0.666$\pm$0.002 \\
+SemMod + non-local (centroid) & 0.708$\pm$0.002 & 0.757$\pm$0.008 & 0.611$\pm$0.003 & 0.648$\pm$0.002 \\
+SemMod + non-local (description) & 0.713$\pm$0.006 & 0.747$\pm$0.016 & 0.612$\pm$0.004 & 0.650$\pm$0.007 \\
+GARDEN (agreement) & 0.715$\pm$0.002 & 0.750$\pm$0.009 & 0.613$\pm$0.004 & 0.655$\pm$0.006 \\
+desc-weighted centroid tau=3 & 0.740$\pm$0.003 & 0.781$\pm$0.021 & 0.616$\pm$0.004 & 0.681$\pm$0.005 \\
+self-weighted centroid tau=3 & 0.740$\pm$0.003 & 0.763$\pm$0.027 & 0.615$\pm$0.005 & 0.685$\pm$0.002 \\
+% ---- describability ----
+% retrieval_heldout
+Louvain & 0.513$\pm$0.025 & 0.379$\pm$0.017 & 0.505$\pm$0.016 & 0.447$\pm$0.009 \\
+SN-modularity & 0.528$\pm$0.037 & 0.420$\pm$0.025 & 0.526$\pm$0.020 & 0.462$\pm$0.016 \\
+SemMod (centroid) & 0.666$\pm$0.012 & 0.479$\pm$0.013 & 0.613$\pm$0.019 & 0.576$\pm$0.011 \\
+SemMod (description) & 0.651$\pm$0.010 & 0.489$\pm$0.012 & 0.685$\pm$0.012 & 0.633$\pm$0.008 \\
+SemMod + non-local (centroid) & 0.741$\pm$0.029 & 0.695$\pm$0.029 & 0.652$\pm$0.018 & 0.638$\pm$0.007 \\
+SemMod + non-local (description) & 0.725$\pm$0.022 & 0.677$\pm$0.028 & 0.670$\pm$0.013 & 0.648$\pm$0.013 \\
+GARDEN (agreement) & 0.720$\pm$0.009 & 0.685$\pm$0.016 & 0.666$\pm$0.012 & 0.627$\pm$0.024 \\
+desc-weighted centroid tau=3 & 0.652$\pm$0.014 & 0.470$\pm$0.016 & 0.635$\pm$0.014 & 0.610$\pm$0.010 \\
+self-weighted centroid tau=3 & 0.650$\pm$0.021 & 0.474$\pm$0.021 & 0.639$\pm$0.011 & 0.588$\pm$0.007 \\
+% judge_acc
+Louvain & 0.743$\pm$0.167 & 0.767$\pm$0.133 & 0.780$\pm$0.075 & 0.765$\pm$0.034 \\
+SN-modularity & 0.686$\pm$0.190 & 0.733$\pm$0.133 & 0.840$\pm$0.080 & 0.725$\pm$0.035 \\
+SemMod (centroid) & 0.857$\pm$0.090 & 0.833$\pm$0.105 & 0.880$\pm$0.075 & 0.742$\pm$0.030 \\
+SemMod (description) & 0.800$\pm$0.114 & 0.867$\pm$0.067 & 0.840$\pm$0.049 & 0.781$\pm$0.027 \\
+SemMod + non-local (centroid) & 0.771$\pm$0.070 & 0.900$\pm$0.082 & 0.860$\pm$0.080 & 0.860$\pm$0.037 \\
+SemMod + non-local (description) & 0.857$\pm$0.090 & 0.933$\pm$0.082 & 0.860$\pm$0.049 & 0.859$\pm$0.056 \\
+GARDEN (agreement) & 0.886$\pm$0.057 & 0.867$\pm$0.067 & 0.840$\pm$0.049 & 0.804$\pm$0.025 \\
+desc-weighted centroid tau=3 & 0.800$\pm$0.114 & 0.900$\pm$0.082 & 0.820$\pm$0.040 & 0.756$\pm$0.039 \\
+self-weighted centroid tau=3 & 0.800$\pm$0.114 & 0.867$\pm$0.125 & 0.900$\pm$0.063 & 0.799$\pm$0.052 \\
+% Qsem
+Louvain & 0.006$\pm$0.004 & -0.027$\pm$0.004 & 0.001$\pm$0.003 & -0.013$\pm$0.002 \\
+SN-modularity & 0.010$\pm$0.005 & -0.017$\pm$0.005 & 0.005$\pm$0.003 & -0.010$\pm$0.003 \\
+SemMod (centroid) & 0.034$\pm$0.001 & -0.004$\pm$0.004 & 0.018$\pm$0.003 & 0.013$\pm$0.001 \\
+SemMod (description) & 0.032$\pm$0.001 & -0.003$\pm$0.004 & 0.029$\pm$0.002 & 0.022$\pm$0.001 \\
+SemMod + non-local (centroid) & 0.051$\pm$0.003 & 0.044$\pm$0.006 & 0.024$\pm$0.002 & 0.022$\pm$0.002 \\
+SemMod + non-local (description) & 0.047$\pm$0.003 & 0.042$\pm$0.005 & 0.027$\pm$0.002 & 0.023$\pm$0.002 \\
+GARDEN (agreement) & 0.045$\pm$0.002 & 0.044$\pm$0.004 & 0.025$\pm$0.001 & 0.021$\pm$0.004 \\
+desc-weighted centroid tau=3 & 0.032$\pm$0.004 & -0.006$\pm$0.004 & 0.021$\pm$0.002 & 0.017$\pm$0.002 \\
+self-weighted centroid tau=3 & 0.033$\pm$0.003 & -0.003$\pm$0.005 & 0.022$\pm$0.002 & 0.015$\pm$0.002 \\
+% ---- paired deltas vs centroid (mean, wins) ----
+% dNMI
+SemMod (description) & -0.011 (1/5) & +0.002 (3/5) & -0.026 (0/5) & -0.026 (0/5) \\
+SemMod + non-local (centroid) & +0.051 (5/5) & +0.165 (5/5) & -0.007 (2/5) & +0.025 (5/5) \\
+SemMod + non-local (description) & +0.048 (5/5) & +0.163 (5/5) & +0.001 (3/5) & +0.026 (5/5) \\
+GARDEN (agreement) & +0.056 (5/5) & +0.179 (5/5) & +0.000 (3/5) & +0.021 (5/5) \\
+desc-weighted centroid tau=3 & +0.012 (5/5) & +0.004 (2/5) & -0.003 (3/5) & +0.006 (5/5) \\
+self-weighted centroid tau=3 & +0.009 (5/5) & -0.000 (3/5) & +0.004 (4/5) & +0.001 (3/5) \\
+% dACC
+SemMod (description) & -0.005 (2/5) & +0.006 (4/5) & +0.015 (4/5) & -0.011 (2/5) \\
+SemMod + non-local (centroid) & +0.036 (5/5) & +0.153 (5/5) & -0.009 (2/5) & -0.006 (2/5) \\
+SemMod + non-local (description) & +0.021 (5/5) & +0.164 (5/5) & -0.002 (4/5) & +0.009 (4/5) \\
+GARDEN (agreement) & +0.025 (5/5) & +0.180 (5/5) & -0.004 (3/5) & -0.005 (1/5) \\
+desc-weighted centroid tau=3 & +0.023 (4/5) & +0.006 (3/5) & -0.003 (4/5) & +0.031 (5/5) \\
+self-weighted centroid tau=3 & +0.019 (5/5) & -0.001 (3/5) & +0.007 (5/5) & +0.007 (4/5) \\
+% dpurity
+SemMod (description) & -0.022 (1/5) & +0.009 (4/5) & -0.019 (1/5) & -0.008 (2/5) \\
+SemMod + non-local (centroid) & +0.034 (5/5) & +0.161 (5/5) & -0.002 (3/5) & +0.057 (5/5) \\
+SemMod + non-local (description) & +0.031 (5/5) & +0.168 (5/5) & +0.004 (4/5) & +0.048 (5/5) \\
+GARDEN (agreement) & +0.037 (5/5) & +0.178 (5/5) & +0.003 (4/5) & +0.038 (5/5) \\
+desc-weighted centroid tau=3 & +0.009 (4/5) & +0.009 (4/5) & +0.001 (4/5) & +0.010 (5/5) \\
+self-weighted centroid tau=3 & +0.008 (5/5) & -0.003 (3/5) & +0.007 (5/5) & +0.002 (3/5) \\
+% ---- structure: trapped errors, seeds/followers, connectivity ----
+cora & wrong 28.3% & trapped-of-wrong 86.8% & nbr-own(wrong) 0.92 & moved 15.7% & seeds 15% & moved-right 29.6%->53.7% & semantic-only centroid 0.0% cagree 2.6% & fragmented 8.7%->13.8% & components 78
+citeseer & wrong 48.9% & trapped-of-wrong 97.7% & nbr-own(wrong) 0.99 & moved 41.2% & seeds 4% & moved-right 21.4%->63.1% & semantic-only centroid 0.0% cagree 2.0% & fragmented 39.7%->44.1% & components 472
+wikics & wrong 33.6% & trapped-of-wrong 54.2% & nbr-own(wrong) 0.63 & moved 9.0% & seeds 42% & moved-right 30.1%->36.8% & semantic-only centroid 0.4% cagree 3.7% & fragmented 3.7%->7.4% & components 356
+arxiv & wrong 47.7% & trapped-of-wrong 84.6% & nbr-own(wrong) 0.82 & moved 25.5% & seeds 28% & moved-right 33.3%->47.3% & semantic-only centroid 0.5% cagree 7.9% & fragmented 1.5%->14.7% & components 1
+% ---- Cora exploratory variants ----
+garden-cagree cagree & n=5 & 0.562$\pm$0.015 & 0.706$\pm$0.020 & 0.754$\pm$0.014 & 0.720$\pm$0.009 & 0.886$\pm$0.057 \\
+garden-cexp cexp & n=5 & 0.556$\pm$0.011 & 0.716$\pm$0.015 & 0.751$\pm$0.010 & 0.741$\pm$0.029 & 0.771$\pm$0.070 \\
+garden-dexp dexp & n=5 & 0.554$\pm$0.015 & 0.701$\pm$0.024 & 0.748$\pm$0.014 & 0.725$\pm$0.022 & 0.857$\pm$0.090 \\
+garden-selfw selfw10 & n=5 & 0.523$\pm$0.010 & 0.714$\pm$0.018 & 0.729$\pm$0.003 & 0.659$\pm$0.022 & 0.800$\pm$0.114 \\
+garden-selfw selfw3 & n=5 & 0.515$\pm$0.006 & 0.700$\pm$0.017 & 0.725$\pm$0.002 & 0.650$\pm$0.021 & 0.800$\pm$0.114 \\
+garden-shift shift0.5 & n=5 & 0.500$\pm$0.019 & 0.681$\pm$0.036 & 0.699$\pm$0.025 & 0.651$\pm$0.013 & 0.714$\pm$0.090 \\
+garden-trim trim0.5 & n=5 & 0.500$\pm$0.013 & 0.684$\pm$0.024 & 0.703$\pm$0.016 & 0.662$\pm$0.011 & 0.829$\pm$0.107 \\
+garden-wmargin wmargin10 & n=5 & 0.487$\pm$0.011 & 0.655$\pm$0.035 & 0.677$\pm$0.022 & 0.665$\pm$0.010 & 0.743$\pm$0.057 \\
+garden-wmean wmean1 & n=5 & 0.513$\pm$0.008 & 0.694$\pm$0.020 & 0.724$\pm$0.004 & 0.668$\pm$0.009 & 0.800$\pm$0.070 \\
+garden-wmean wmean10 & n=5 & 0.494$\pm$0.013 & 0.670$\pm$0.009 & 0.692$\pm$0.007 & 0.650$\pm$0.027 & 0.743$\pm$0.107 \\
+garden-wmean wmean2 & n=5 & 0.506$\pm$0.017 & 0.696$\pm$0.019 & 0.714$\pm$0.012 & 0.648$\pm$0.013 & 0.743$\pm$0.107 \\
+garden-wmean wmean3 & n=5 & 0.518$\pm$0.007 & 0.703$\pm$0.018 & 0.726$\pm$0.003 & 0.652$\pm$0.014 & 0.800$\pm$0.114 \\
+garden-wmean wmean5 & n=5 & 0.505$\pm$0.014 & 0.669$\pm$0.009 & 0.710$\pm$0.010 & 0.642$\pm$0.023 & 0.914$\pm$0.070 \\
+% ---- runtime (s) and llm calls ----
+Louvain & 0 / 0 & 0 / 0 & 1 / 0 & 10 / 0 \\
+SN-modularity & 0 / 0 & 0 / 0 & 4 / 0 & 58 / 0 \\
+SemMod (centroid) & 1 / 0 & 15 / 0 & 62 / 0 & 985 / 0 \\
+SemMod (description) & 16 / 43 & 31 / 76 & 107 / 67 & 716 / 274 \\
+SemMod + non-local (centroid) & 15 / 50 & 35 / 88 & 350 / 39 & 908 / 300 \\
+SemMod + non-local (description) & 16 / 50 & 33 / 88 & 430 / 40 & 634 / 300 \\
+GARDEN (agreement) & 15 / 50 & 32 / 88 & 167 / 39 & 958 / 291 \\
+desc-weighted centroid tau=3 & 12 / 42 & 23 / 76 & 275 / 33 & 1096 / 201 \\
+self-weighted centroid tau=3 & 13 / 42 & 23 / 76 & 70 / 33 & 729 / 195 \\
+% ---- reliability gate under shuffled text (tag shuffle2, seed 0): gate outcome, Louvain NMI, GARDEN NMI, identical to SemMod? ----
+Cora & fail in all blocks & 0 & 0.364 & 0.370 \\  % rho_obs/rho_null per block: 0.033/0.009; 0.228/0.142; 0.230/0.142; GARDEN partition == SemMod: True
+CiteSeer & fail in all blocks & 0 & 0.110 & 0.121 \\  % rho_obs/rho_null per block: 0.005/0.001; 0.229/0.161; 0.224/0.161; GARDEN partition == SemMod: True
+WikiCS & fail in all blocks & 0 & 0.386 & 0.386 \\  % rho_obs/rho_null per block: 0.015/0.009; 0.122/0.081; 0.117/0.078; GARDEN partition == SemMod: True
+ogbn-arxiv & fail in all blocks & 0 & 0.400 & 0.401 \\  % rho_obs/rho_null per block: 0.000/0.000; 0.003/0.002; 0.003/0.002; GARDEN partition == SemMod: True

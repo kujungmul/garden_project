@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Experimental platforms and testbeds for human-robot collaborative task execution and safety monitoring",
+  "Sensor systems and safety frameworks for enabling safe physical human-robot interaction",
+  "Methodologies for designing and evaluating human-robot collaborative assembly and manipulation tasks"
+ ],
+ "raw": "{\"candidates\": [\"Experimental platforms and testbeds for human-robot collaborative task execution and safety monitoring\", \"Sensor systems and safety frameworks for enabling safe physical human-robot interaction\", \"Methodologies for designing and evaluating human-robot collaborative assembly and manipulation tasks\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 939,
+  "output_tokens": 60,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: hrc sos human robot collaboration experimentation platform as system of systems Abstract: This paper presents an experimentation platform for human robot collaboration as a system of systems as well as proposes a conceptual framework describing the aspects of Human Robot Collaboration. These aspects are Awareness, Intelligence and Compliance of the system. Based on this framework case studies describing experiment setups performed using this platform are discussed. Each experiment highlig\n\n[Document 2] Title: the hrc model set for human robot collaboration research Abstract: In this paper, we present a model set for designing human-robot collaboration (HRC) experiments. It targets a common scenario in HRC, which is the collaborative assembly of furniture, and it consists of a combination of standard components and custom designs. With this work, we aim at reducing the amount of work required to set up and reproduce HRC experiments, and we provide a unified framework to facilitate the compariso\n\n[Document 3] Title: cyber physical testbed for human robot collaborative task planning and execution Abstract: In this paper, we present a cyber-physical testbed created to enable a human-robot team to preform a shared task in a shared workspace. The testbed is suitable for the implementation of a tabletop manipulation task, a common human-robot collaboration scenario. The testbed integrates elements that exists in the physical and virtual world. In this work, we report the insights we gathered through out o\n\n[Document 4] Title: a framework for monitoring human physiological response during human robot collaborative task Abstract: In this paper, a framework for monitoring human physiological response during Human-Robot Collaborative (HRC) task is presented. The framework highlights the importance of generation of event markers related to both human and robot, and also synchronization of data collected. This framework enables continuous data collection during an HRC task when changing robot movements as a form of \n\n[Document 5] Title: sensing volume coverage of robot workspace using on robot time of flight sensor arrays for safe human robot interaction Abstract: In this paper, an analysis of the sensing volume coverage of robot workspace as well as the shared human-robot collaborative workspace for various configurations of on-robot Time-of-Flight (ToF) sensor array rings is presented. A methodology for volumetry using octrees to quantify the detection/sensing volume of the sensors is proposed. The change in sensing vo\n\n[Document 6] Title: speed and separation monitoring using on robot time of flight laser ranging sensor arrays Abstract: In this paper, a speed and separation monitoring (SSM) based safety controller using three time-of-flight ranging sensor arrays fastened to the robot links, is implemented. Based on the human-robot minimum distance and their relative velocities, a controller output characterized by a modulating robot operation speed is obtained. To avert self-avoidance, a self occlusion detection method is \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

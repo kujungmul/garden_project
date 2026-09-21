@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Pattern detection and classification methods across diverse computational domains",
+  "Machine learning approaches for identifying structures and behaviors in complex data",
+  "Detection and analysis of patterns, profiles, and mappings in large datasets"
+ ],
+ "raw": "{\"candidates\": [\"Pattern detection and classification methods across diverse computational domains\", \"Machine learning approaches for identifying structures and behaviors in complex data\", \"Detection and analysis of patterns, profiles, and mappings in large datasets\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 993,
+  "output_tokens": 47,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: author profiling for hate speech detection Abstract: The rapid growth of social media in recent years has fed into some highly undesirable phenomena such as proliferation of abusive and offensive language on the Internet. Previous research suggests that such hateful content tends to come from users who share a set of common stereotypes and form communities around them. The current state-of-the-art approaches to hate speech detection are oblivious to user and community information and rely\n\n[Document 2] Title: research paper obfuscating java programs by translating selected portions of bytecode to native libraries Abstract: Code obfuscation is a popular approach to turn program comprehension and analysis harder, with the aim of mitigating threats related to malicious reverse engineering and code tampering. However, programming languages that compile to high level bytecode (e.g., Java) can be obfuscated only to a limited extent. In fact, high level bytecode still contains high level relevant inf\n\n[Document 3] Title: web usage mining pattern discovery and forecasting Abstract: Web usage mining: automatic discovery of patterns in clickstreams and associated data collected or generated as a result of user interactions with one or more Web sites. This paper describes web usage mining for our college log files to analyze the behavioral patterns and profiles of users interacting with a Web site. The discovered patterns are represented as clusters that are frequently accessed by groups of visitors with comm\n\n[Document 4] Title: learning the lmp load coupling from data a support vector machine based approach Abstract: This paper investigates the fundamental coupling between loads and locational marginal prices (LMPs) in security-constrained economic dispatch (SCED). Theoretical analysis based on multi-parametric programming theory points out the unique one-to-one mapping between load and LMP vectors. Such one-to-one mapping is depicted by the concept of system pattern region (SPR) and identifying SPRs is the key \n\n[Document 5] Title: textboxes a single shot oriented scene text detector Abstract: Scene text detection is an important step of scene text recognition system and also a challenging problem. Different from general object detections, the main challenges of scene text detection lie on arbitrary orientations, small sizes, and significantly variant aspect ratios of text in natural images. In this paper, we present an end-to-end trainable fast scene text detector, named TextBoxes++, which detects arbitrary-oriente\n\n[Document 6] Title: the encodability hierarchy for pcf types Abstract: Working with the simple types over a base type of natural numbers (including product types), we consider the question of when a type $\\sigma$ is encodable as a definable retract of $\\tau$: that is, when there are $\\lambda$-terms $e:\\sigma\\rightarrow\\tau$ and $d:\\tau\\rightarrow\\sigma$ with $d \\circ e = id$. In general, the answer to this question may vary according to both the choice of $\\lambda$-calculus and the notion of equality conside\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

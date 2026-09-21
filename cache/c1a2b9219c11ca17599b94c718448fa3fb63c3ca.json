@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Database optimization and indexing techniques for high-energy physics data management systems",
+  "Clustering, indexing, and query optimization strategies for large-scale scientific data warehouses",
+  "Object-oriented database performance and data structure design for physics experiments"
+ ],
+ "raw": "{\"candidates\": [\"Database optimization and indexing techniques for high-energy physics data management systems\", \"Clustering, indexing, and query optimization strategies for large-scale scientific data warehouses\", \"Object-oriented database performance and data structure design for physics experiments\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1086,
+  "output_tokens": 57,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 9,
+ "prompt": "Below are 8 representative documents (out of 9 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Automatic Reclustering of Objects in Very Large Databases for High Energy Physics In the very large object database systems planned for some future particle physics experiments, typical physics analysis jobs will traverse millions of read-only objects, many more objects than fit in the database cache. Thus, a good clustering of objects on disk is highly critical to database performance. We present the implementation and performance measurements of a prototype reclustering mechanism which was dev\n\n[Document 2] Reclustering of HEP Data in Object-Oriented Databases The Large Hadron Collider (LHC), build at CERN, will enter operation in 2005. The experiments at the LHC will generate some 5 PB of data per year, which are stored in an ODBMS.  A good object clustering on the disk drives will be critical to achieve a high data throughput required by future analysis scenarios. This paper presents a new reclustering algorithm for HEP data that maximizes the read transfer rate for objects contained in multiple \n\n[Document 3] Improving the Performance of High-Energy Physics Analysis through Bitmap Indices Bitmap indices are popular multi-dimensional structures for accessing read-mostly data such as data warehouse (DW) applications, decision support systems (DSS) and on-line analytical processing (OLAP). One of their main strengths is that they provide good performance characteristics for complex adhoc and an efficient combination of multiple index in one query. Considerable research work has been done in the area of \n\n[Document 4] Building a Large Location Table to Find Replicas of Physics Objects The problem of building a large location table for physics objects occurs within a number of planned physics data management systems, like those that control reclustering and wide-area replication. To satisfy their e#ciency goals, these systems have to make local or remote replicas of individual physics objects, which contain raw or reconstructed data for a single event, rather than replicas of large run or ntuple files. This re\n\n[Document 5] Design and Implementation of Bitmap Indices for Scientific Data Bitmap indices are efficient multi-dimensional index data structures for handling complex adhoc queries in read-mostly environments. They have been implemented in several commercial database systems but are only well suited for discrete attribute values which are very common in typical business applications. However, many scientific applications usually operate on floating point numbers and cannot take advantage of the optimisation \n\n[Document 6] Objectivity/DB Benchmark Objectivity read/write benchmarks and storage overhead measurements are presented. Keywords:  1 Introduction  Most of the coming HEP experiments will use object-oriented database management systems (ODBMSs) as data store. A detailed understanding of the the ODBMS performance is crucial to enable highperformance analysis scenarios. This paper presents performance measurements for di#erent access patterns using the commercial ODBMS Objectivity/DB. Measurements were made fo\n\n[Document 7] Query Optimization for Selections using Bitmaps Bitmaps are popular indexes for data warehouse (DW) applications and most database management systems offer them today. This paper proposes query optimization strategies for selections using bitmaps. Both continuous  and discrete selection criteria are considered. Query optimization strategies are categorized into static and dynamic. Static optimization strategies discussed are the optimal design of bitmaps, and algorithms based on tree and logical\n\n[Document 8] Modeling and Executing the Data Warehouse Refreshment Process Data warehouse refreshment is often viewed as a problem of maintaining\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

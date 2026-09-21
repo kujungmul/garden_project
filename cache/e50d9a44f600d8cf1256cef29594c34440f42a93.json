@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Reinforcement learning algorithms for adaptive packet routing in dynamic networks",
+  "Q-learning and machine learning approaches to network traffic control and routing optimization",
+  "Intelligent adaptive routing protocols using learning-based optimization in communication networks"
+ ],
+ "raw": "{\"candidates\": [\"Reinforcement learning algorithms for adaptive packet routing in dynamic networks\", \"Q-learning and machine learning approaches to network traffic control and routing optimization\", \"Intelligent adaptive routing protocols using learning-based optimization in communication networks\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 855,
+  "output_tokens": 52,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 8,
+ "prompt": "Below are 8 representative documents (out of 8 total) from one community of a citation network of machine-learning papers (title + abstract).\n\n[Document 1] Title: A Distributed Reinforcement Learning Scheme for Network Routing  \tAbstract: In this paper we describe a self-adjusting algorithm for packet routing in which a reinforcement learning method is embedded into each node of a network. Only local information is used at each node to keep accurate statistics on which routing policies lead to minimal routing times. In simple experiments involving a 36-node irregularly-connected network, this learning approach proves superior to routing based on pr\n\n[Document 2] Title: Predictive Q-Routing: A Memory-based Reinforcement Learning Approach to Adaptive Traffic Control  \tAbstract: In this paper, we propose a memory-based Q-learning algorithm called predictive Q-routing (PQ-routing) for adaptive traffic control. We attempt to address two problems encountered in Q-routing (Boyan & Littman, 1994), namely, the inability to fine-tune routing policies under low network load and the inability to learn new optimal policies under decreasing load conditions. Unlike ot\n\n[Document 3] Title: Packet Routing and Reinforcement Learning: Estimating Shortest Paths in Dynamic Graphs  \t\n\n[Document 4] Title: A Neural Architecture for Content as well as Address-Based Storage and Recall: Theory and Applications  \t\n\n[Document 5] Title: Parameterized Heuristics for Intelligent Adaptive Network Routing in Large Communication Networks  \tAbstract: Parameterized heuristics offers an elegant and powerful theoretical framework for design and analysis of autonomous adaptive communication networks. Routing of messages in such networks presents a real-time instance of a multi-criterion optimization problem in a dynamic and uncertain environment. This paper describes a framework for heuristic routing in large networks. The effecti\n\n[Document 6] Title: Toward Learning Systems That Integrate Different Strategies and Representations TR93-22  \t\n\n[Document 7] Title: A Neural Network Architecture for Syntax Analysis  \t\n\n[Document 8] Title: A Neural Network Architecture for High-Speed Database Query Processing  \tAbstract: Artificial neural networks (ANN), due to their inherent parallelism and potential fault tolerance, offer an attractive paradigm for robust and efficient implementations of large modern database and knowledge base systems. This paper explores a neural network model for efficient implementation of a database query system. The application of the proposed model to a high-speed library query system for retrieval\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "robustness and reliability analysis in complex systems and signal processing",
+  "performance analysis and design optimization under uncertainty and constraints",
+  "resilience metrics and fault-tolerant approaches in networked and learning systems"
+ ],
+ "raw": "{\"candidates\": [\"robustness and reliability analysis in complex systems and signal processing\", \"performance analysis and design optimization under uncertainty and constraints\", \"resilience metrics and fault-tolerant approaches in networked and learning systems\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 954,
+  "output_tokens": 49,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: complexity distribution of agent policies Abstract: We analyse the complexity of environments according to the policies that need to be used to achieve high performance. The performance results for a population of policies leads to a distribution that is examined in terms of policy complexity and analysed through several diagrams and indicators. The notion of environment response curve is also introduced, by inverting the performance results into an ability scale. We apply all these conce\n\n[Document 2] Title: robust transmission in downlink multiuser miso systems a rate splitting approach Abstract: We consider a downlink multiuser MISO system with bounded errors in the channel state information at the transmitter (CSIT). We first look at the robust design problem of achieving max-min fairness amongst users (in the worst-case sense). Contrary to the conventional approach adopted in literature, we propose a rather unorthodox design based on a rate-splitting (RS) strategy. Each user's message is \n\n[Document 3] Title: robust website fingerprinting through the cache occupancy channel Abstract: Website fingerprinting attacks, which use statistical analysis on network traffic to compromise user privacy, have been shown to be effective even if the traffic is sent over anonymity-preserving networks such as Tor. The classical attack model used to evaluate website fingerprinting attacks assumes an on-path adversary, who can observe all traffic traveling between the user's computer and the Tor network. In this\n\n[Document 4] Title: data warehouse and decision support on integrated crop big data Abstract: In recent years, precision agriculture is becoming very popular. The introduction of modern information and communication technologies for collecting and processing Agricultural data revolutionise the agriculture practises. This has started a while ago (early 20th century) and it is driven by the low cost of collecting data about everything; from information on fields such as seed, soil, fertiliser, pest, to weather\n\n[Document 5] Title: learning to collocate neural modules for image captioning Abstract: We do not speak word by word from scratch; our brain quickly structures a pattern like \\textsc{sth do sth at someplace} and then fill in the detailed descriptions. To render existing encoder-decoder image captioners such human-like reasoning, we propose a novel framework: learning to Collocate Neural Modules (CNM), to generate the `inner pattern' connecting visual encoder and language decoder. Unlike the widely-used neura\n\n[Document 6] Title: a contraction theory based analysis of the stability of the extended kalman filter Abstract: The contraction properties of the Extended Kalman Filter, viewed as a deterministic observer for nonlinear systems, are analyzed. This yields new conditions under which exponential convergence of the state error can be guaranteed. As contraction analysis studies the evolution of an infinitesimal discrepancy between neighboring trajectories, and thus stems from a differential framework, the suffici\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

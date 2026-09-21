@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Multi-agent systems architecture, configuration, and communication in distributed environments",
+  "Intelligent agent-based systems for information services and spatial language processing",
+  "Distributed agent coordination and query routing in information retrieval systems"
+ ],
+ "raw": "{\"candidates\": [\"Multi-agent systems architecture, configuration, and communication in distributed environments\", \"Intelligent agent-based systems for information services and spatial language processing\", \"Distributed agent coordination and query routing in information retrieval systems\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 810,
+  "output_tokens": 51,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] ConCall: An information service for researchers based on EdInfo In this paper, we present new types of web information services, where users and information brokers collaborate in creating a +r...#hqhf#vo/oor information service. Such services impose a novel task on information brokers: they become responsible for maintaining the inference strategies used in user modeling. In return, information brokers obtain more accurate information about user needs, since the adaptivity ensures that user pro\n\n[Document 2] Integration of Spatial Join Algorithms for Joining Multiple Inputs Several techniques that compute the join between two spatial datasets have been proposed during the last decade. Among these methods, some consider existing indices for the joined inputs, while others treat datasets with no index, thus providing solutions for the case where at least one input comes as an intermediate result of another database operator. In this paper we analyze previous work on spatial joins and propose a novel a\n\n[Document 3] A World Wide Web Meta Search Engine Using an Automatic Query Routing Algorithm CONTENTS 1. INTRODUCTION......................................................... ........................................ 6 2. LITERATURE REVIEW............................................................... ........................ 9 2.1 Overview of conventional search techniques............................................. 9 2.2 Conventional query routing systems.....................................................\n\n[Document 4] An Anthropomorphic Agent for the Use of Spatial Language . In this paper we describe the communication with a responsive  virtual environment with the main emphasis on the processing of  spatial expressions in natural language instructions. This work is part  of the VIENA project in whichwechose interior design as an example  domain. A multiagent system acts as an intelligent mediator between the  user and a graphics system. To make the communication about spatial  relations more intuitive, we d\n\n[Document 5] Configuration Management for Multi-Agent Systems As heterogeneous distributed systems, multi-agent systems present some challenging configuration management issues. There are the problems of knowing how to allocate agents to computers, launch them on remote hosts, and once the agents have been launched, how to monitor their runtime status so as to manage computing resources effectively.  In this paper, we present the RETSINA Configuration Manager, RECoMa. We describe its architecture, how it use\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

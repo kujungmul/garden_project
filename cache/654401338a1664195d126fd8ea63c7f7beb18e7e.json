@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Natural language processing systems for computer-aided language learning through dialogue and grammar representation",
+  "Intelligent dialogue systems and markup languages for automated English grammar teaching and learning",
+  "Web-based dialogue systems with natural language processing for interactive foreign language instruction"
+ ],
+ "raw": "{\"candidates\": [\"Natural language processing systems for computer-aided language learning through dialogue and grammar representation\", \"Intelligent dialogue systems and markup languages for automated English grammar teaching and learning\", \"Web-based dialogue systems with natural language processing for interactive foreign language instruction\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 942,
+  "output_tokens": 56,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: csiec computer simulator in educational communication an intelligent web based teaching system for foreign language learning Abstract: In this paper we present an innovative intelligent web-based computer-aided instruction system for foreign language learning: CSIEC (Computer Simulator in Educational Communication). This system can not only grammatically understand the sentences in English given from the users via Internet, but also reasonably and individually speak with the users. At fir\n\n[Document 2] Title: the generation of textual entailment with nlml in an intelligent dialogue system for language learning csiec Abstract: This research report introduces the generation of textual entailment within the project CSIEC (Computer Simulation in Educational Communication), an interactive web-based human-computer dialogue system with natural language for English instruction. The generation of textual entailment (GTE) is critical to the further improvement of CSIEC project. Up to now we have found f\n\n[Document 3] Title: the study of the application of a keywords based chatbot system on the teaching of foreign languages Abstract: This paper reports the findings of a study conducted on the application of an on-line human-computer dialog system with natural language (chatbot) on the teaching of foreign languages. A keywords-based human-computer dialog system makes it possible that the user could chat with the computer using a natural language, i.e. in English or in German to some extent. So an experiment ha\n\n[Document 4] Title: nlml a markup language to describe the unlimited english grammar Abstract: In this paper we present NLML (Natural Language Markup Language), a markup language to describe the syntactic and semantic structure of any grammatically correct English expression. At first the related works are analyzed to demonstrate the necessity of the NLML: simple form, easy management and direct storage. Then the description of the English grammar with NLML is introduced in details in three levels: sentences\n\n[Document 5] Title: nlomj natural language object model in java Abstract: In this paper we present NLOMJ--a natural language object model in Java with English as the experiment language. This modal describes the grammar elements of any permissible expression in a natural language and their complicated relations with each other with the concept \"Object\" in OOP(Object Oriented Programming). Directly mapped to the syntax and semantics of the natural language, it can be used in information retrieval as a linguis\n\n[Document 6] Title: improving the csiec project and adapting it to the english teaching and learning in china Abstract: In this paper after short review of the CSIEC project initialized by us in 2003 we present the continuing development and improvement of the CSIEC project in details, including the design of five new Microsoft agent characters representing different virtual chatting partners and the limitation of simulated dialogs in specific practical scenarios like graduate job application interview, then\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

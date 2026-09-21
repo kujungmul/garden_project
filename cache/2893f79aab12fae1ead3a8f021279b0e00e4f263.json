@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Deep learning applications for aesthetic and subjective evaluation tasks using convolutional neural networks",
+  "Machine learning approaches to modeling human behavior and decision-making in digital environments",
+  "Neural network-based systems for analyzing and predicting user responses in complex domains"
+ ],
+ "raw": "{\"candidates\": [\"Deep learning applications for aesthetic and subjective evaluation tasks using convolutional neural networks\", \"Machine learning approaches to modeling human behavior and decision-making in digital environments\", \"Neural network-based systems for analyzing and predicting user responses in complex domains\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 821,
+  "output_tokens": 58,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: linking artificial intelligence principles Abstract: Artificial Intelligence principles define social and ethical considerations to develop future AI. They come from research institutes, government organizations and industries. All versions of AI principles are with different considerations covering different perspectives and making different emphasis. None of them can be considered as complete and can cover the rest AI principle proposals. Here we introduce LAIP, an effort and platform f\n\n[Document 2] Title: understanding aesthetics in photography using deep convolutional neural networks Abstract: Evaluating aesthetic value of digital photographs is a challenging task, mainly due to numerous factors that need to be taken into account and subjective manner of this process. In this paper, we propose to approach this problem using deep convolutional neural networks. Using a dataset of over 1.7 million photos collected from Flickr, we train and evaluate a deep learning model whose goal is to clas\n\n[Document 3] Title: phishing personality traits and facebook Abstract: Phishing attacks have become an increasing threat to online users. Recent research has begun to focus on the factors that cause people to respond to them. Our study examines the correlation between the Big Five personality traits and email phishing response. We also examine how these factors affect users behavior on Facebook, including posting personal information and choosing Facebook privacy settings. #R##N#Our research shows that when \n\n[Document 4] Title: on the complexity of graded modal logics with converse Abstract: A complete classification of the complexity of the local and global satisfiability problems for graded modal language over traditional classes of frames has already been established. By 'traditional' classes of frames we mean those characterized by any positive combination of reflexivity, seriality, symmetry, transitivity, and the Euclidean property. In this paper we fill the gaps remaining in an analogous classification of \n\n[Document 5] Title: a reference architecture for integrating the industrial internet of things in the industry 4 0 Abstract: This paper presents a new reference architecture model for the integration of these systems and technologies. The reference architecture model is based on grouping of future and present techniques and presenting the design process through a new hierarchical framework and a new cascading model. With the application of the grounded theory, the hierarchical framework and the cascading mod\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

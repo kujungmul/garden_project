@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Expectation-maximization algorithms and probabilistic inference methods for latent variable models",
+  "EM-based approaches for dimensionality reduction and maximum likelihood estimation in high-dimensional data",
+  "Iterative optimization algorithms for learning parameters in mixture models and probabilistic models"
+ ],
+ "raw": "{\"candidates\": [\"Expectation-maximization algorithms and probabilistic inference methods for latent variable models\", \"EM-based approaches for dimensionality reduction and maximum likelihood estimation in high-dimensional data\", \"Iterative optimization algorithms for learning parameters in mixture models and probabilistic models\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 958,
+  "output_tokens": 64,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of machine-learning papers (title + abstract).\n\n[Document 1] Title: On Convergence Properties of the EM Algorithm for Gaussian Mixtures  \tAbstract: We build up the mathematical connection between the \"Expectation-Maximization\" (EM) algorithm and gradient-based approaches for maximum likelihood learning of finite Gaussian mixtures. We show that the EM step in parameter space is obtained from the gradient via a projection matrix P , and we provide an explicit expression for the matrix. We then analyze the convergence of EM in terms of special properties of \n\n[Document 2] Title: EM Algorithms for PCA and SPCA  \tAbstract: I present an expectation-maximization (EM) algorithm for principal component analysis (PCA). The algorithm allows a few eigenvectors and eigenvalues to be extracted from large collections of high dimensional data. It is computationally very efficient in space and time. It also naturally accommodates missing information. I also introduce a new variant of PCA called sensible principal component analysis (SPCA) which defines a proper density model i\n\n[Document 3] Title: Importance Sampling  \tAbstract: Technical Report No. 9805, Department of Statistics, University of Toronto Abstract. Simulated annealing | moving from a tractable distribution to a distribution of interest via a sequence of intermediate distributions | has traditionally been used as an inexact method of handling isolated modes in Markov chain samplers. Here, it is shown how one can use the Markov chain transitions for such an annealing sequence to define an importance sampler. The Markov \n\n[Document 4] Title: On the Approximability of Numerical Taxonomy (Fitting Distances by Tree Metrics)  \tAbstract: We consider the problem of fitting an n fi n distance matrix D by a tree metric T . Let \" be the distance to the closest tree metric, that is, \" = min T fk T; D k 1 g. First we present an O(n 2 ) algorithm for finding an additive tree T such that k T; D k 1 3\", giving the first algorithm for this problem with a performance guarantee. Second we show that it is N P-hard to find a tree T such that k \n\n[Document 5] Title: Cortical activity flips among quasi stationary states  \tAbstract: M. Abeles, H. Bergman and E. Vaadia, School of Medicine and Center for Neural Computation Hebrew University, POB 12272, Jerusalem 91120, Is-rael. E. Seidemann and I. Meilijson, School of Mathematical Sciences, Raymond and Beverly Sackler Faculty of Exact Sciences, and School of Medicine, Tel Aviv University, 69978 Tel Aviv, Israel. I. Gat and N. Tishby, Institute of Computer Science and Center for Neural Computation, Hebrew\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

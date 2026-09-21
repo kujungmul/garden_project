@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Interval edge colorings of graphs with consecutive color constraints at vertices",
+  "Proper edge colorings using consecutive integer color ranges incident to each vertex",
+  "Graph coloring problems requiring edges at vertices to form contiguous color intervals"
+ ],
+ "raw": "{\"candidates\": [\"Interval edge colorings of graphs with consecutive color constraints at vertices\", \"Proper edge colorings using consecutive integer color ranges incident to each vertex\", \"Graph coloring problems requiring edges at vertices to form contiguous color intervals\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1407,
+  "output_tokens": 54,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 14,
+ "prompt": "Below are 7 representative documents (out of 14 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: interval edge colorings of graph products Abstract: An interval t-coloring of a graph G is a proper edge-coloring of G with colors 1,2,...,t such that at least one edge of G is colored by i, i=1,2,...,t, and the edges incident to each vertex v\\in V(G) are colored by d_{G}(v) consecutive colors, where d_{G}(v) is the degree of the vertex v in G. In this paper interval edge-colorings of various graph products are investigated.\n\n[Document 2] Title: a note on upper bounds for the maximum span in interval edge colorings of graphs Abstract: An edge coloring of a graph $G$ with colors $1,2,..., t$ is called an interval $t$-coloring if for each $i\\in \\{1,2,...,t\\}$ there is at least one edge of $G$ colored by $i$, the colors of edges incident to any vertex of $G$ are distinct and form an interval of integers. In 1994 Asratian and Kamalian proved that if a connected graph $G$ admits an interval $t$-coloring, then $t\\leq (d+1) (\\Delta -1) \n\n[Document 3] Title: interval edge colorings of complete graphs Abstract: An edge-coloring of a graph $G$ with colors $1,2,\\ldots,t$ is an interval $t$-coloring if all colors are used, and the colors of edges incident to each vertex of $G$ are distinct and form an interval of integers. A graph $G$ is interval colorable if it has an interval $t$-coloring for some positive integer $t$. For an interval colorable graph $G$, $W(G)$ denotes the greatest value of $t$ for which $G$ has an interval $t$-coloring. It is\n\n[Document 4] Title: interval colorings of edges of a multigraph Abstract: N = S t\u22651 Nt. For every G \u2208 N, let us denote by w(G) and W(G), respectively, the least and the greatest t, for which there exists an interval on V (G) t-coloring of G. Evidently, \ufffd(G) \u2264 \ufffd \u2032 (G) \u2264 w(G) \u2264 W(G). Proposition 1. If G \u2208 N then \ufffd \u2032 (G) = \ufffd(G). Proof. Let us consider an interval on V (G) w(G)-coloring of the multigraph G. If w(G) = \ufffd(G) then \ufffd \u2032 (G) = \ufffd(G). Assume that w(G) > \ufffd(G). Let us define the sets T(1),...,T(\ufffd(G)), wher\n\n[Document 5] Title: interval colorings of complete bipartite graphs and trees Abstract: A translation from Russian of the work of R.R. Kamalian \"Interval colorings of complete bipartite graphs and trees\", Preprint of the Computing Centre of the Academy of Sciences of Armenia, Yerevan, 1989. (Was published by the decision of the Academic Council of the Computing Centre of the Academy of Sciences of Armenian SSR and Yerevan State University from 7.09.1989).\n\n[Document 6] Title: interval edge colorings of mobius ladders Abstract: An interval edge t-coloring of a graph G is a proper edge coloring of G with colors 1,2...,t such that at least one edge of G is colored by color i,i=1,2...,t, and the edges incident with each vertex x are colored by d_{G}(x) consecutive colors, where d_{G}(x) is the degree of the vertex x in G. For Mobius ladders the existence of this coloring is proved and all possible numbers of colors in such colorings are found.\n\n[Document 7] Title: on the \u03bc parameters of the petersen graph Abstract: For an undirected, simple, finite, connected graph $G$, we denote by $V(G)$ and $E(G)$ the sets of its vertices and edges, respectively. A function $\\varphi:E(G)\\rightarrow \\{1,...,t\\}$ is called a proper edge $t$-coloring of a graph $G$, if adjacent edges are colored differently and each of $t$ colors is used. The least value of $t$ for which there exists a proper edge $t$-coloring of a graph $G$ is denoted by $\\chi'(G)$. For any graph \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

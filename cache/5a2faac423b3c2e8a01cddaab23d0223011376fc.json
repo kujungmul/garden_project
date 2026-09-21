@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Characterization and recognition of graph classes defined by vertex weights and distance constraints",
+  "Structural properties and algorithmic recognition of pairwise compatibility graphs and threshold variants",
+  "Graph families characterized by tree-based distance intervals or vertex weight inequalities"
+ ],
+ "raw": "{\"candidates\": [\"Characterization and recognition of graph classes defined by vertex weights and distance constraints\", \"Structural properties and algorithmic recognition of pairwise compatibility graphs and threshold variants\", \"Graph families characterized by tree-based distance intervals or vertex weight inequalities\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1366,
+  "output_tokens": 58,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 9,
+ "prompt": "Below are 7 representative documents (out of 9 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: some reduction operations to pairwise compatibility graphs Abstract: A graph $G=(V,E)$ with a vertex set $V$ and an edge set $E$ is called a pairwise compatibility graph (PCG, for short) if there are a tree $T$ whose leaf set is $V$, a non-negative edge weight $w$ in $T$, and two non-negative reals $d_{\\min}\\leq d_{\\max}$ such that $G$ has an edge $uv\\in E$ if and only if the distance between $u$ and $v$ in the weighted tree $(T,w)$ is in the interval $[d_{\\min}, d_{\\max}]$. PCG is a new \n\n[Document 2] Title: on pairwise compatibility of some graph super classes Abstract: A graph G = (V;E) is a pairwise compatibility graph (PCG) if there exists an edgeweighted tree T and two non-negative real numbers dmin and dmax such that each leaf u of T is a node of V and there is an edge (u;v)2 E if and only if dmin dT (u;v) dmax where dT (u;v) is the sum of weights of the edges on the unique path from u to v in T . The main issue on these graphs consists in characterizing them. In this note we prove the \n\n[Document 3] Title: all graphs with at most seven vertices are pairwise compatibility graphs Abstract: A graph $G$ is called a pairwise compatibility graph (PCG) if there exists an edge-weighted tree $T$ and two non-negative real numbers $d_{min}$ and $d_{max}$ such that each leaf $l_u$ of $T$ corresponds to a vertex $u \\in V$ and there is an edge $(u,v) \\in E$ if and only if $d_{min} \\leq d_{T,w} (l_u, l_v) \\leq d_{max}$ where $d_{T,w} (l_u, l_v)$ is the sum of the weights of the edges on the unique path fr\n\n[Document 4] Title: linear time recognition of double threshold graphs Abstract: A graph $G = (V,E)$ is a double-threshold graph if there exist a vertex-weight function $w \\colon V \\to \\mathbb{R}$ and two real numbers $\\mathtt{lb}, \\mathtt{ub} \\in \\mathbb{R}$ such that $uv \\in E$ if and only if $\\mathtt{lb} \\le \\mathtt{w}(u) + \\mathtt{w}(v) \\le \\mathtt{ub}$. In the literature, those graphs are studied as the pairwise compatibility graphs that have stars as their underlying trees. We give a new characterizati\n\n[Document 5] Title: characterizing star pcgs Abstract: A graph $G$ is called a pairwise compatibility graph (PCG, for short) if it admits a tuple $(T,w, d_{\\min},d_{\\max})$ of a tree $T$ whose leaf set is equal to the vertex set of $G$, a non-negative edge weight $w$, and two non-negative reals $d_{\\min}\\leq d_{\\max}$ such that $G$ has an edge between two vertices $u,v\\in V$ if and only if the distance between the two leaves $u$ and $v$ in the weighted tree $(T,w)$ is in the interval $[d_{\\min}, d_{\\max}]$. \n\n[Document 6] Title: paired threshold graphs Abstract: Threshold graphs are recursive deterministic network models that have been proposed for describing certain economic and social interactions. One drawback of this graph family is that it has limited generative attachment rules. To mitigate this problem, we introduce a new class of graphs termed Paired Threshold (PT) graphs described through vertex weights that govern the existence of edges via two inequalities. One inequality imposes the constraint that th\n\n[Document 7] Title: characterization and linear time recognition of paired threshold graphs Abstract: In a paired threshold graph, each vertex has a weight, and two vertices are adjacent if their weight sum is large enough and their weight difference is small enough. It generalizes threshold graphs and unit interval graphs, both very well studied. We present a vertex ordering characterization of this graph class, which enables us to prove that it is a subclass of interval graphs. Further study of clique path\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

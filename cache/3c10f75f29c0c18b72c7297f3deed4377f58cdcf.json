@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Third-party replacement batteries and chargers for digital cameras and photography equipment",
+  "Aftermarket camera battery and charging accessories as cost-effective alternatives to manufacturer products",
+  "Camera battery replacement kits and charging solutions for popular photography device models"
+ ],
+ "raw": "{\"candidates\": [\"Third-party replacement batteries and chargers for digital cameras and photography equipment\", \"Aftermarket camera battery and charging accessories as cost-effective alternatives to manufacturer products\", \"Camera battery replacement kits and charging solutions for popular photography device models\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1153,
+  "output_tokens": 56,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 261,
+ "prompt": "Below are 10 representative documents (out of 261 total) from one community of a co-purchase network of Amazon photography products (customer reviews).\n\n[Document 1] Great Charger for the Nikon 1, J3 Everything worked great. The extra battery was a bonus and the charger worked like a champ. I like how the charger can work in a vehicle and overseas since we are headed to Italy next week.\n\n[Document 2] Great kit & accessories! Sellar: Fanta Sales This was a peace of mind purchase for the samsung wb250f my friend received for her birthday. Both batteries fit the camera and are recognized by the camera, the mini tripod does exactly what it should (definitely a relief -- not all flex-tripods balance the way they should), and both charging methods work on the batteries in the pack as well as the battery that came with her camera. She used the cleaning kit the day she got it because she tried takin\n\n[Document 3] Great value here, top notch performance at a budget price! The batteries and charger work as promised. Great value for the money here!\n\n[Document 4] Five Stars great price on 2 batteries.\n\n[Document 5] Don't be afraid! Many photographers are cautious about purchasing 3rd party brand recharageable camera batteries (and they should be). Recharageables for the Nikon J1 are hard to find and the Nikon branded batteries can cost a fortune. Wasabi Power offers a 2 battery, charger set for about 1/2 the Nikon price of a single battery and it was hard to NOT try the offer out. Purchasing thru Amazon makes the purchase easy and worry free. As the Nikon J1 is somewhat of a 'battery hog' I highly recommen\n\n[Document 6] Awesome Service My stock lens broke after less than one hear. This lens was priced right and it works perfectly and was shipped super quick! Awesome!\n\n[Document 7] Accidentally overcharged my camera battery. Ordered this one and ... Accidentally overcharged my camera battery. Ordered this one and it arrived on time. Works perfectly for my camera. Arrived before our big trip and held enough battery power for one day of picture taking.\n\n[Document 8] Good product! Works as expected. Excellent vendor There's not much to say about a battery except that it works as expected. It also fits nicely in my camera Samsung HZ35W. What impressed me was the excellent service from the vendor iOttie Corp. They kept me informed on every step of the process, when the item was shipped, and when to expect delivery. The service was fast too. I would buy from this vendor again.\n\n[Document 9] Cheaper and better quality than their Nikon counterparts Buying replacement batteries and charges from the manufacturer is very expensive. So why not buy aftermarket? Details inside. ' Package Contents DBK EN-EL20 Li-ion Replacement Battery Charger Car charger adapter ' Hardware & Testing The DBK EN-EL20 + Charger is a replacement combo pack for the Nikon 1 and Nikon Coolpix series. The charger is small, being 1.8 x 1.4 X 3.6, or just a little bigger than the EN-EL20. This charger can charge the\n\n[Document 10] Buy these and save yourself the frustration (and likely-wasted money) on alternatives... For the Blackmagic Pocket Cinema Camera, there really isn't much of a quality alternative; after trying similar knockoff brands all I experienced was subpar run times, improper fitting into the battery chamber, and a whole lot of frustration. Save yourself the trouble and just buy the genuine batteries from the get-go -- trust me. The others are now in the trash. ;)\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

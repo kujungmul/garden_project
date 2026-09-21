@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Stability and convergence analysis of stochastic approximation algorithms with set-valued operators and Markov noise",
+  "Lyapunov-based theoretical foundations for stochastic recursive inclusions and approximate value iteration methods",
+  "Asymptotic behavior and stability guarantees in noisy stochastic approximation schemes with differential inclusions"
+ ],
+ "raw": "{\"candidates\": [\"Stability and convergence analysis of stochastic approximation algorithms with set-valued operators and Markov noise\", \"Lyapunov-based theoretical foundations for stochastic recursive inclusions and approximate value iteration methods\", \"Asymptotic behavior and stability guarantees in noisy stochastic approximation schemes with differential inclusions\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1101,
+  "output_tokens": 79,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: analysis of set valued stochastic approximations applications to noisy approximate value and fixed point iterations Abstract: The main aim of this paper is the development of Lyapunov function based sufficient conditions for stability (almost sure boundedness) and convergence of stochastic approximation algorithms (SAAs) with set-valued mean-fields, a class of model-free algorithms that have become important in recent times. In this paper we provide a complete analysis of such algorithms \n\n[Document 2] Title: stochastic recursive inclusions with non additive iterate dependent markov noise Abstract: In this paper we study the asymptotic behavior of stochastic approximation schemes with set-valued drift function and non-additive iterate-dependent Markov noise. We show that a linearly interpolated trajectory of such a recursion is an asymptotic pseudotrajectory for the flow of a limiting differential inclusion obtained by averaging the set-valued drift function of the recursion w.r.t. the station\n\n[Document 3] Title: analyzing approximate value iteration algorithms Abstract: In this paper, we consider the stochastic iterative counterpart of the value iteration scheme wherein only noisy and possibly biased approximations of the Bellman operator are available. We call the aforementioned counterpart as the approximate value iteration (AVI) algorithm. The structure of AVI accounts for implementations with biased function approximations of the Bellman operator and sampling errors. This is pertinent since v\n\n[Document 4] Title: analysis of stochastic approximation schemes with set valued maps in the absence of a stability guarantee and their stabilization Abstract: In this paper, we analyze the behavior of stochastic approximation schemes with set-valued maps in the absence of a stability guarantee. We prove that after a large number of iterations if the stochastic approximation process enters the domain of attraction of an attracting set it gets locked into the attracting set with high probability. We demonstra\n\n[Document 5] Title: stability of stochastic approximations with controlled markov noise and temporal difference learning Abstract: We are interested in understanding stability (almost sure boundedness) of stochastic approximation algorithms (SAs) driven by a `controlled Markov' process. Analyzing this class of algorithms is important, since many reinforcement learning (RL) algorithms can be cast as SAs driven by a `controlled Markov' process. In this paper, we present easily verifiable sufficient conditions \n\n[Document 6] Title: a generalization of the borkar meyn theorem for stochastic recursive inclusions Abstract: In this paper the stability theorem of Borkar and Meyn is extended to include the case when the mean field is a differential inclusion. Two different sets of sufficient conditions are presented that guarantee the stability and convergence of stochastic recursive inclusions. Our work builds on the works of Benaim, Hofbauer and Sorin as well as Borkar and Meyn. As a corollary to one of the main theorem\n\n[Document 7] Title: on the function approximation error for risk sensitive reinforcement learning Abstract: In this paper we obtain several informative error bounds on function approximation for the policy evaluation algorithm proposed by Basu et al. when the aim is to find the risk-sensitive cost represented using exponential utility. The main idea is to use classical Bapat's inequality and to use Perron-Frobenius eigenvectors (exists if we assume irreducible Markov chain) to get the new bounds. The novelty\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

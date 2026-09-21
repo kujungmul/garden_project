@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Association rule mining techniques for discovering patterns and correlations in large datasets",
+  "Frequent pattern mining algorithms handling temporal, hierarchical, and multi-dimensional data structures",
+  "Data mining methods for extracting optimized rules and periodic patterns from transaction databases"
+ ],
+ "raw": "{\"candidates\": [\"Association rule mining techniques for discovering patterns and correlations in large datasets\", \"Frequent pattern mining algorithms handling temporal, hierarchical, and multi-dimensional data structures\", \"Data mining methods for extracting optimized rules and periodic patterns from transaction databases\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 800,
+  "output_tokens": 58,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Cyclic Association Rules We study the problem of discovering association rules that display regular cyclic variation over time. For example, if we compute association rules over monthly sales data, we may observe seasonal variation where certain rules are true at approximately the same month each year. Similarly, association rules can also display regular hourly, daily, weekly, etc., variation that is cyclical in nature. We demonstrate that existing methods cannot be naively extended to solve th\n\n[Document 2] On-Line Analytical Mining of Association Rules With wide applications of computers and automated data collection tools, massive amounts of data have been continuously collected and stored in databases, which creates an imminent need and great opportunities for mining interesting knowledge from data. Association rule mining is one kind of data mining techniques which discovers strong association or correlation relationships among data. The discovered rules may help market basket or cross-sales an\n\n[Document 3] Mining Optimized Support Rules for Numeric Attributes Mining association rules on large data sets has received considerable attention in recent years. Association rules are useful for determining correlations between attributes of a relation and have applications in marketing, financial and retail sectors. Furthermore, optimized association rules  are an effective way to focus on the most interesting characteristics involving certain attributes. Optimized association rules are permitted to conta\n\n[Document 4] Adaptive-FP: An Efficient And Effective Method For Multi-Level Multi-Dimensional Frequent Pattern Mining Real life transaction databases usually contain both item information and dimension information. Moreover, taxonomies about items likely exist. Knowledge about multilevel and multi-dimensional frequent patterns is interesting and useful. The classic frequent pattern mining algorithms based on a uniform minimum support, such as Apriori and FP-growth, either miss interesting patterns of low sup\n\n[Document 5] Efficient Mining of Partial Periodic Patterns in Time Series Database Partial periodicity search, i.e., search for partial periodic patterns in time-series databases, is an interesting data mining problem. Previous studies on periodicity search mainly consider finding full periodic patterns, where every point in time contributes (precisely or approximately) to the periodicity. However, partial periodicity is very common in practice since it is more likely that only some of the time episodes may \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

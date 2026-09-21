@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "deep learning methods for analyzing and extracting meaningful representations from image and multimodal data",
+  "convolutional neural networks and autoencoders for feature extraction and semantic understanding in visual computing",
+  "neural network approaches to image classification, reconstruction, and multimodal alignment tasks"
+ ],
+ "raw": "{\"candidates\": [\"deep learning methods for analyzing and extracting meaningful representations from image and multimodal data\", \"convolutional neural networks and autoencoders for feature extraction and semantic understanding in visual computing\", \"neural network approaches to image classification, reconstruction, and multimodal alignment tasks\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 851,
+  "output_tokens": 64,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: push it to the limit discover edge cases in image data with autoencoders Abstract: In this paper, we focus on the problem of identifying semantic factors of variation in large image datasets. By training a convolutional Autoencoder on the image data, we create encodings, which describe each datapoint at a higher level of abstraction than pixel-space. We then apply Principal Component Analysis to the encodings to disentangle the factors of variation in the data. Sorting the dataset accordi\n\n[Document 2] Title: classifying magnetic resonance image modalities with convolutional neural networks Abstract: Magnetic Resonance (MR) imaging allows the acquisition of images with different contrast properties depending on the acquisition protocol and the magnetic properties of tissues. Many MR brain image processing techniques, such as tissue segmentation, require multiple MR contrasts as inputs, and each contrast is treated differently. Thus it is advantageous to automate the identification of image con\n\n[Document 3] Title: multi level multimodal common semantic space for image phrase grounding Abstract: We address the problem of phrase grounding by learning a multi-level common semantic space shared by the textual and visual modalities. This common space is instantiated at multiple layers of a Deep Convolutional Neural Network by exploiting its feature maps, as well as contextualized word-level and sentence-level embeddings extracted from a character-based language model. Following a dedicated non-linear ma\n\n[Document 4] Title: real time halfway domain reconstruction of motion and geometry Abstract: We present a novel approach for real-time joint reconstruction of 3D scene motion and geometry from binocular stereo videos. Our approach is based on a novel variational halfway-domain scene flow formulation, which allows us to obtain highly accurate spatiotemporal reconstructions of shape and motion. We solve the underlying optimization problem at real-time frame rates using a novel data-parallel robust non-linear o\n\n[Document 5] Title: taxonomy and challenges of out of band signal injection attacks and defenses Abstract: Recent research has shown that the integrity of sensor measurements can be violated through out-of-band signal injection attacks. These attacks target the conversion process from a physical quantity to an analog property\u2014a process that fundamentally cannot be authenticated. Out-of-band signal injection attacks thus pose previously-unexplored security risks by exploiting hardware imperfections in the sen\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Fuzzy logic systems and rule-based classifiers learned from data with feature selection and interpretability",
+  "Data-driven design of fuzzy classifiers using decision trees, clustering, and evolutionary optimization methods",
+  "Learning interpretable fuzzy rules and models from labeled data through structure identification and complexity reduction"
+ ],
+ "raw": "{\"candidates\": [\"Fuzzy logic systems and rule-based classifiers learned from data with feature selection and interpretability\", \"Data-driven design of fuzzy classifiers using decision trees, clustering, and evolutionary optimization methods\", \"Learning interpretable fuzzy rules and models from labeled data through structure identification and complexity reduction\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 968,
+  "output_tokens": 69,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Structure Identification of Fuzzy Classifiers For complex and high-dimensional problems, data-driven  identification of classifiers has to deal with structural issues like the selection of the relevant features and effective initial partition of the input domain. Therefore, the identification of fuzzy classifiers is a challenging topic. Decision-tree (DT) generation algorithms are effective in feature selection and extraction of crisp classification rules, hence they can be used for the initiali\n\n[Document 2] Data-Driven Generation of Compact, Accurate, and Linguistically-Sound Fuzzy Classifiers Based on a Decision-Tree Initialization The data-driven identification of fuzzy rule-based classifiers for high-dimensional problems is addressed. A binary decision-tree-based initialization of fuzzy classifiers is proposed for the selection of the relevant features and e#ective initial partitioning of the input domains of the fuzzy system. Fuzzy classifiers have more flexible decision boundaries than decisio\n\n[Document 3] Learning Fuzzy Classification Rules from Data . Automatic design of fuzzy rule-based classification systems based on labeled data is considered. It is recognized that both classification performance and interpretability are of major importance and e#ort is made to keep the resulting rule bases small and comprehensible. An iterative approach for developing fuzzy classifiers is proposed. The initial model is derived from the data and subsequently, feature selection and rule base simplification are\n\n[Document 4] Compact Fuzzy Models Through Complexity Reduction and Evolutionary Optimization Genetic Algorithms (GAs) and other evolutionary optimization  methods to design fuzzy rules from data for systems modeling and  classification have received much attention in recent literature. We show  that different tools for modeling and complexity reduction can be favorably  combined in a scheme with GA-based parameter optimization. Fuzzy clustering,  rule reduction, rule base simplification and constrained genet\n\n[Document 5] Modified Gath-Geva Fuzzy Clustering for Identification of Takagi-Sugeno Fuzzy Models The construction of interpretable Takagi--Sugeno (TS) fuzzy models by means of clustering is addressed. First, it is shown how the antecedent fuzzy sets and the corresponding consequent parameters of the TS model can be derived from clusters obtained by the Gath--Geva algorithm. To preserve the partitioning of the antecedent space, linearly transformed input variables can be used in the model. This may, however,\n\n[Document 6] On Mapping Decision Trees and Neural Networks There exist several methods for transforming decision trees to neural networks. These methods typically construct the networks by directly mapping decision nodes or rules to the neural units. As a result, the networks constructed are often larger than necessary. This paper describes a pruning-based method for mapping decision trees to neural networks, which can compress the network by removing unimportant and redundant units and connections. In addit\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

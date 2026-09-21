@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Hybrid knowledge representation combining symbolic rules with connectionist neural networks for intelligent systems",
+  "Neurules and multi-neurules as hybrid symbolic-connectionist rule frameworks for efficient knowledge representation and inference",
+  "Integration of symbolic and neurocomputing approaches in rule-based expert systems and tutoring applications"
+ ],
+ "raw": "{\"candidates\": [\"Hybrid knowledge representation combining symbolic rules with connectionist neural networks for intelligent systems\", \"Neurules and multi-neurules as hybrid symbolic-connectionist rule frameworks for efficient knowledge representation and inference\", \"Integration of symbolic and neurocomputing approaches in rule-based expert systems and tutoring applications\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 687,
+  "output_tokens": 69,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 4 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] A Web-based Intelligent Tutoring System Using Hybrid Rules as its Representational Basis In this paper, we present the architecture and describe the functionality of a Web-based Intelligent Tutoring System (ITS), which uses neurules for knowledge representation. Neurules are a type of hybrid rules integrating symbolic rules with neurocomputing. The use of neurules as the knowledge representation basis of the ITS results in a number of advantages.\n\n[Document 2] HYMES: A HYbrid Modular Expert System with Efficient Inference and Explanation A HYbrid Modular Expert System, called HYMES, is presented. HYMES provides a dual representation scheme: a symbolic one, based on conventional symbolic rules, and a hybrid one, based on neumles, a kind of rules that combine a symbolic and a connectionist representation. Symbolic rules are internally converted into neumles, for efficiency reasons. In this way, hybrid modular knowledge bases can be constructed.\n\n[Document 3] Multi-inference with Multi-neurules Neurules are a type of hybrid rules combining a symbolic and a connectionist representation. There are two disadvantages of neurules. The first is that the created neurule bases usually contain multiple representations of the same piece of knowledge. Also, the inference mechanism is rather connectionism oriented than symbolism oriented, thus reducing naturalness. To remedy these deficiencies, we introduce an extension to neurules, called multineurules, and an \n\n[Document 4] Neurules: Improving the Performance of Symbolic Rules In this paper, we present a method for improving the performance of classical symbolic rules.\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

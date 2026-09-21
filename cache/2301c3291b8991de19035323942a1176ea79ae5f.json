@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Stability and robust control of nonlinear systems with bounded disturbances and saturated feedback",
+  "Input-to-state stability characterization and stabilization methods for constrained dynamical systems",
+  "Identification and control of linear systems under worst-case bounded noise and saturation constraints"
+ ],
+ "raw": "{\"candidates\": [\"Stability and robust control of nonlinear systems with bounded disturbances and saturated feedback\", \"Input-to-state stability characterization and stabilization methods for constrained dynamical systems\", \"Identification and control of linear systems under worst-case bounded noise and saturation constraints\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1183,
+  "output_tokens": 67,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 193,
+ "prompt": "Below are 10 representative documents (out of 193 total) from one community of a citation network of machine-learning papers (title + abstract).\n\n[Document 1] Title: Robust Convergence of Two-Stage Nonlinear Algorithms for Identification in H 1  \tAbstract:  \n\n[Document 2] Title: Input to State Stabilizability for Parameterized Families of Systems Key Words: Nonlinear stability, Robust control,\t\n\n[Document 3] Title: OPTIMAL ASYMPTOTIC IDENTIFICATION UNDER BOUNDED DISTURBANCES  \tAbstract: This paper investigates the intrinsic limitation of worst-case identification of LTI systems using data corrupted by bounded disturbances, when the unknown plant is known to belong to a given model set. This is done by analyzing the optimal worst-case asymptotic error achievable by performing experiments using any bounded inputs and estimating the plant using any identification algorithm. First, it is shown that unde\n\n[Document 4] Title: Global Stabilization of Linear Discrete-Time Systems with Bounded Feedback  \tAbstract: This paper deals with the problem of global stabilization of linear discrete time systems by means of bounded feedback laws. The main result proved is an analog of one proved for the continuous time case by the authors, and shows that such stabilization is possible if and only if the system is stabilizable with arbitrary controls and the transition matrix has spectral radius less or equal to one. The pr\n\n[Document 5] Title: New Characterizations of Input to State Stability  \tAbstract: We present new characterizations of the Input to State Stability property. As a consequence of these results, we show the equivalence between the ISS property and several (apparent) variations proposed in the literature. \n\n[Document 6] Title: A Performance Analysis of the CNS-1 on Large, Dense Backpropagation Networks Connectionist Network Supercomputer  \tAbstract: We determine in this study the sustained performance of the CNS-1 during training and evaluation of large multilayered feedforward neural networks. Using a sophisticated coding, the 128-node machine would achieve up to 111 Giga connections per second (GCPS) and 22 Giga connection updates per second (GCUPS). During recall the machine would archieve 87% of the peak mu\n\n[Document 7] Title: In: Machine Learning, Meta-reasoning and Logics, pp207-232,  Learning from Imperfect Data  \tAbstract: Systems interacting with real-world data must address the issues raised by the possible presence of errors in the observations it makes. In this paper we first present a framework for discussing imperfect data and the resulting problems it may cause. We distinguish between two categories of errors in data random errors or `noise', and systematic errors and examine their relationship to th\n\n[Document 8] Title: Input-Output Analysis of Feedback Loops with Saturation Nonlinearities  \t\n\n[Document 9] Title: Some Comments on the Information Stored in Sparse Distributed Memory  \tAbstract: Report R95:11 ISRN : SICS-R--95/11-SE ISSN : 0283-3638 Abstract We consider a sparse distributed memory with randomly chosen hard locations, in which an unknown number T of random data vectors have been stored. A method is given to estimate T from the content of the memory with high accuracy. In fact, our estimate is unbiased, the coefficient of variation being roughly inversely proportional to p MU , where M\n\n[Document 10] \tAbstract: A General Result on the Stabilization of Linear Systems Using Bounded Controls 1 ABSTRACT We present two constructions of controllers that globally stabilize linear systems subject to control saturation. We allow essentially arbitrary saturation functions. The only conditions imposed on the system are the obvious necessary ones, namely that no eigenvalues of the uncontrolled system have positive real part and that the standard stabilizability rank condition hold. One of the constructi\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

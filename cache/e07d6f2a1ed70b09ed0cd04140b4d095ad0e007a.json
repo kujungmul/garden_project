@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Heterogeneous information integration and data management across distributed sources",
+  "Information retrieval and search systems for distributed and web-based data",
+  "Multi-agent systems and cooperative component architectures for complex applications"
+ ],
+ "raw": "{\"candidates\": [\"Heterogeneous information integration and data management across distributed sources\", \"Information retrieval and search systems for distributed and web-based data\", \"Multi-agent systems and cooperative component architectures for complex applications\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 962,
+  "output_tokens": 50,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of computer-science papers.\n\n[Document 1] A Semantic Approach to Information Integration: the MOMIS project this paper, we propose a semantic approach to the integration of heterogeneous information. The approach follows the semantic paradigm, in that conceptual schemata of an involved source are considered, and a common data model (ODM I 3) and language (ODL I 3) are adopted to describe sharable information. ODM I 3 and ODL I 3 are defined as a subset of the corresponding ODMG-93 [13] ODM and ODL. A Description Logics ocdl (object desc\n\n[Document 2] SpiderServer: the MetaSearch Engine of WebNaut Search engines on the Web are valuable tools for searching information according to a user's interests whether an individual or a software agent. In the present article we describe the design and the operation mode of SpiderServer, a metasearch engine used for the submission of a query followed by the retrieving of results from five popular search engines. SpiderServer is the metasearch engine of the WebNaut system but it can be easily used by any o\n\n[Document 3] Term Selection for Filtering based on Distribution of Terms over Time In this article we investigate the use of time distributions in retrieval tasks. Specifically, we introduce a novel term selection method, namely Term Occurrence Uniformity (TOU), based on the hypothesis that terms which occur uniformly in time are more valuable than others. Our empirical evaluation so far has neither proved nor disproved this hypothesis. However, results are promising and suggest the need for a deeper theoret\n\n[Document 4] Automatic translation of PARADIGM models into PLTL-based Software systems have evolved from monolythic programs to systems constructed from parallel, cooperative components, as can be currently found in objectoriented applications. Although powerfull, these cooperative systems are also more di#cult to verify.\n\n[Document 5] Development and Characterization of an Acoustic Rangefinder Localization is important to wearable and embedded applications at many levels. For example, it might be used to implement \\physical\" user interfaces which detect body language or the user's positioning of objects in the environment. This paper presents the initial results of a prototype implementation of an acoustic rangender. Unlike other published work in this area, this design uses a sliding correlator to detect the acoustic signal.\n\n[Document 6] Individual Action and Collective Function: from Sociology to Multi-Agent Learning > How do we characterize the process and the dynamics of co-learning, conceptually, mathematically, or computationally?   How do social structures and relations interact with co-learning of multiple agents?  1  And so on.  A key question, however, is as follows, which deserves some discussion here. Adam Smith (1976) put it this way:  He generally, indeed, neither intends to promote the public interest, nor knows ho\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

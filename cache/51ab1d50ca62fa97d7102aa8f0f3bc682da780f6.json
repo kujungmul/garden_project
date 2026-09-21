@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Annotation, organization, and semantic representation of emotionally evocative multimedia databases",
+  "Ontology-based frameworks for describing and managing affective multimedia stimuli and their emotional content",
+  "Tools and standards for annotating and retrieving emotionally tagged images and multimedia documents"
+ ],
+ "raw": "{\"candidates\": [\"Annotation, organization, and semantic representation of emotionally evocative multimedia databases\", \"Ontology-based frameworks for describing and managing affective multimedia stimuli and their emotional content\", \"Tools and standards for annotating and retrieving emotionally tagged images and multimedia documents\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1003,
+  "output_tokens": 64,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 11,
+ "prompt": "Below are 7 representative documents (out of 11 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: labeling and retrieval of emotionally annotated images using wordnet Abstract: Repositories of images with semantic and emotion content descriptions are valuable tools in many areas such as Affective Computing and Human-Computer Interaction, but they are also important in the development of multimodal searchable online databases. Ever growing number of image documents available on the Internet continuously motivates research of better annotation models and more efficient retrieval methods\n\n[Document 2] Title: tagging multimedia stimuli with ontologies Abstract: Successful management of emotional stimuli is a pivotal issue concerning Affective Computing (AC) and the related research. As a subfield of Artificial Intelligence, AC is concerned not only with the design of computer systems and the accompanying hardware that can recognize, interpret, and process human emotions, but also with the development of systems that can trigger human emotional response in an ordered and controlled manner. This\n\n[Document 3] Title: multimedia stimuli databases usage patterns a survey report Abstract: Multimedia documents such as images, sounds or videos can be used to elicit emotional responses in exposed human subjects. These stimuli are stored in affective multimedia databases and successfully used for a wide variety of research in affective computing, human-computer interaction and cognitive sciences. Affective multimedia databases are simple repositories of multimedia documents with annotated high-level semantic\n\n[Document 4] Title: towards semantic and affective coupling in emotionally annotated databases Abstract: Emotionally annotated databases are repositories of multimedia documents with annotated affective content that elicit emotional responses in exposed human subjects. They are primarily used in research of human emotions, attention and development of stress-related mental disorders. This can be successfully exploited in larger processes like selection, evaluation and training of personnel for occupations in\n\n[Document 5] Title: stimont a core ontology for multimedia stimuli description Abstract: Affective multimedia documents such as images, sounds or videos elicit emotional responses in exposed human subjects. These stimuli are stored in affective multimedia databases and successfully used for a wide variety of research in psychology and neuroscience in areas related to attention and emotion processing. Although important all affective multimedia databases have numerous deficiencies which impair their applicabi\n\n[Document 6] Title: gwat the geneva affective picture database wordnet annotation tool Abstract: The Geneva Affective Picture Database WordNet Annotation Tool (GWAT) is a user-friendly web application for manual annotation of pictures in Geneva Affective Picture Database (GAPED) with WordNet. The annotation tool has an intuitive interface which can be efficiently used with very little technical training. A single picture may be labeled with many synsets allowing experts to describe semantics with different l\n\n[Document 7] Title: ontology based administration of web directories Abstract: Administration of a Web directory and maintenance of its content and the associated structure is a delicate and labor intensive task performed exclusively by human domain experts. Subsequently there is an imminent risk of a directory structures becoming unbalanced, uneven and difficult to use to all except for a few users proficient with the particular Web directory and its domain. These problems emphasize the need to establish tw\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

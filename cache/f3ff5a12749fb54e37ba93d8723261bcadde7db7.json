@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Regret bounds and optimization algorithms for sequential decision-making under uncertainty",
+  "Machine learning and algorithmic methods for adaptive reasoning and knowledge acquisition",
+  "Algorithms for identifying dense structures and patterns in complex networks and temporal data"
+ ],
+ "raw": "{\"candidates\": [\"Regret bounds and optimization algorithms for sequential decision-making under uncertainty\", \"Machine learning and algorithmic methods for adaptive reasoning and knowledge acquisition\", \"Algorithms for identifying dense structures and patterns in complex networks and temporal data\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 863,
+  "output_tokens": 53,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: regret bounds for restless markov bandits Abstract: We consider the restless Markov bandit problem, in which the state of each arm evolves according to a Markov process independently of the learner's actions. We suggest an algorithm that after $T$ steps achieves $\\tilde{O}(\\sqrt{T})$ regret with respect to the best policy that knows the distributions of all arms. No assumptions on the Markov chains are made except that they are irreducible. In addition, we show that index-based policies a\n\n[Document 2] Title: case base mining for adaptation knowledge acquisition Abstract: In case-based reasoning, the adaptation of a source case in order to solve the target problem is at the same time crucial and difficult to implement. The reason for this difficulty is that, in general, adaptation strongly depends on domain-dependent knowledge. This fact motivates research on adaptation knowledge acquisition (AKA). This paper presents an approach to AKA based on the principles and techniques of knowledge disco\n\n[Document 3] Title: span core decomposition for temporal networks algorithms and applications Abstract: When analyzing temporal networks, a fundamental task is the identification of dense structures (i.e., groups of vertices that exhibit a large number of links), together with their temporal span (i.e., the period of time for which the high density holds). In this paper we tackle this task by introducing a notion of temporal core decomposition where each core is associated with two quantities, its coreness, \n\n[Document 4] Title: towards robot centric conceptual knowledge acquisition Abstract: Robots require knowledge about objects in order to efficiently perform various household tasks involving objects. The existing knowledge bases for robots acquire symbolic knowledge about objects from manually-coded external common sense knowledge bases such as ConceptNet, Word-Net etc. The problem with such approaches is the discrepancy between human-centric symbolic knowledge and robot-centric object perception due to its l\n\n[Document 5] Title: frequency hopping on a 5g millimeter wave uplink Abstract: In order to overcome the anticipated tremendous growth in the volume of mobile data traffic, the next generation of cellular networks will need to exploit the large bandwidth offered by the millimeter-wave (mmWave) band. A key distinguishing characteristic of mmWave is its use of highly directional and steerable antennas. In addition, future networks will be highly densified through the proliferation of base stations and their sup\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

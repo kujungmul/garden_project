@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Deep neural network robustness, adversarial attacks, and model compression techniques",
+  "Adversarial machine learning and neural network security defenses",
+  "Adversarial examples and deep learning model vulnerability mitigation"
+ ],
+ "raw": "{\"candidates\": [\"Deep neural network robustness, adversarial attacks, and model compression techniques\", \"Adversarial machine learning and neural network security defenses\", \"Adversarial examples and deep learning model vulnerability mitigation\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1069,
+  "output_tokens": 53,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: a principled approach for generating adversarial images under non smooth dissimilarity metrics Abstract: Deep neural networks are vulnerable to adversarial perturbations: small changes in the input easily lead to misclassification. In this work, we propose an attack methodology catered not only for cases where the perturbations are measured by $\\ell_p$ norms, but in fact any adversarial dissimilarity metric with a closed proximal form. This includes, but is not limited to, $\\ell_1$, $\\ell\n\n[Document 2] Title: ss auto a single shot automatic structured weight pruning framework of dnns with ultra high efficiency Abstract: Structured weight pruning is a representative model compression technique of DNNs for hardware efficiency and inference accelerations. Previous works in this area leave great space for improvement since sparse structures with combinations of different structured pruning schemes are not exploited fully and efficiently. To mitigate the limitations, we propose SS-Auto, a single-sh\n\n[Document 3] Title: yerbabuena securing deep learning inference data via enclave based ternary model partitioning Abstract: Deploying and serving deep learning (DL) models in the public cloud facilitates the process to bootstrap artificial intelligence (AI) services. Yet, preserving the confidentiality of sensitive input data remains a concern to most service users. Accidental disclosures of user input data may breach increasingly stringent data protection regulations and inflict reputation damage. In this p\n\n[Document 4] Title: google research football a novel reinforcement learning environment Abstract: Recent progress in the field of reinforcement learning has been accelerated by virtual learning environments such as video games, where novel algorithms and ideas can be quickly tested in a safe and reproducible manner. We introduce the Google Research Football Environment, a new reinforcement learning environment where agents are trained to play football in an advanced, physics-based 3D simulator. The resulting\n\n[Document 5] Title: eitaka at semeval 2018 task 1 an ensemble of n channels convnet and xgboost regressors for emotion analysis of tweets Abstract: This paper describes our system that has been used in Task1 Affect in Tweets. We combine two different approaches. The first one called N-Stream ConvNets, which is a deep learning approach where the second one is XGboost regresseor based on a set of embedding and lexicons based features. Our system was evaluated on the testing sets of the tasks outperforming all \n\n[Document 6] Title: on the enumeration of all minimal triangulations Abstract: We present an algorithm that enumerates all the minimal triangulations of a graph in incremental polynomial time. Consequently, we get an algorithm for enumerating all the proper tree decompositions, in incremental polynomial time, where \"proper\" means that the tree decomposition cannot be improved by removing or splitting a bag.\n\n[Document 7] Title: fast collision probability estimation based on finite dimensional monte carlo method Abstract: The safety concern for unmanned systems, namely the concern for the potential casualty caused by system abnormalities, has been a bottleneck for their development, especially in populated areas. Evidently, the collision between the unmanned system and the obstacles, including both moving and static objects, accounts for a great proportion of the system abnormalities. The route planning and corre\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

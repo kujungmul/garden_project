@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "design and optimization of fractional order filters and controllers using approximation techniques",
+  "analog realization of fractional order systems through continued fraction expansion and genetic algorithms",
+  "fractional calculus methods for signal processing including filtering, control, and image analysis"
+ ],
+ "raw": "{\"candidates\": [\"design and optimization of fractional order filters and controllers using approximation techniques\", \"analog realization of fractional order systems through continued fraction expansion and genetic algorithms\", \"fractional calculus methods for signal processing including filtering, control, and image analysis\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 876,
+  "output_tokens": 58,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: optimized quality factor of fractional order analog filters with band pass and band stop characteristics Abstract: Fractional order (FO) filters have been investigated in this paper, with band-pass (BP) and band-stop (BS) characteristics, which can not be achieved with conventional integer order filters with orders lesser then two. The quality factors for symmetric and asymmetric magnitude response have been optimized using real coded Genetic Algorithm (GA) for a user specified center fre\n\n[Document 2] Title: extending the concept of analog butterworth filter for fractional order systems Abstract: This paper proposes the design of fractional order (FO) Butterworth filter in complex w-plane (w=s^q; q being any real number) considering the presence of under-damped, hyper-damped, ultra-damped poles. This is the first attempt to design such fractional Butterworth filters in complex w-plane instead of complex s-plane, as conventionally done for integer order filters. First, the concept of fractiona\n\n[Document 3] Title: symbolic representation for analog realization of a family of fractional order controller structures via continued fraction expansion Abstract: Abstract   This paper uses the Continued Fraction Expansion (CFE) method for analog realization of fractional order differ-integrator and few special classes of fractional order (FO) controllers viz. Fractional Order Proportional-Integral-Derivative (FOPID) controller, FO[PD] controller and FO lead\u2013lag compensator. Contemporary researchers have gi\n\n[Document 4] Title: optimizing continued fraction expansion based iir realization of fractional order differ integrators with genetic algorithm Abstract: Rational approximation of fractional order (FO) differ-integrators via Continued Fraction Expansion (CFE) is a well known technique. In this paper, the nominal structures of various generating functions are optimized using Genetic Algorithm (GA) to minimize the deviation in magnitude and phase response between the original FO element and the rationalized di\n\n[Document 5] Title: on image segmentation using fractional gradients learning model parameters using approximate marginal inference Abstract: Estimates of image gradients play a ubiquitous role in image segmentation and classification problems since gradients directly relate to the boundaries or the edges of a scene. This paper proposes an unified approach to gradient estimation based on fractional calculus that is computationally cheap and readily applicable to any existing algorithm that relies on image gr\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

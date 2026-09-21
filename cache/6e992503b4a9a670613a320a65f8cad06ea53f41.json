@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Workflow management systems design, modeling, and implementation in business process automation",
+  "Workflow specification languages and process execution semantics for business process management",
+  "Workflow architecture and adaptability for enterprise business process integration"
+ ],
+ "raw": "{\"candidates\": [\"Workflow management systems design, modeling, and implementation in business process automation\", \"Workflow specification languages and process execution semantics for business process management\", \"Workflow architecture and adaptability for enterprise business process integration\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 912,
+  "output_tokens": 51,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 8,
+ "prompt": "Below are 6 representative documents (out of 8 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Realising the Full Potential of Workflow Modelling: A Practical Perspective In a broad sense, a workflow provides a partial or complete automation of a process at a level above traditional implementation platforms. Much of the emphasis of workflow specifications, as deployed by workflow management systems, focuses on process execution semantics. This includes a process's pre- and post-conditions and the sequence, repetition, choice, parallelism and synchronisation which characterises inter-proce\n\n[Document 2] Essential Principles for Workflow Modelling Effectiveness While the specification languages of workflow management systems focus on process execution  semantics, the successful development of workflows relies on a fuller conceptualisation of  business processing, including process semantics. Traditionally, the success of conceptual modelling   techniques has depended largely on the adequacy of certain requirements: conceptualisation  (following the Conceptualisation Principle), expressive power \n\n[Document 3] Integrating Light-Weight Workflow Management Systems within Existing Business Environments Workflow management systems support the efficient, largely au-  tomated execution of business processes. However, using a workflow management system typically requires implementing the  application's control flow exclusively by the workflow management  system. This approach is powerful if the control flow is specified and implemented from scratch, but it has severe drawbacks if a workflow management system\n\n[Document 4] Achieving Workflow Adaptability by means of Reflection Belief in the importance of business processes has triggered considerable interest in the workflow systems that automate these processes. However, of the two competing management philosophies that promulgate business processes, Business Process Reengineering proposes radical change, whereas Continuous Process Improvement places much greater emphasis on adaptability. The former school is somewhat discredited, whereas the latter school seems m\n\n[Document 5] Micro-Workflow: A Workflow Architecture Supporting Compositional Object-Oriented Software Development This dissertation proposes micro-workflow, a new workflow architecture that bridges the gap between the type of functionality provided by current workflow systems and the type of workflow functionality required in object-oriented applications. Micro-workflow provides a better solution when the focus is on customizing the workflow features and integrating with other systems. In this thesis I disc\n\n[Document 6] Leveraging Mediator Cost Models with Heterogeneous Data Sources : Distributed systems require declarative access to diverse data sources of information. One approach to solving this heterogeneous distributed database problem is based on mediator architectures. In these architectures, mediators accept queries from users, process them with respect to wrappers, and return answers. Wrapper provide access to underlying data sources. To efficiently process queries, the mediator must optimize the plan \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

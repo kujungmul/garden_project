@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Program synthesis and transformation techniques for automated design optimization and engineering simulation",
+  "Knowledge-based approaches to reformulating and improving legacy codes for numerical design optimization",
+  "Computational methods for automating design workflows through problem formulation and program synthesis"
+ ],
+ "raw": "{\"candidates\": [\"Program synthesis and transformation techniques for automated design optimization and engineering simulation\", \"Knowledge-based approaches to reformulating and improving legacy codes for numerical design optimization\", \"Computational methods for automating design workflows through problem formulation and program synthesis\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 776,
+  "output_tokens": 55,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of machine-learning papers (title + abstract).\n\n[Document 1] Title: A Transformation System for Interactive Reformulation of Design Optimization Strategies  \tAbstract: Automatic design optimization is highly sensitive to problem formulation. The choice of objective function, constraints and design parameters can dramatically impact the computational cost of optimization and the quality of the resulting design. The best formulation varies from one application to another. A design engineer will usually not know the best formulation in advance. In order to a\n\n[Document 2] Title: Knowledge-Based Re-engineering of Legacy Programs for Robustness in Automated Design  \tAbstract: Systems for automated design optimization of complex real-world objects can, in principle, be constructed by combining domain-independent numerical routines with existing domain-specific analysis and simulation programs. Unfortunately, such legacy analysis codes are frequently unsuitable for use in automated design. They may crash for large classes of input, be numerically unstable or locally \n\n[Document 3] Title: Program Synthesis and Transformation Techniques for Simpuation, Optimization and Constraint Satisfaction Deductive Synthesis of Numerical\tAbstract: Scientists and engineers face recurring problems of constructing, testing and modifying numerical simulation programs. The process of coding and revising such simulators is extremely time-consuming, because they are almost always written in conventional programming languages. Scientists and engineers can therefore benefit from software that fa\n\n[Document 4] Title: Problem Formulation, Program Synthesis and Program Transformation Techniques for Simulation, Optimization and Constraint Satisfaction (Research Statement)  \t\n\n[Document 5] Title: A Computational Environment for Exhaust Nozzle Design  \tAbstract: The Nozzle Design Associate (NDA) is a computational environment for the design of jet engine exhaust nozzles for supersonic aircraft. NDA may be used either to design new aircraft or to design new nozzles that adapt existing aircraft so they may be reutilized for new missions. NDA was developed in a collaboration between computer scientists at Rut-gers University and exhaust nozzle designers at General Electric Aircraft En\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

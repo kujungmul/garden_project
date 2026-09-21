@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Extreme learning machine algorithms and applications for neural network classification tasks",
+  "Fast learning methods for single-hidden layer feedforward neural networks and their extensions",
+  "ELM-based approaches for pattern classification and multi-label learning in high-dimensional data"
+ ],
+ "raw": "{\"candidates\": [\"Extreme learning machine algorithms and applications for neural network classification tasks\", \"Fast learning methods for single-hidden layer feedforward neural networks and their extensions\", \"ELM-based approaches for pattern classification and multi-label learning in high-dimensional data\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 960,
+  "output_tokens": 59,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 6 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: a study on effectiveness of extreme learning machine Abstract: Extreme learning machine (ELM), proposed by Huang et al., has been shown a promising learning algorithm for single-hidden layer feedforward neural networks (SLFNs). Nevertheless, because of the random choice of input weights and biases, the ELM algorithm sometimes makes the hidden layer output matrix H of SLFN not full column rank, which lowers the effectiveness of ELM. This paper discusses the effectiveness of ELM and propose\n\n[Document 2] Title: linear vs nonlinear extreme learning machine for spectral spatial classification of hyperspectral images Abstract: As a new machine learning approach, the extreme learning machine (ELM) has received much attention due to its good performance. However, when directly applied to hyperspectral image (HSI) classification, the recognition rate is low. This is because ELM does not use spatial information, which is very important for HSI classification. In view of this, this paper proposes a new \n\n[Document 3] Title: a gegenbauer neural network with regularized weights direct determination for classification Abstract: Single-hidden layer feed forward neural networks (SLFNs) are widely used in pattern classification problems, but a huge bottleneck encountered is the slow speed and poor performance of the traditional iterative gradient-based learning algorithms. Although the famous extreme learning machine (ELM) has successfully addressed the problems of slow convergence, it still has computational robu\n\n[Document 4] Title: a novel online multi label classifier for high speed streaming data applications Abstract: In this paper, a high-speed online neural network classifier based on extreme learning machines for multi-label classification is proposed. In multi-label classification, each of the input data sample belongs to one or more than one of the target labels. The traditional binary and multi-class classification where each sample belongs to only one target class forms the subset of multi-label classifica\n\n[Document 5] Title: on improving learning capability of elm and an application to brain computer interface Abstract: As a type of pseudoinverse learning, extreme learning machine (ELM) is able to achieve high performances in a rapid pace on benchmark datasets. However, when it is applied to real life large data, decline related to low-convergence of singular value decomposition (SVD) method occurs. Our study aims to resolve this issue via replacing SVD with theoretically and empirically much efficient 5 numb\n\n[Document 6] Title: a novel progressive learning technique for multi class classification Abstract: In this paper, a progressive learning technique for multi-class classification is proposed. This newly developed learning technique is independent of the number of class constraints and it can learn new classes while still retaining the knowledge of previous classes. Whenever a new class (non-native to the knowledge learnt thus far) is encountered, the neural network structure gets remodeled automatically by f\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

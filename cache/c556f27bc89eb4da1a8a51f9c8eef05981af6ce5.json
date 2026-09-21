@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Service robotics and intelligent robot systems in RoboCup@Home competitions",
+  "Natural language interaction and dialogue systems for mobile service robots",
+  "Robot perception, manipulation, and human-robot interaction in domestic environments"
+ ],
+ "raw": "{\"candidates\": [\"Service robotics and intelligent robot systems in RoboCup@Home competitions\", \"Natural language interaction and dialogue systems for mobile service robots\", \"Robot perception, manipulation, and human-robot interaction in domestic environments\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 681,
+  "output_tokens": 51,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 3 representative documents (out of 5 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: trends challenges and adopted strategies in robocup home 2019 version Abstract: Scientific competitions are crucial in the field of service robotics. They foster knowledge exchange and benchmarking, allowing teams to test their research in unstandardized scenarios. In this paper, we summarize the trending solutions and approaches used in RoboCup@Home. Further on, we discuss the attained achievements and challenges to overcome in relation with the progress required to fulfill the long-term\n\n[Document 2] Title: hibikino musashi home 2017 team description paper Abstract: Our team Hibikino-Musashi@Home was founded in 2010. It is based in Kitakyushu Science and Research Park, Japan. Since 2010, we have participated in the RoboCup@Home Japan open competition open-platform league every year. Currently, the Hibikino-Musashi@Home team has 24 members from seven different laboratories based in the Kyushu Institute of Technology. Our home-service robots are used as platforms for both education and impleme\n\n[Document 3] Title: from commands to goal based dialogs a roadmap to achieve natural language interaction in robocup home Abstract: On the one hand, speech is a key aspect to people's communication. On the other, it is widely acknowledged that language proficiency is related to intelligence. Therefore, intelligent robots should be able to understand, at least, people's orders within their application domain. These insights are not new in RoboCup@Home, but we lack of a long-term plan to evaluate this approach\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

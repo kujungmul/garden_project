@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Japanese language processing techniques including noun phrase analysis and referential properties estimation",
+  "Natural language processing methods for Japanese sentences focusing on syntactic structure and linguistic properties",
+  "Machine translation and linguistic analysis approaches for handling Japanese morphology and semantic interpretation"
+ ],
+ "raw": "{\"candidates\": [\"Japanese language processing techniques including noun phrase analysis and referential properties estimation\", \"Natural language processing methods for Japanese sentences focusing on syntactic structure and linguistic properties\", \"Machine translation and linguistic analysis approaches for handling Japanese morphology and semantic interpretation\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 829,
+  "output_tokens": 55,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: an estimate of referent of noun phrases in japanese sentences Abstract: In machine translation and man-machine dialogue, it is important to clarify referents of noun phrases. We present a method for determining the referents of noun phrases in Japanese sentences by using the referential properties, modifiers, and possessors of noun phrases. Since the Japanese language has no articles, it is difficult to decide whether a noun phrase has an antecedent or not. We had previously estimated the\n\n[Document 2] Title: a machine learning approach to estimating the referential properties of japanese noun phrases Abstract: The referential properties of noun phrases in the Japanese language, which has no articles, are useful for article generation in Japanese-English machine translation and for anaphora resolution in Japanese noun phrases. They are generally classified as generic noun phrases, definite noun phrases, and indefinite noun phrases. In the previous work, referential properties were estimated by\n\n[Document 3] Title: universal model for paraphrasing using transformation based on a defined criteria Abstract: This paper describes a universal model for paraphrasing that transforms according to defined criteria. We showed that by using different criteria we could construct different kinds of paraphrasing systems including one for answering questions, one for compressing sentences, one for polishing up, and one for transforming written language to spoken language.\n\n[Document 4] Title: magical number seven plus or minus two syntactic structure recognition in japanese and english sentences Abstract: George A. Miller said that human beings have only seven chunks in short-term memory, plus or minus two. We counted the number of bunsetsus (phrases) whose modifiees are undetermined in each step of an analysis of the dependency structure of Japanese sentences, and which therefore must be stored in short-term memory. The number was roughly less than nine, the upper bound of se\n\n[Document 5] Title: using the diff command for natural language processing Abstract: Diff is a software program that detects differences between two data sets and is useful in natural language processing. This paper shows several examples of the application of diff. They include the detection of differences between two different datasets, extraction of rewriting rules, merging of two different datasets, and the optimal matching of two different data sets. Since diff comes with any standard UNIX system, it is\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

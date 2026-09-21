@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Machine learning methods for automated pattern discovery and classification in multivariate time series data",
+  "Supervised learning algorithms for identifying distinctive patterns and rules in temporal sequential data",
+  "Time series mining techniques for extracting interpretable patterns and relationships from dynamic attribute sequences"
+ ],
+ "raw": "{\"candidates\": [\"Machine learning methods for automated pattern discovery and classification in multivariate time series data\", \"Supervised learning algorithms for identifying distinctive patterns and rules in temporal sequential data\", \"Time series mining techniques for extracting interpretable patterns and relationships from dynamic attribute sequences\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 750,
+  "output_tokens": 59,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 4 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Time Series Classification by Boosting Interval Based Literals A supervised classification method for temporal series, even multivariate, is presented. It is based on boosting very simple classifiers: clauses with one literal in the body. The background predicates are based on temporal intervals. Two types of predicates are used: i) relative predicates, such as \"increases\" and \"stays\", and ii) region predicates, such as \"always\" and \"sometime\", which operate over regions in the dominion of the v\n\n[Document 2] Learning Comprehensible Descriptions of Multivariate Time Series Supervised classification is one of the most active areas of machine learning research. Most work has focused on classification in static domains, where an instantaneous snapshot of attributes is meaningful. In many domains, attributes are not static; in fact, it is the way they vary temporally that can make classification possible. Examples of such domains include speech recognition, gesture recognition and electrocardiograph clas\n\n[Document 3] Identifying Distinctive Subsequences in Multivariate Time Series by Clustering Most time series comparison algorithms attempt to discover what the members of a set of time series have in common. We investigate a different problem, determining what distinguishes time series in that set from other time series obtained from the same source. In both cases the goal is to identify shared patterns, though in the latter case those patterns must be distinctive as well. An efficient incremental algorithm \n\n[Document 4] Rule Discovery From Time Series We consider the problem of finding rules relating patterns  in a time series to other patterns in that series,  or patterns in one series to patterns in another series.  A simple example is a rule such as \"a period  of low telephone call activity is usually followed by a  sharp rise in call volume\". Examples of rules relating  two or more time series are \"if the Microsoft stock  price goes up and Intel falls, then IBM goes up the  next day,\" and \"if Microsoft goes\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Feedback stabilization and controllability of linear and nonlinear dynamical systems",
+  "Input-to-state stability and stabilization theory for control systems",
+  "Lyapunov methods and system-theoretic analysis of bounded feedback control"
+ ],
+ "raw": "{\"candidates\": [\"Feedback stabilization and controllability of linear and nonlinear dynamical systems\", \"Input-to-state stability and stabilization theory for control systems\", \"Lyapunov methods and system-theoretic analysis of bounded feedback control\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1142,
+  "output_tokens": 58,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 65,
+ "prompt": "Below are 10 representative documents (out of 65 total) from one community of a citation network of machine-learning papers (title + abstract).\n\n[Document 1] Title: Asymptotic Controllability Implies Feedback Stabilization  \tAbstract: | \n\n[Document 2] \tAbstract: A General Result on the Stabilization of Linear Systems Using Bounded Controls 1 ABSTRACT We present two constructions of controllers that globally stabilize linear systems subject to control saturation. We allow essentially arbitrary saturation functions. The only conditions imposed on the system are the obvious necessary ones, namely that no eigenvalues of the uncontrolled system have positive real part and that the standard stabilizability rank condition hold. One of the constructi\n\n[Document 3] Title: Global Stabilization of Linear Discrete-Time Systems with Bounded Feedback  \tAbstract: This paper deals with the problem of global stabilization of linear discrete time systems by means of bounded feedback laws. The main result proved is an analog of one proved for the continuous time case by the authors, and shows that such stabilization is possible if and only if the system is stabilizable with arbitrary controls and the transition matrix has spectral radius less or equal to one. The pr\n\n[Document 4] Title: New Characterizations of Input to State Stability  \tAbstract: We present new characterizations of the Input to State Stability property. As a consequence of these results, we show the equivalence between the ISS property and several (apparent) variations proposed in the literature. \n\n[Document 5] Title: FEEDBACK STABILIZATION OF NONLINEAR SYSTEMS  \tAbstract: This paper surveys some well-known facts as well as some recent developments on the topic of stabilization of nonlinear systems. \n\n[Document 6] Title: Complete Controllability of Continuous-Time Recurrent Neural Networks  \tAbstract: This paper presents a characterization of controllability for the class of control systems commonly called (continuous-time) recurrent neural networks. The characterization involves a simple condition on the input matrix, and is proved when the activation function is the hyperbolic tangent.\n\n[Document 7] Title: Recurrent Neural Networks: Some Systems-Theoretic Aspects  \tAbstract: This paper provides an exposition of some recent research regarding system-theoretic aspects of continuous-time recurrent (dynamic) neural networks with sigmoidal activation functions. The class of systems is introduced and discussed, and a result is cited regarding their universal approximation properties. Known characterizations of controllability, ob-servability, and parameter identifiability are reviewed, as well as\n\n[Document 8] Title: Input to State Stabilizability for Parameterized Families of Systems Key Words: Nonlinear stability, Robust control,\t\n\n[Document 9] Title: FURTHER FACTS ABOUT INPUT TO STATE STABILIZATION \"Further facts about input to state stabilization\", IEEE\tAbstract: Report SYCON-88-15 ABSTRACT Previous results about input to state stabilizability are shown to hold even for systems which are not linear in controls, provided that a more general type of feedback be allowed. Applications to certain stabilization problems and coprime factorizations, as well as comparisons to other results on input to state stability, are also briefly discuss\n\n[Document 10] \tAbstract: Report SYCON-93-09 Recent Results on Lyapunov-theoretic Techniques for Nonlinear Stability ABSTRACT This paper presents a Converse Lyapunov Function Theorem motivated by robust control analysis and design. Our result is based upon, but generalizes, various aspects of well-known classical theorems. In a unified and natural manner, it (1) includes arbitrary bounded disturbances acting on the system, (2) deals with global asymptotic stability, (3) results in smooth (infinitely differenti\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

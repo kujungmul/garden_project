@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Ensemble learning methods and boosting algorithms for improving classifier performance",
+  "Margin-based analysis and theoretical foundations of AdaBoost and voting classifiers",
+  "Committee-based machine learning techniques for robust decision tree classification"
+ ],
+ "raw": "{\"candidates\": [\"Ensemble learning methods and boosting algorithms for improving classifier performance\", \"Margin-based analysis and theoretical foundations of AdaBoost and voting classifiers\", \"Committee-based machine learning techniques for robust decision tree classification\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 840,
+  "output_tokens": 53,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 5 representative documents (out of 7 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Integrating Boosting and Stochastic Attribute Selection Committees for Further Improving the Performance of Decision Tree Learning Techniques for constructing classifier committees including Boosting and Bagging have demonstrated great success, especially Boosting for decision tree learning. This type of technique generates several classifiers to form a committee by repeated application of a single base learning algorithm. The committee members vote to decide the final classification. Boosting a\n\n[Document 2] Regularizing AdaBoost Boosting methods maximize a hard classification margin and are known as powerful techniques that do not exhibit overfitting for low noise cases. Also for noisy data boosting will try to enforce a hard margin and thereby give too much weight to outliers, which then leads to the dilemma of non-smooth fits and overfitting. Therefore we propose three algorithms to allow for soft margin classification by introducing regularization with slack variables into the boosting concept: \n\n[Document 3] Boosting the Margin: A New Explanation for the Effectiveness of Voting Methods Abstract. One of the surprising recurring phenomena observed in experiments with boosting is that the test error of the generated hypothesis usually does not increase as its size becomes very large, and often is observed to decrease even after the training error reaches zero. In this paper, we show that this phenomenon is related to the distribution of margins of the training examples with respect to the generated vot\n\n[Document 4] An asymptotic analysis of AdaBoost in the binary classification case Recent work has shown that combining multiple versions of weak classifiers such as decision trees or neural networks results in reduced test set error. To study this in greater detail, we analyze the asymptotic behavior of AdaBoost type algorithms. The theoretical analysis establishes the relation between the distribution of margins of the training examples and the generated voting classification rule. The paper shows asymptoti\n\n[Document 5] Classifying Unseen Cases with Many Missing Values Handling missing attribute values is an important issue for classifier learning, since missing attribute values in either training data or test (unseen) data affect the prediction accuracy of learned classifiers. In many real KDD applications, attributes with missing values are very common. This paper studies the robustness of four recently developed committee learning techniques, including Boosting, Bagging, Sasc, and SascMB, relative to C4.5 fo\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

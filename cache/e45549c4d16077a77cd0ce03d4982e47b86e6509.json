@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Data warehouse design, temporal data management, and view maintenance techniques",
+  "Multidimensional data modeling and time consistency in analytical database systems",
+  "OLAP systems, temporal views, and active database management for data warehouses"
+ ],
+ "raw": "{\"candidates\": [\"Data warehouse design, temporal data management, and view maintenance techniques\", \"Multidimensional data modeling and time consistency in analytical database systems\", \"OLAP systems, temporal views, and active database management for data warehouses\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 862,
+  "output_tokens": 55,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 5 representative documents (out of 6 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Managing Time Consistency for Active Data Warehouse Environments Abstract. Real-world changes are generally discovered delayed by computer systems. The typical update patterns for traditional data warehouses on an overnight or even weekly basis enlarge this propagation delay until the information is available to knowledge workers. Typically, traditional data warehouses focus on summarized data (at some level) rather than detail data. For active data warehouse environments, also detailed data abo\n\n[Document 2] Multidimensional Data Modeling for Complex Data Systems for On-Line Analytical Processing (OLAP) considerably ease the process of analyzing business  data and have become widely used in industry. OLAP systems primarily employ multidimensional  data models to structure their data. However, current multidimensional data models fall short in their  ability to model the complex data found in some real-world application domains. The paper presents  nine requirements to multidimensional data models, e\n\n[Document 3] Designing Data Warehouses with OO Conceptual Models ions of  our work. We believe that our innovative approach  provides a theoretical foundation for the use of OO  databases and object-relational databases in data  warehouses, MDB, and OLAP applications.  We use UML to design data warehouses because it  considers an information system's structural and  dynamic properties at the conceptual level more naturally  than do classic approaches such as the EntityRelationship  model. Further, UML provid\n\n[Document 4] Temporal View Self-Maintenance . View self-maintenance refers to maintaining materialized views without accessing base data. Self-maintenance is particularly useful in data warehousing settings, where base data comes from sources that may be inaccessible. Selfmaintenance has been studied for nontemporal views, but is even more important when a warehouse stores temporal views over the history of source data, since the source history needed to perform view maintenance may no longer exist. This pap\n\n[Document 5] Towards an Accommodation of Delay in Temporal Active Databases Business rules can be formulated according to the eventcondition -action structure of triggers in active databases. However, delays in the execution of such rules can cause unexpected and undesired side-effects. While business rules are commonly constructed from an external user's perspective, users often neglect to cater for the cases in which unanticipated sequences of I/O and rule activation events occur. This paper examines this \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

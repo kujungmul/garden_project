@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Augmented and mixed reality applications in surgical procedures and medical interventions",
+  "Digital health interventions and persuasive technologies for behavior change and health management",
+  "Head-mounted displays and augmented reality systems for human-computer interaction and medical applications"
+ ],
+ "raw": "{\"candidates\": [\"Augmented and mixed reality applications in surgical procedures and medical interventions\", \"Digital health interventions and persuasive technologies for behavior change and health management\", \"Head-mounted displays and augmented reality systems for human-computer interaction and medical applications\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1061,
+  "output_tokens": 59,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: the impact of augmented reality head mounted displays on users movement behavior an exploratory study Abstract: The augmented-reality head-mounted display (e.g., Microsoft HoloLens) is one of the most innovative technologies in multimedia and human-computer interaction in recent years. Despite the emerging research of its applications on engineering, education, medicines, to name a few, its impact on users' movement behavior is still underexplored. The movement behavior, especially for of\n\n[Document 2] Title: health behavior change in hci trends patterns and opportunities Abstract: Unhealthy lifestyles could cause many chronic diseases, which bring patients and their families much burden. Research has shown the potential of digital technologies for supporting health behavior change to help us prevent these chronic diseases. The HCI community has contributed to the research on health behavior change for more than a decade. In this paper, we aim to explore the research trends and patterns of hea\n\n[Document 3] Title: integrating taxonomies into theory based digital health interventions for behavior change a holistic framework Abstract: Digital health interventions (DHIs) have been emerging in the last decade. Due to their interdisciplinary nature, DHIs are guided and influenced by theories (eg, behavioral theories, behavior change technologies, and persuasive technology) from different research communities. However, DHIs are always coded using various taxonomies and reported in insufficient perspectiv\n\n[Document 4] Title: persuasive technology in reducing prolonged sedentary behavior at work a systematic review Abstract: Abstract   Prolonged sedentary behavior is prevalent among office workers and has been found to be detrimental to health. Preventing and reducing prolonged sedentary behavior require interventions, and persuasive technology is expected to make a contribution in this domain. In this paper, we use the framework of persuasive system design (PSD) principles to investigate the utilization and e\n\n[Document 5] Title: real time geometry aware augmented reality in minimally invasive surgery Abstract: The potential of Augmented Reality (AR) technology to assist minimally invasive surgeries (MIS) lies in its computational performance and accuracy in dealing with challenging MIS scenes. Even with the latest hardware and software technologies, achieving both real-time and accurate augmented information overlay in MIS is still a formidable task. In this paper, we present a novel real-time AR framework for MI\n\n[Document 6] Title: recent developments and future challenges in medical mixed reality Abstract: Mixed Reality (MR) is of increasing interest within technology-driven modern medicine but is not yet used in everyday practice. This situation is changing rapidly, however, and this paper explores the emergence of MR technology and the importance of its utility within medical applications. A classification of medical MR has been obtained by applying an unbiased text mining method to a database of 1,403 relevant r\n\n[Document 7] Title: augmented reality for depth cues in monocular minimally invasive surgery Abstract: One of the major challenges in Minimally Invasive Surgery (MIS) such as laparoscopy is the lack of depth perception. In recent years, laparoscopic scene tracking and surface reconstruction has been a focus of investigation to provide rich additional information to aid the surgical process and compensate for the depth perception issue. However, robust 3D surface reconstruction and augmented reality with dept\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

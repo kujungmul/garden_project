@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Formal methods and logic-based approaches to robotics coordination and system specification",
+  "Classical signal processing and formal verification techniques integrated with modern computational systems",
+  "Hybrid approaches combining traditional mathematical frameworks with contemporary algorithmic problem-solving"
+ ],
+ "raw": "{\"candidates\": [\"Formal methods and logic-based approaches to robotics coordination and system specification\", \"Classical signal processing and formal verification techniques integrated with modern computational systems\", \"Hybrid approaches combining traditional mathematical frameworks with contemporary algorithmic problem-solving\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 935,
+  "output_tokens": 54,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: robust gabor networks Abstract: This work takes a step towards investigating the benefits of merging classical vision techniques with deep learning models. Formally, we explore the effect of replacing the first layers of neural network architectures with convolutional layers that are based on Gabor filters with learnable parameters. As a first result, we observe that architectures utilizing Gabor filters as low-level kernels are capable of preserving test set accuracy of deep convolutiona\n\n[Document 2] Title: multirobot coordination with counting temporal logics Abstract: In many multirobot applications, planning trajectories in a way to guarantee that the collective behavior of the robots satisfies a certain high-level specification is crucial. Motivated by this problem, we introduce counting temporal logics---formal languages that enable concise expression of multirobot task specifications over possibly infinite horizons. We first introduce a general logic called counting linear temporal log\n\n[Document 3] Title: object recognition in deep convolutional neural networks is fundamentally different to that in humans Abstract: Object recognition is a primary function of the human visual system. It has recently been claimed that the highly successful ability to recognise objects in a set of emergent computer vision systems---Deep Convolutional Neural Networks (DCNNs)---can form a useful guide to recognition in humans. To test this assertion, we systematically evaluated visual crowding, a dramatic break\n\n[Document 4] Title: acquiring correct knowledge for natural language generation Abstract: Natural language generation (NLG) systems are computer software systems that produce texts in English and other human languages, often from non-linguistic input data. NLG systems, like most ai systems, need substantial amounts of knowledge. However, our experience in two NLG projects suggests that it is difficult to acquire correct knowledge for NLG systems; indeed, every knowledge acquisition (KA) technique we tried ha\n\n[Document 5] Title: an elimination method for solving bivariate polynomial systems eliminating the usual drawbacks Abstract: We present an exact and complete algorithm to isolate the real solutions of a zero-dimensional bivariate polynomial system. The proposed algorithm constitutes an elimination method which improves upon existing approaches in a number of points. First, the amount of purely symbolic operations is significantly reduced, that is, only resultant computation and square-free factorization is s\n\n[Document 6] Title: on the composability of statistically secure random oblivious transfer Abstract: We show that stand-alone statistically secure random oblivious transfer protocols based on two-party stateless primitives are statistically universally composable. I.e. they are simulatable secure with an unlimited adversary, an unlimited simulator and an unlimited environment machine. Our result implies that several previous oblivious transfer protocols in the literature which were proven secure under weaker\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

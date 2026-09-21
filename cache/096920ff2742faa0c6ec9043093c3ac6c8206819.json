@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "semi-supervised and unsupervised learning methods for handling partial information and domain adaptation",
+  "online algorithmic problems and signal processing with incomplete or noisy data",
+  "machine learning techniques for improving model performance under data distribution challenges"
+ ],
+ "raw": "{\"candidates\": [\"semi-supervised and unsupervised learning methods for handling partial information and domain adaptation\", \"online algorithmic problems and signal processing with incomplete or noisy data\", \"machine learning techniques for improving model performance under data distribution challenges\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 892,
+  "output_tokens": 54,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: the value of nullspace tuning using partial label information Abstract: In semi-supervised learning, information from unlabeled examples is used to improve the model learned from labeled examples. But in some learning problems, partial label information can be inferred from otherwise unlabeled examples and used to further improve the model. In particular, partial label information exists when subsets of training examples are known to have the same label, even though the label itself is mi\n\n[Document 2] Title: online load balancing for related machines Abstract: In the load balancing problem, introduced by Graham in the 1960s (SIAM J. of Appl. Math. 1966, 1969), jobs arriving online have to be assigned to machines so to minimize an objective defined on machine loads. A long line of work has addressed this problem for both the makespan norm and arbitrary $\\ell_q$-norms of machine loads. Recent literature (e.g., Azar et al., STOC 2013; Im et al., FOCS 2015) has further expanded the scope of this \n\n[Document 3] Title: unsupervised adversarial domain adaptation for cross lingual speech emotion recognition Abstract: Cross-lingual speech emotion recognition (SER) is a crucial task for many real-world applications. The performance of SER systems is often degraded by the differences in the distributions of training and test data. These differences become more apparent when training and test data belong to different languages, which cause a significant performance gap between the validation and test scores. \n\n[Document 4] Title: using black box compression algorithms for phase retrieval Abstract: Compressive phase retrieval refers to the problem of recovering a structured $n$-dimensional complex-valued vector from its phase-less under-determined linear measurements. The non-linearity of measurements makes designing theoretically-analyzable efficient phase retrieval algorithms challenging. As a result, to a great extent, algorithms designed in this area are developed to take advantage of simple structures such as \n\n[Document 5] Title: cellular connected uav uplink association power control and interference coordination Abstract: The line-of-sight (LoS) air-to-ground channel brings both opportunities and challenges in cellular-connected unmanned aerial vehicle (UAV) communications. On one hand, the LoS channels make more cellular base stations (BSs) visible to a UAV as compared to the ground users, which leads to a higher macro-diversity gain for UAV-BS communications. On the other hand, they also render the UAV to impo\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

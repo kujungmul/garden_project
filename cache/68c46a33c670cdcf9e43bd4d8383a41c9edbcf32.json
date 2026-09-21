@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Universal coding and prediction strategies combining expert advice through hidden Markov models",
+  "Information-theoretic properties of natural language including Hilberg's conjecture and entropy growth laws",
+  "Grammar-based codes and switching algorithms for sequential prediction with nonergodic processes"
+ ],
+ "raw": "{\"candidates\": [\"Universal coding and prediction strategies combining expert advice through hidden Markov models\", \"Information-theoretic properties of natural language including Hilberg's conjecture and entropy growth laws\", \"Grammar-based codes and switching algorithms for sequential prediction with nonergodic processes\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1077,
+  "output_tokens": 62,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: a preadapted universal switch distribution for testing hilberg s conjecture Abstract: Hilberg's conjecture about natural language states that the mutual information between two adjacent long blocks of text grows like a power of the block length. The exponent in this statement can be upper bounded using the pointwise mutual information estimate computed for a carefully chosen code. The bound is the better, the lower the compression rate is but there is a requirement that the code be univer\n\n[Document 2] Title: is natural language strongly nonergodic a stronger theorem about facts and words Abstract: As we discuss, a stationary stochastic process is nonergodic when a random persistent topic can be detected in the infinite random text sampled from the process, whereas we call the process strongly nonergodic when an infinite sequence of random bits, called random facts, is needed to describe this topic completely. Whereas natural language has been often supposed to be nonergodic, we exhibit some i\n\n[Document 3] Title: on hilberg s law and its links with guiraud s law Abstract: Abstract Hilberg (1990) supposed that finite-order excess entropy of a random human text is proportional to the square root of the text length. Assuming that Hilberg's hypothesis is true, we derive Guiraud's law, which states that the number of word types in a text is greater than proportional to the square root of the text length. Our derivation is based on some mathematical conjecture in coding theory and on several experiments\n\n[Document 4] Title: on the vocabulary of grammar based codes and the logical consistency of texts Abstract: The article presents a new interpretation for Zipf-Mandelbrot's law in natural language which rests on two areas of information theory. Firstly, we construct a new class of grammar-based codes and, secondly, we investigate properties of strongly nonergodic stationary processes. The motivation for the joint discussion is to prove a proposition with a simple informal statement: If a text of length $n$ de\n\n[Document 5] Title: combining expert advice efficiently Abstract: We show how models for prediction with expert advice can be defined concisely and clearly using hidden Markov models (HMMs); standard HMM algorithms can then be used to efficiently calculate, among other things, how the expert predictions should be weighted according to the model. We cast many existing models as HMMs and recover the best known running times in each case. We also describe two new models: the switch distribution, which was recen\n\n[Document 6] Title: universal codes from switching strategies Abstract: We discuss algorithms for combining sequential prediction strategies, a task which can be viewed as a natural generalization of the concept of universal coding. We describe a graphical language based on hidden Markov models for defining prediction strategies, and we provide both existing and new models as examples. The models include efficient, parameterless models for switching between the input strategies over time, including a model f\n\n[Document 7] Title: switching between hidden markov models using fixed share Abstract: In prediction with expert advice the goal is to design online prediction algorithms that achieve small regret (additional loss on the whole data) compared to a reference scheme. In the simplest such scheme one compares to the loss of the best expert in hindsight. A more ambitious goal is to split the data into segments and compare to the best expert on each segment. This is appropriate if the nature of the data changes bet\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Batteries, chargers, and accessories for FLIR thermal imaging cameras",
+  "Replacement batteries and charging solutions for FLIR thermal camera models",
+  "FLIR thermal camera battery and charger compatibility and reliability"
+ ],
+ "raw": "{\"candidates\": [\"Batteries, chargers, and accessories for FLIR thermal imaging cameras\", \"Replacement batteries and charging solutions for FLIR thermal camera models\", \"FLIR thermal camera battery and charger compatibility and reliability\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 735,
+  "output_tokens": 53,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a co-purchase network of Amazon photography products (customer reviews).\n\n[Document 1] Does NOT work with Flir E4 This charger does NOT work to charge batteries for the Flir E4 thermal camera as stated. The Flir E4 battery simply does not fit in the charger. I own the E4 only, but I assume that this also won't work with the E5, E6, etc., as they use the same battery as the E4. If you're going to buy a way overpriced charger, it should at least work for the batteries it states it is for...this one does not.\n\n[Document 2] Good but over-priced These are hard to find. It was cheaper here than eBay. I still think it's over-priced, thus the 4-star rating.\n\n[Document 3] Only adapter made for Flir cameras. Worth the extra cost. You can get cheaper versions, but they will not fit correctly and may possible fail. I don't want my invest dropped on the floor.\n\n[Document 4] Now my super expensive camera is back in production and I should ... I am in the water damage restoration industry, and FLIR made a camera called a BCAM. There is nothing online that specifies which battery replaces the old dead battery. Though this battery appears to be for a newer model, I took a gamble and it works. Now my super expensive camera is back in production and I should be good for another couple of years.\n\n[Document 5] Only pros Pros 1. Sturdy construction 2. Shoulder strap removable 3. Belt loop 4. works with my E6\n\n[Document 6] Poorly constructed. The charging connectors on both units I ordered came apart inside, despite careful and limited use. I would have expected better.\n\n[Document 7] Fast Shipping Great bag well made!\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

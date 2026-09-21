@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Self-organizing neural networks and adaptive connectionist systems for robotics and autonomous control",
+  "Brain-inspired parallel neural architectures for reactive learning and intelligent navigation",
+  "Adaptive network models combining biological principles with distributed parallel processing systems"
+ ],
+ "raw": "{\"candidates\": [\"Self-organizing neural networks and adaptive connectionist systems for robotics and autonomous control\", \"Brain-inspired parallel neural architectures for reactive learning and intelligent navigation\", \"Adaptive network models combining biological principles with distributed parallel processing systems\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 678,
+  "output_tokens": 54,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of machine-learning papers (title + abstract).\n\n[Document 1] Title: Parallel Search for Neural Network  Under the guidance of  \t\n\n[Document 2] Title: A Self-Organizing Binary Decision Tree For Incrementally Defined Rule Based  \tAbstract: This paper presents an ASOCS (adaptive self-organizing concurrent system) model for massively parallel processing of incrementally defined rule systems in such areas as adaptive logic, robotics, logical inference, and dynamic control. An ASOCS is an adaptive network composed of many simple computing elements operating asynchronously and in parallel. This paper focuses on adaptive algorithm 3 (AA3) and \n\n[Document 3] Title: Neural competitive maps for reactive and adaptive navigation  \tAbstract: We have recently introduced a neural network for reactive obstacle avoidance based on a model of classical and operant conditioning. In this article we describe the success of this model when implemented on two real autonomous robots. Our results show the promise of self-organizing neural networks in the domain of intelligent robotics. \n\n[Document 4] Title: BRAINSTRUCTURED CONNECTIONIST NETWORKS THAT PERCEIVE AND LEARN  \tAbstract: This paper specifies the main features of Brain-like, Neuronal, and Connectionist models; argues for the need for, and usefulness of, appropriate successively larger brain-like structures; and examines parallel-hierarchical Recognition Cone models of perception from this perspective, as examples of such structures. The anatomy, physiology, behavior, and development of the visual system are briefly summarized to mot\n\n[Document 5] Title: Automated Discovery of Linear Feedback Models 1  \t\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

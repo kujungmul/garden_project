@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Hierarchical decomposition and optimization methods for distributed decision-making and task allocation in multiagent systems",
+  "Policy-coupled semi-Markov processes and contract-based approaches for autonomous agent coordination and task assignment",
+  "Divide-and-conquer algorithms for solving coupled optimization problems in multiagent task allocation and service robotics"
+ ],
+ "raw": "{\"candidates\": [\"Hierarchical decomposition and optimization methods for distributed decision-making and task allocation in multiagent systems\", \"Policy-coupled semi-Markov processes and contract-based approaches for autonomous agent coordination and task assignment\", \"Divide-and-conquer algorithms for solving coupled optimization problems in multiagent task allocation and service robotics\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 871,
+  "output_tokens": 78,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Hierarchical Optimization of Policy-Coupled Semi-Markov Decision Processes One general strategy for approximately solving large Markov decision processes is \"divide-and-conquer\": the original problem is decomposed into sub-problems which interact with each other, but yet can be solved independently by taking into account the nature of the interaction. In this paper we focus on a class of \"policy-coupled\" semi-Markov decision processes (SMDPs), which arise in many nonstationary real-world multi-a\n\n[Document 2] Exploring auction-based leveled-commitment contracting - Part I: English-type auctioning A key problem addressed in the area of multiagent systems is the automated  assignment of multiple tasks to executing agents. The automation  of multiagent task assignment requires that the individual agents (i) use  a common protocol that prescribes how they have to interact in order to  come to an agreement and (ii) fix their final agreement in a contract that  specifies the commitments resulting from the \n\n[Document 3] GripSee: A Gesture-controlled Robot for Object Perception and Manipulation We have designed a research platform for a perceptually guided robot, which also serves as a demonstrator for a coming generation of service robots. In order to operate semi-autonomously, these require a capacity for learning about their environment and tasks, and will have to interact directly with their human operators. Thus, they must be supplied with skills in the fields of human-computer interaction, vision, and mani\n\n[Document 4] Multi-scale EM-ICP: A Fast and Robust Approach for Surface Registration We investigate in this article the rigid registration of large sets of points, generally sampled from surfaces. We formulate this problem as a general Maximum-Likelihood (ML) estimation of the transformation and the matches. We show that, in the specific case of a Gaussian noise, it corresponds to the Iterative Closest Point algorithm (ICP) with the Mahalanobis distance.\n\n[Document 5] Active Proxy-G: Optimizing the Query Execution Process in the Grid The Grid environment facilitates collaborative work and allows many users to query and process data over geographically dispersed data repositories. Over the past several years, there has been a growing interest in developing applications that interactively analyze datasets, potentially in a collaborative setting. We describe an Active Proxy-G service that is able to cache query results, use those results for answering new incomi\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

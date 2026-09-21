@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Pre-cut photo mats with backing boards and protective packaging for framing and displaying photographs",
+  "Bulk photo matting products from Golden State Art for event photography and art show submissions",
+  "Economy-priced beveled mat sets with backing boards and clear bags for amateur and professional photographers"
+ ],
+ "raw": "{\"candidates\": [\"Pre-cut photo mats with backing boards and protective packaging for framing and displaying photographs\", \"Bulk photo matting products from Golden State Art for event photography and art show submissions\", \"Economy-priced beveled mat sets with backing boards and clear bags for amateur and professional photographers\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1178,
+  "output_tokens": 67,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 562,
+ "prompt": "Below are 10 representative documents (out of 562 total) from one community of a co-purchase network of Amazon photography products (customer reviews).\n\n[Document 1] Five Stars Very good matting for 8x12 (full-frame) photos\n\n[Document 2] Perfect product for same day photo recognitions Received very promptly from Golden State Art. This is the second year we have used them for a Marine Corps Appreciation event.. The mats are cut completely through and the backers are sized perfectly as well. Have ordered 200 each of the last two years and as long as we continue to honor the Marines with same day photos nicely packaged in the clear cellophane bags, we will continue to use this excellent source of very economical, but reasonably pri\n\n[Document 3] EXCELLENT QUALITY MATS I did a LOT of research via customer reviews before I bought these mats. Yes, I crossed my fingers and hoped for the best because some of the reviews had me worried. I took a chance and am so glad I did. The quality of these mats is excellent. There is no damage anywhere. The corners are perfect. These mats were shrink wrapped so they were well protected. They looked like they had just been cut with no unfinished cuts anywhere. The colors were all different and came in var\n\n[Document 4] These Mats Are Blue Ribbon Quality! These mats did an excellent job for what I needed them to do. I took an online photography class at Community Business College and wanted to enter a couple of my photos in the county fair. The fair required these mats and I had to attach Velcro buttons on the back. I place the order through Amazon and the arrived as promised. They were securely packaged and were ready to go when I opened them up. I put together the fair entries and got a blue ribbon, 1st place\n\n[Document 5] Excellent value and quality We are photographers and use a lot of mounts and mats in various sizes. We have purchased directly from Golden State and also thru Amazon for years. Nothing fancy here, but great product at a great price. Basic single bevel cut white mats with backs and clear bags. Very convenient. Highly recommended.\n\n[Document 6] Good product aren't good if they arrive damaged These are nice mats if you want black. I'm not expert, but they seem to be good quality. I'm dinging them 2 stars as no product can be considered great if it arrives damaged. At 16x20, 25 sets was a reasonably heavy box yet it was shipped with only one strip of cheap packing tape to hold it closed. Worse, 1/32 in foam on the corners to protect them wasn't even remotely enough. It arrived open at both ends and bent corners. If I hadn't promised prin\n\n[Document 7] Love their mattes, but prefer with backing board and bag Love their mattes, wish I had read the item listing better as I really wanted the backing boards and bags too...\n\n[Document 8] These were perfect for entering my photos in a local art show These were perfect for entering my photos in a local art show. Simple black mats with a white beveled edge on the inside. And affordable too, way better than trying to find ten good ones in a craft store.\n\n[Document 9] Not great quality. Spend the extra money for us art ... Not great quality. Spend the extra money for us art supply. These are garbage. Under the white is brown card board\n\n[Document 10] Excellent Quality This product far exceeded my expectations. I run a photography business and this product is perfect for matting my photos. I thought since it was cheaper than other mats on the market that the quality would also be cheaper, this is not so. The quality is excellent. The mats did not come scratched or bent, making all of them usable. I am very glad it came with both the front, backings, and a very professional looking bag to put them in. I definitely will buy this product again. \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Statistical machine translation for morphologically rich and resource-poor Indian languages",
+  "Lexical resource augmentation and factored models for Indian language translation systems",
+  "Phrase-based SMT with morphological analysis across Indian language pairs"
+ ],
+ "raw": "{\"candidates\": [\"Statistical machine translation for morphologically rich and resource-poor Indian languages\", \"Lexical resource augmentation and factored models for Indian language translation systems\", \"Phrase-based SMT with morphological analysis across Indian language pairs\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 762,
+  "output_tokens": 55,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 4 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: bilingual words and phrase mappings for marathi and hindi smt Abstract: Lack of proper linguistic resources is the major challenges faced by the Machine Translation system developments when dealing with the resource poor languages. In this paper, we describe effective ways to utilize the lexical resources to improve the quality of statistical machine translation. Our research on the usage of lexical resources mainly focused on two ways, such as; augmenting the parallel corpus with more vo\n\n[Document 2] Title: indowordnets help in indian language machine translation Abstract: Being less resource languages, Indian-Indian and English-Indian language MT system developments faces the difficulty to translate various lexical phenomena. In this paper, we present our work on a comparative study of 440 phrase-based statistical trained models for 110 language pairs across 11 Indian languages. We have developed 110 baseline Statistical Machine Translation systems. Then we have augmented the training corpu\n\n[Document 3] Title: role of morphology injection in smt a case study from indian language perspective Abstract: Phrase-based Statistical Machine Translation (PBSMT) is commonly used for automatic translation. However, PBSMT runs into difficulty when either or both of the source and target languages are morphologically rich. Factored models are found to be useful for such cases, as they consider word as a vector of factors. These factors can contain any information about the surface word and use it while tran\n\n[Document 4] Title: a case study on english malayalam machine translation Abstract: In this paper we present our work on a case study on Statistical Machine Translation (SMT) and Rule based machine translation (RBMT) for translation from English to Malayalam and Malayalam to English. One of the motivations of our study is to make a three way performance comparison, such as, a) SMT and RBMT b) English to Malayalam SMT and Malayalam to English SMT c) English to Malayalam RBMT and Malayalam to English RBMT. We \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Bio-inspired metaheuristic algorithms based on insect behavior for solving optimization problems",
+  "Swarm intelligence algorithms inspired by beetle and woodlice foraging for constrained optimization",
+  "Nature-inspired optimization algorithms using animal behavior principles for multi-objective problems"
+ ],
+ "raw": "{\"candidates\": [\"Bio-inspired metaheuristic algorithms based on insect behavior for solving optimization problems\", \"Swarm intelligence algorithms inspired by beetle and woodlice foraging for constrained optimization\", \"Nature-inspired optimization algorithms using animal behavior principles for multi-objective problems\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 940,
+  "output_tokens": 62,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 9,
+ "prompt": "Below are 6 representative documents (out of 9 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: bas beetle antennae search algorithm for optimization problems Abstract: Meta-heuristic algorithms have become very popular because of powerful performance on the optimization problem. A new algorithm called beetle antennae search algorithm (BAS) is proposed in the paper inspired by the searching behavior of longhorn beetles. The BAS algorithm imitates the function of antennae and the random walking mechanism of beetles in nature, and then two main steps of detecting and searching are imp\n\n[Document 2] Title: multi objective beetle antennae search algorithm Abstract: In engineering optimization problems, multiple objectives with a large number of variables under highly nonlinear constraints are usually required to be simultaneously optimized. Significant computing effort are required to find the Pareto front of a nonlinear multi-objective optimization problem. Swarm intelligence based metaheuristic algorithms have been successfully applied to solve multi-objective optimization problems. Recent\n\n[Document 3] Title: beetle swarm optimization algorithm theory and application Abstract: In this paper, a new meta-heuristic algorithm, called beetle swarm optimization algorithm, is proposed by enhancing the performance of swarm optimization through beetle foraging principles. The performance of 23 benchmark functions is tested and compared with widely used algorithms, including particle swarm optimization algorithm, genetic algorithm (GA) and grasshopper optimization algorithm . Numerical experiments show \n\n[Document 4] Title: conditioning optimization of extreme learning machine by multitask beetle antennae swarm algorithm Abstract: Extreme learning machine (ELM) as a simple and rapid neural network has been shown its good performance in various areas. Different from the general single hidden layer feedforward neural network (SLFN), the input weights and biases in hidden layer of ELM are generated randomly, so that it only takes a little computation overhead to train the model. However, the strategy of selecti\n\n[Document 5] Title: psa a novel optimization algorithm based on survival rules of porcellio scaber Abstract: Bio-inspired algorithms have received a significant amount of attention in both academic and engineering societies. In this paper, based on the observation of two major survival rules of a species of woodlice, i.e., porcellio scaber, we design and propose an algorithm called the porcellio scaber algorithm (PSA) for solving optimization problems, including differentiable and non-differential ones as we\n\n[Document 6] Title: porcellio scaber algorithm psa for solving constrained optimization problems Abstract: In this paper, we extend a bio-inspired algorithm called the porcellio scaber algorithm (PSA) to solve constrained optimization problems, including a constrained mixed discrete-continuous nonlinear optimization problem. Our extensive experiment results based on benchmark optimization problems show that the PSA has a better performance than many existing methods or algorithms. The results indicate that t\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

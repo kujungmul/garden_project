@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Plan-based agent architectures for natural language dialogue understanding and interpretation",
+  "Speech act recognition and dialogue repair in multi-agent communication systems",
+  "Declarative plan representations for modeling cooperative dialogue and misunderstanding resolution"
+ ],
+ "raw": "{\"candidates\": [\"Plan-based agent architectures for natural language dialogue understanding and interpretation\", \"Speech act recognition and dialogue repair in multi-agent communication systems\", \"Declarative plan representations for modeling cooperative dialogue and misunderstanding resolution\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1081,
+  "output_tokens": 52,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of computer-science papers.\n\n[Document 1] A Plan Based Agent Architecture for Interpreting Natural Language Dialogue This paper describes a plan-based agent architecture for modeling NL cooperative dialogue; in particular, the paper focuses on the interpretation dialogue and explanation of its coherence by means of the recognition of the speakers' underlying intentions. The approach we propose makes it possible to analyze and explain in a uniform way several apparently unrelated linguistic phenomena, which have been often studied separa\n\n[Document 2] A Reactive-Deliberative Model of Dialogue Agency . For an agent to engage in substantive dialogues with other agents, there are several complexities which go beyond the scope of standard models of rational agency. In particular, an agent must reason about social attitudes that span more than one agent, as well as the dynamic and fallible process of plan execution. In this paper we sketch a theory of plan execution which allows the representation of failure and repair, extend the underlying agenc\n\n[Document 3] The Repair of Speech Act Misunderstandings by Abductive Inference this paper, we have concentrated on the repair of mis-understanding. Our colleagues Heeman and Edmonds have looked at the repair of non-understanding. The difference between the two situations is that in the former, the agent derives exactly one interpretation of an utterance and hence is initially unaware of any problem; in the latter, the agent derives either more than one interpretation, with no way to choose between them, or n\n\n[Document 4] Achieving Robust Human-Computer Communication This paper describes a computational approach to robust human-computer interaction. The approach relies on an explicit, declarative representation of the content and structure of the interaction that a computer system builds over the course of the interaction. In this paper, we will show how this representation allows the system to recognize and repair misunderstandings between the human and the computer. We demonstrate the utility of the representat\n\n[Document 5] Speech Acts for Dialogue Agents this paper by the U.S. Army Research Office under contract/grant number  DAAH 04 95 10628 and the U.S. National Science Foundation under grant IRI9311988. Some of the work described above was developed in collaboration with James Allen and supported by ONR/DARPA under grant number N00014-92J -1512, by ONR under research grant number N00014-90-J-1811, and by NSF under grant number IRI-9003841.\n\n[Document 6] Mixed Depth Representations for Dialog Processing We describe our work on developing a general purpose tutoring system that will allow students to practice their decision-making skills in a number of domains. The tutoring system, B2, supports mixed-initiative natural language interaction. The natural language processing and knowledge representation components are also general purpose|which leads to a tradeo between the limitations of super cial processing and syntactic representations and the di\n\n[Document 7] Uso Di Piani Di Problem-Solving Nel Riconoscimento Di Piani E Obiettivi In questo articolo si discute il ruolo dei piani di problem-solving nell'interpretazione dei dialoghi in linguaggio naturale. Per \"piano di problem-solving\" si intende una descrizione dichiarativa dei passi del processo di pianificazione ed esecuzione di azioni linguistiche e di dominio. L'articolo mostra che una rappresentazione appropriata di questi piani e` la base per modellare il comportamento cooperativo degli agenti c\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

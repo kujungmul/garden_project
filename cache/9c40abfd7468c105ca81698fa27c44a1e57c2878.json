@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Interactive 3D interfaces and haptic feedback systems for virtual environment manipulation",
+  "User interaction paradigms combining haptic sensing and 3D visualization in immersive computing",
+  "Tactile and gesture-based interfaces for intuitive 3D object manipulation and navigation"
+ ],
+ "raw": "{\"candidates\": [\"Interactive 3D interfaces and haptic feedback systems for virtual environment manipulation\", \"User interaction paradigms combining haptic sensing and 3D visualization in immersive computing\", \"Tactile and gesture-based interfaces for intuitive 3D object manipulation and navigation\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 844,
+  "output_tokens": 63,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] The personal interaction panel - a two-handed interface for augmented reality This paper describes the introduction of a new interaction paradigm to augmented reality applications. The everyday tool handling experience of working with pen and notebooks is extended to create a three dimensional two-handed interface, that supports easy-to-understand manipulation tasks in augmented and virtual environments. In the design step we take advantage from the freedom, given by our very low demands on hard\n\n[Document 2] DAB: Interactive Haptic Painting with 3D Virtual Brushes We present a novel painting system with an intuitive haptic interface, which serves as an expressive vehicle for interactively creating painterly works. We introduce a deformable, 3D brush model, which gives the user natural control of complex brush strokes. The force feedback enhances the sense of realism and provides tactile cues that enable the user to better manipulate the paint brush. We have also developed a bidirectional, two-layer \n\n[Document 3] View-Based 3d Object Recognition With Support Vector Machines . Support Vector Machines have demonstrated excellent results in pattern recognition tasks and 3D object recognition. In this contribution, we confirm some of the results in 3D object recognition and compare it to other object recognition systems. We use di#erent pixel-level representations to perform the experiments, while we extend the setting to the more challenging and practical case when only a limited number of views of the obje\n\n[Document 4] CHIME: Customizable Hyperlink Insertion and Maintenance Engine for Software Engineering Environments Source code browsing is an important part of program comprehension. Browsers expose semantic and syntactic relationships (such as between object references and definitions) in GUI-accessible forms. These relationships are derived using tools which perform static analysis on the original software documents. Implementing such browsers is tricky. Program comprehension strategies vary, and it is nece\n\n[Document 5] Rule Discovery with a Parallel Genetic Algorithm An important issue in data mining is scalability  with respect to the size of the dataset being  mined. In the paper we address this issue by  presenting a parallel GA for rule discovery. This  algorithm exploits both data parallelism, by  distributing the data being mined across all  available processors, and control parallelism, by  distributing the population of individuals across  all available processors.  1\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

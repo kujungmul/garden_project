@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "theoretical analysis of machine learning algorithms including gradient estimation, imitation learning, and interpretability methods",
+  "complexity analysis and algorithmic foundations of learning, mechanism design, and computational problems",
+  "mathematical foundations of machine learning techniques spanning reinforcement learning, neural networks, and statistical inference"
+ ],
+ "raw": "{\"candidates\": [\"theoretical analysis of machine learning algorithms including gradient estimation, imitation learning, and interpretability methods\", \"complexity analysis and algorithmic foundations of learning, mechanism design, and computational problems\", \"mathematical foundations of machine learning techniques spanning reinforcement learning, neural networks, and statistical inference\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 903,
+  "output_tokens": 63,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: on computation and generalization of generative adversarial imitation learning Abstract: Generative Adversarial Imitation Learning (GAIL) is a powerful and practical approach for learning sequential decision-making policies. Different from Reinforcement Learning (RL), GAIL takes advantage of demonstration data by experts (e.g., human), and learns both the policy and reward function of the unknown environment. Despite the significant empirical progresses, the theory behind GAIL is still la\n\n[Document 2] Title: a unified view of likelihood ratio and reparameterization gradients and an optimal importance sampling scheme Abstract: Reparameterization (RP) and likelihood ratio (LR) gradient estimators are used throughout machine and reinforcement learning; however, they are usually explained as simple mathematical tricks without providing any insight into their nature. We use a first principles approach to explain LR and RP, and show a connection between the two via the divergence theorem. The theor\n\n[Document 3] Title: cost recovering bayesian algorithmic mechanism design Abstract: We study the design of Bayesian incentive compatible mechanisms in single parameter domains, for the objective of optimizing social efficiency as measured by social cost. In the problems we consider, a group of participants compete to receive service from a mechanism that can provide such services at a cost. The mechanism wishes to choose which agents to serve in order to maximize social efficiency, but is not willing to suff\n\n[Document 4] Title: learning explanations from language data Abstract: PatternAttribution is a recent method, introduced in the vision domain, that explains classifications of deep neural networks. We demonstrate that it also generates meaningful interpretations in the language domain.\n\n[Document 5] Title: quantum inspired low rank stochastic regression with logarithmic dependence on the dimension Abstract: htmlabstractWe construct an efficient classical analogue of the quantum matrix inversion algorithm [HHL09] for low-rank matrices. Inspired by recent work of Tang [Tan18a], assuming length-square sampling access to input data, we implement the pseudo-inverse of a low-rank matrix and sample from the solution to the problem Ax = b using fast sampling techniques. We implement the pseudo-inve\n\n[Document 6] Title: complexity of propositional logics in team semantics Abstract: We classify the computational complexity of the satisfiability, validity and model-checking problems for propositional independence, inclusion, and team logic. Our main result shows that the satisfiability and validity problems for propositional team logic are complete for alternating exponential-time with polynomially many alternations.\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

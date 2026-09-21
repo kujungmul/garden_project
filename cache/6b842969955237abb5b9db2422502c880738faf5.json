@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Dynamic data structures and algorithms for tree-based queries and path aggregation",
+  "Formal analysis and verification techniques for complex system modeling and failure analysis",
+  "Data quality and machine learning methods for handling inconsistencies in training datasets"
+ ],
+ "raw": "{\"candidates\": [\"Dynamic data structures and algorithms for tree-based queries and path aggregation\", \"Formal analysis and verification techniques for complex system modeling and failure analysis\", \"Data quality and machine learning methods for handling inconsistencies in training datasets\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 888,
+  "output_tokens": 54,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: dynamic subtrees queries revisited the depth first tour tree Abstract: In the dynamic tree problem the goal is the maintenance of an arbitrary n-vertex forest, where the trees are subject to joining and splitting by, respectively, adding and removing edges. Depending on the application, information can be associated to nodes or edges (or both), and queries might require to combine values in path or (sub)trees. #R##N#In this paper we present a novel data structure, called the Depth First T\n\n[Document 2] Title: formal probabilistic analysis of dynamic fault trees in hol4 Abstract: Dynamic Fault Trees (DFTs) is a widely used failure modeling technique that allows capturing the dynamic failure characteristics of systems in a very effective manner. Simulation and model checking have been traditionally used for the probabilistic analysis of DFTs. Simulation is usually based on sampling and thus its results are not guaranteed to be complete, whereas model checking employs computer arithmetic and nume\n\n[Document 3] Title: theta 3 is connected Abstract: In this paper, we show that the @q-graph with three cones is connected. We also provide an alternative proof of the connectivity of the Yao graph with three cones.\n\n[Document 4] Title: strong secrecy for multiple access channels Abstract: We show strongly secret achievable rate regions for two different wiretap multiple-access channel coding problems. In the first problem, each encoder has a private message and both together have a common message to transmit. The encoders have entropy-limited access to common randomness. If no common randomness is available, then the achievable region derived here does not allow for the secret transmission of a common message. The secon\n\n[Document 5] Title: boostclean automated error detection and repair for machine learning Abstract: Predictive models based on machine learning can be highly sensitive to data error. Training data are often combined with a variety of different sources, each susceptible to different types of inconsistencies, and new data streams during prediction time, the model may encounter previously unseen inconsistencies. An important class of such inconsistencies is domain value violations that occur when an attribute va\n\n[Document 6] Title: the effect of the indonesian higher education evaluation system on conference proceedings publications Abstract: Indonesia has exhibited a unique pattern of conference proceedings publishing that was distinct from global and regional norms. Conference proceedings are now an integral part of the major citation databases, and this study examined their progressive coverage in the context of academic career advancement and Indonesian government policy. The results of analyses in Web of Scienc\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

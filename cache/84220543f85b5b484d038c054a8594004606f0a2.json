@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Parsing and semantic understanding of natural language instructions and structured data across diverse domains and applications",
+  "Algorithmic problems involving graphs, optimization, and structured embeddings on point sets and combinatorial objects",
+  "Data collection, knowledge extraction, and analysis frameworks for computational domains including mobile applications and user behavior"
+ ],
+ "raw": "{\"candidates\": [\"Parsing and semantic understanding of natural language instructions and structured data across diverse domains and applications\", \"Algorithmic problems involving graphs, optimization, and structured embeddings on point sets and combinatorial objects\", \"Data collection, knowledge extraction, and analysis frameworks for computational domains including mobile applications and user behavior\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 998,
+  "output_tokens": 68,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: zero shot semantic parsing for instructions Abstract: We consider a zero-shot semantic parsing task: parsing instructions into compositional logical forms, in domains that were not seen during training. We present a new dataset with 1,390 examples from 7 application domains (e.g. a calendar or a file manager), each example consisting of a triplet: (a) the application's initial state, (b) an instruction, to be carried out in the context of that state, and (c) the state of the application a\n\n[Document 2] Title: androvault constructing knowledge graph from millions of android apps for automated analysis Abstract: Data driven research on Android has gained a great momentum these years. The abundance of data facilitates knowledge learning, however, also increases the difficulty of data preprocessing. Therefore, it is non-trivial to prepare a demanding and accurate set of data for research. In this work, we put forward AndroVault, a framework for the Android research composing of data collection, kn\n\n[Document 3] Title: prediction of muscle activations for reaching movements using deep neural networks Abstract: The motor control problem involves determining the time-varying muscle activation trajectories required to accomplish a given movement. Muscle redundancy makes motor control a challenging task: there are many possible activation trajectories that accomplish the same movement. Despite this redundancy, most movements are accomplished in highly stereotypical ways. For example, point-to-point reaching\n\n[Document 4] Title: embedding four directional paths on convex point sets Abstract: A directed path whose edges are assigned labels \"up\", \"down\", \"right\", or \"left\" is called \\emph{four-directional}, and \\emph{three-directional} if at most three out of the four labels are used. A \\emph{direction-consistent embedding} of an \\mbox{$n$-vertex} four-directional path $P$ on a set $S$ of $n$ points in the plane is a straight-line drawing of $P$ where each vertex of $P$ is mapped to a distinct point of $S$ and ever\n\n[Document 5] Title: deterministic algorithms for submodular maximization problems Abstract: Randomization is a fundamental tool used in many theoretical and practical areas of computer science. We study here the role of randomization in the area of submodular function maximization. In this area most algorithms are randomized, and in almost all cases the approximation ratios obtained by current randomized algorithms are superior to the best results obtained by known deterministic algorithms. Derandomization o\n\n[Document 6] Title: discovery of bias and strategic behavior in crowdsourced performance assessment Abstract: This study examines strategic behavior in \u201c360-degree\u201d performance appraisal systems, in which an employee is evaluated by her supervisor, subordinate(s), peers (colleagues) and herself. Using proprietary data from a mid-sized Chinese accounting firm, we find that employees manipulate their ratings to peers: they grant better ratings to their less qualified peers while giving poorer ratings to their \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

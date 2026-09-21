@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Metaheuristic optimization algorithms for engineering and image processing problems",
+  "Evolutionary and nature-inspired algorithms for image analysis and optimization tasks",
+  "Adaptive optimization techniques applied to image segmentation, compression, and computational problems"
+ ],
+ "raw": "{\"candidates\": [\"Metaheuristic optimization algorithms for engineering and image processing problems\", \"Evolutionary and nature-inspired algorithms for image analysis and optimization tasks\", \"Adaptive optimization techniques applied to image segmentation, compression, and computational problems\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 962,
+  "output_tokens": 54,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: a type ii fuzzy entropy based multi level image thresholding using adaptive plant propagation algorithm Abstract: One of the most straightforward, direct and efficient approaches to Image Segmentation is Image Thresholding. Multi-level Image Thresholding is an essential viewpoint in many image processing and Pattern Recognition based real-time applications which can effectively and efficiently classify the pixels into various groups denoting multiple regions in an Image. Thresholding base\n\n[Document 2] Title: vector quantization using the improved differential evolution algorithm for image compression Abstract: Vector Quantization, VQ is a popular image compression technique with a simple decoding architecture and high compression ratio. Codebook designing is the most essential part in Vector Quantization. LindeBuzoGray, LBG is a traditional method of generation of VQ Codebook which results in lower PSNR value. A Codebook affects the quality of image compression, so the choice of an appropriat\n\n[Document 3] Title: adaptive plant propagation algorithm for solving economic load dispatch problem Abstract: Optimization problems in design engineering are complex by nature, often because of the involvement of critical objective functions accompanied by a number of rigid constraints associated with the products involved. One such problem is Economic Load Dispatch (ED) problem which focuses on the optimization of the fuel cost while satisfying some system constraints. Classical optimization algorithms are \n\n[Document 4] Title: automatic data registration of geostationary payloads for meteorological applications at isro Abstract: The launch of KALPANA-1 satellite in the year 2002 heralded the establishment of an indigenous operational payload for meteorological predictions. This was further enhanced in the year 2003 with the launching of INSAT-3A satellite. The software for generating products from the data of these two satellites was taken up subsequently in the year 2004 and the same was installed at the India\n\n[Document 5] Title: image registration techniques a survey Abstract: Image Registration is the process of aligning two or more images of the same scene with reference to a particular image. The images are captured from various sensors at different times and at multiple view-points. Thus to get a better picture of any change of a scene or object over a considerable period of time image registration is important. Image registration finds application in medical sciences, remote sensing and in computer vision. T\n\n[Document 6] Title: an adaptive genetic algorithm for solving n queens problem Abstract: In this paper a Metaheuristic approach for solving the N-Queens Problem is introduced to find the best possible solution in a reasonable amount of time. Genetic Algorithm is used with a novel fitness function as the Metaheuristic. The aim of N-Queens Problem is to place N queens on an N x N chessboard, in a way so that no queen is in conflict with the others. Chromosome representation and genetic operations like Mutation\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

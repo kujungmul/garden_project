@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Intention reconsideration policies and decision-making strategies in belief-desire-intention autonomous agents",
+  "Balancing deliberation and action in BDI agent architectures for dynamic environments",
+  "Optimal intention commitment and plan reconsideration mechanisms in situated autonomous agents"
+ ],
+ "raw": "{\"candidates\": [\"Intention reconsideration policies and decision-making strategies in belief-desire-intention autonomous agents\", \"Balancing deliberation and action in BDI agent architectures for dynamic environments\", \"Optimal intention commitment and plan reconsideration mechanisms in situated autonomous agents\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 859,
+  "output_tokens": 65,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Reasoning About Intentions in Uncertain Domains The design of autonomous agents that are situated in real  world domains involves dealing with uncertainty in terms of dynamism,  observability and non-determinism. These three types of uncertainty,  when combined with the real-time requirements of many application domains,  imply that an agent must be capable of eectively coordinating its  reasoning. As such, situated belief-desire-intention (bdi) agents need an  ecient intention reconsideration p\n\n[Document 2] Principles of Intention Reconsideration We present a framework that enables a belief-desire-intention (BDI) agent to dynamically choose its intention reconsideration policy in order to perform optimally in accordance with the current state of the environment. Our framework integrates an abstract BDI agent architecture with the decision theoretic model for discrete deliberation scheduling of Russell and Wefald. As intention reconsideration determines an agent's commitment to its plans, this work \n\n[Document 3] Intention Reconsideration in Complex Environments One of the key problems in the design of belief-desire-intention (BDI) agents is that of finding an appropriate policy for intention reconsideration. In previous work, Kinny and Georgeff investigated the effectiveness of several such reconsideration policies, and demonstrated that in general, there is no one best approach -- different environments demand different intention reconsideration strategies. In this paper, we further investigate the rel\n\n[Document 4] Intention Reconsideration Reconsidered Abstract. In this paper, we consider the issue of designing agents that successfully balance the amount of time spent in reconsidering their intentions against the amount of time spent acting to achieve them. Following a brief review of the various ways in which this problem has previously been analysed, we motivate and introduce a simple formal model of agents, which is closely related to the well-known belief-desire-intention model. In this model, an agen\n\n[Document 5] Intention Reconsideration in Theory and Practice . Autonomous agents operating in complex dynamic environments need the ability to integrate robust plan execution with higher level reasoning. This paper describes work to combine low level navigation techniques drawn from mobile robotics with deliberation techniques drawn from intelligent agents. In particular, we discuss the combination of a navigation system based on fuzzy logic with a deliberator based on the belief/desire/intention (BDI) mode\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

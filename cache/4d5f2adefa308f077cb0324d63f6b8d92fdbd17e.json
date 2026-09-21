@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Methods for quantitatively evaluating and modeling individual knowledge and conceptual understanding",
+  "Visualization and assessment techniques for representing knowledge structures and learning comprehension",
+  "Knowledge representation frameworks and ranking algorithms for information retrieval and evaluation"
+ ],
+ "raw": "{\"candidates\": [\"Methods for quantitatively evaluating and modeling individual knowledge and conceptual understanding\", \"Visualization and assessment techniques for representing knowledge structures and learning comprehension\", \"Knowledge representation frameworks and ranking algorithms for information retrieval and evaluation\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 733,
+  "output_tokens": 53,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 4 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: understanding tree a tool for estimating an individual s understanding of conceptual knowledge Abstract: People learn whenever and wherever possible, and whatever they like or encounter--Mathematics, Drama, Art, Languages, Physics, Philosophy, and so on. With the bursting of knowledge, evaluation of one's understanding of conceptual knowledge becomes increasingly difficult. There are a lot of demands for evaluating one's understanding of a piece of knowledge, e.g., facilitating personaliz\n\n[Document 2] Title: knowledge model a method to evaluate an individual s knowledge quantitatively Abstract: As the quantity of human knowledge increasing rapidly, it is harder and harder to evaluate a knowledge worker's knowledge quantitatively. There are lots of demands for evaluating a knowledge worker's knowledge. For example, accurately finding out a researcher's research concentrations for the last three years; searching for common topics for two scientists with different academic backgrounds; helping a\n\n[Document 3] Title: a ranking algorithm for re finding Abstract: Re-finding files from a personal computer is a frequent demand to users. When encountered a difficult re-finding task, people may not recall the attributes used by conventional re-finding methods, such as a file's path, file name, keywords etc., the re-finding would fail. #R##N#We proposed a method to support difficult re-finding tasks. By asking the user a list of questions about the target, such as a document's pages, author numbers, accumula\n\n[Document 4] Title: understanding graph and understanding map and their potential applications Abstract: Based on the previously proposed concept Understanding Tree, this paper introduces two concepts: Understanding Graph and Understanding Map, and explores their potential applications. Understanding Graph and Understanding Map can be deemed as special cases of mind map, semantic network, or concept map. The two main differences are: Firstly, the data sources for constructing Understanding Map and Understand\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

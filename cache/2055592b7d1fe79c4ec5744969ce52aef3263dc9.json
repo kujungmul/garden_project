@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Integer least-squares problem solving and sparse vector computation in wireless communications systems",
+  "Computational algorithms and mathematical optimization techniques for discrete problems in applied domains",
+  "Sparse matrix methods and geometric algorithms for optimization in engineering applications"
+ ],
+ "raw": "{\"candidates\": [\"Integer least-squares problem solving and sparse vector computation in wireless communications systems\", \"Computational algorithms and mathematical optimization techniques for discrete problems in applied domains\", \"Sparse matrix methods and geometric algorithms for optimization in engineering applications\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 848,
+  "output_tokens": 52,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: cognitive database a step towards endowing relational databases with artificial intelligence capabilities Abstract: We propose Cognitive Databases, an approach for transparently enabling Artificial Intelligence (AI) capabilities in relational databases. A novel aspect of our design is to first view the structured data source as meaningful unstructured text, and then use the text to build an unsupervised neural network model using a Natural Language Processing (NLP) technique called word e\n\n[Document 2] Title: sparsity aware sphere decoding algorithms and complexity analysis Abstract: Integer least-squares problems, concerned with solving a system of equations where the components of the unknown vector are integer-valued, arise in a wide range of applications. In many scenarios the unknown vector is sparse, i.e., a large fraction of its entries are zero. Examples include applications in wireless communications, digital fingerprinting, and array-comparative genomic hybridization systems. Sphere \n\n[Document 3] Title: computing the obstacle number of a plane graph Abstract: An obstacle representation of a plane graph G is V(G) together with a set of opaque polygonal obstacles such that G is the visibility graph on V(G) determined by the obstacles. We investigate the problem of computing an obstacle representation of a plane graph (ORPG) with a minimum number of obstacles. We call this minimum size the obstacle number of G. #R##N#First, we show that ORPG is NP-hard by reduction from planar vertex cover,\n\n[Document 4] Title: a self taught artificial agent for multi physics computational model personalization Abstract: Personalization is the process of fitting a model to patient data, a critical step towards application of multi-physics computational models in clinical practice. Designing robust personalization algorithms is often a tedious, time-consuming, model- and data-specific process. We propose to use artificial intelligence concepts to learn this task, inspired by how human experts manually perform it.\n\n[Document 5] Title: automated regression unit test generation for program merges Abstract: Merging other branches into the current working branch is common in collaborative software development. However, developers still heavily rely on the textual merge tools to handle the complicated merge tasks. The latent semantic merge conflicts may fail to be detected and degrade the software quality. Regression testing is able to prevent regression faults and has been widely used in real-world software development. Ho\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

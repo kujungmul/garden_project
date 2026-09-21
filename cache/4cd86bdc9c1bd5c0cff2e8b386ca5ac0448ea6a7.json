@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "motion planning and path optimization algorithms using sampling-based tree search methods",
+  "neural network approaches for signal processing and image synthesis from semantic inputs",
+  "formal methods and algorithmic analysis for autonomous systems and network structures"
+ ],
+ "raw": "{\"candidates\": [\"motion planning and path optimization algorithms using sampling-based tree search methods\", \"neural network approaches for signal processing and image synthesis from semantic inputs\", \"formal methods and algorithmic analysis for autonomous systems and network structures\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 941,
+  "output_tokens": 50,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: intelligent bidirectional rapidly exploring random trees for optimal motion planning in complex cluttered environments Abstract: Abstract   The sampling-based motion planning algorithm known as Rapidly-exploring Random Trees (RRT) has gained the attention of many researchers due to their computational efficiency and effectiveness. Recently, a variant of RRT called RRT* has been proposed that ensures asymptotic optimality. Subsequently its bidirectional version has also been introduced in \n\n[Document 2] Title: semantics disentangling for text to image generation Abstract: Synthesizing photo-realistic images from text descriptions is a challenging problem. Previous studies have shown remarkable progresses on visual quality of the generated images. In this paper, we consider semantics from the input text descriptions in helping render photo-realistic images. However, diverse linguistic expressions pose challenges in extracting consistent semantics even they depict the same thing. To this end, we \n\n[Document 3] Title: social network games Abstract: One of the natural objectives of the field of the social networks is to predict agents' behaviour. To better understand the spread of various products through a social network arXiv:1105.2434 introduced a threshold model, in which the nodes influenced by their neighbours can adopt one out of several alternatives. To analyze the consequences of such product adoption we associate here with each such social network a natural strategic game between the agents. #\n\n[Document 4] Title: on the relativized alon second eigenvalue conjecture iii asymptotic expansions for tangle free hashimoto traces Abstract: This is the third in a series of articles devoted to showing that a typical covering map of large degree to a fixed, regular graph has its new adjacency eigenvalues within the bound conjectured by Alon for random regular graphs. #R##N#In this paper we consider random graphs that are random covering graphs of large degree $n$ of a fixed base graph. We prove the existenc\n\n[Document 5] Title: audio super resolution using neural networks Abstract: We introduce a new audio processing technique that increases the sampling rate of signals such as speech or music using deep convolutional neural networks. Our model is trained on pairs of low and high-quality audio examples; at test-time, it predicts missing samples within a low-resolution signal in an interpolation process similar to image super-resolution. Our method is simple and does not involve specialized audio processing techn\n\n[Document 6] Title: formal specification and analysis of autonomous systems under partial compliance Abstract: The widespread adoption of autonomous systems depends on providing guarantees of safety and functional correctness, at both design time and runtime. Information about the extent to which functional requirements can be met in combination with non-functional requirements (NFRs) -- i.e. requirements that can be partially complied with -- , under dynamic and uncertain environments, provides opportunitie\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

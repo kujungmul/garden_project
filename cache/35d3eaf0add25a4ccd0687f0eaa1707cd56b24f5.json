@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "optical character recognition systems for mobile camera-captured documents",
+  "text extraction and recognition from business cards and identity documents using handheld devices",
+  "document image processing and binarization techniques for mobile-based OCR applications"
+ ],
+ "raw": "{\"candidates\": [\"optical character recognition systems for mobile camera-captured documents\", \"text extraction and recognition from business cards and identity documents using handheld devices\", \"document image processing and binarization techniques for mobile-based OCR applications\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 740,
+  "output_tokens": 53,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 4 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: text graphics separation and skew correction of text regions of business card images for mobile devices Abstract: Separation of the text regions from background texture and graphics is an important step of any optical character recognition system for the images containing both texts and graphics. In this paper, we have presented a novel text/graphics separation technique and a method for skew correction of text regions extracted from business card images captured with a cell-phone camera.\n\n[Document 2] Title: binarizing business card images for mobile devices Abstract: Business card images are of multiple natures as these often contain graphics, pictures and texts of various fonts and sizes both in background and foreground. So, the conventional binarization techniques designed for document images can not be directly applied on mobile devices. In this paper, we have presented a fast binarization technique for camera captured business card images. A card image is split into small blocks. Some o\n\n[Document 3] Title: design of an optical character recognition system for camera based handheld devices Abstract: This paper presents a complete Optical Character Recognition (OCR) system for camera captured image/graphics embedded textual documents for handheld devices. At first, text regions are extracted and skew corrected. Then, these regions are binarized and segmented into lines and characters. Characters are passed into the recognition module. Experimenting with a set of 100 business card images, capt\n\n[Document 4] Title: midv 2019 challenges of the modern mobile based document ocr Abstract: Recognition of identity documents using mobile devices has become a topic of a wide range of computer vision research. The portfolio of methods and algorithms for solving such tasks as face detection, document detection and rectification, text field recognition, and other, is growing, and the scarcity of datasets has become an important issue. One of the openly accessible datasets for evaluating such methods is MIDV-50\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

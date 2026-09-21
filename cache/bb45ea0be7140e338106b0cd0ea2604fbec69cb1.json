@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Neural networks, fuzzy logic, and soft computing techniques for signal processing and intelligent systems",
+  "Hybrid neuro-fuzzy systems and memristor-based hardware architectures for computational intelligence applications",
+  "Soft computing methods combining neural networks, fuzzy systems, and genetic algorithms for intelligent signal processing"
+ ],
+ "raw": "{\"candidates\": [\"Neural networks, fuzzy logic, and soft computing techniques for signal processing and intelligent systems\", \"Hybrid neuro-fuzzy systems and memristor-based hardware architectures for computational intelligence applications\", \"Soft computing methods combining neural networks, fuzzy systems, and genetic algorithms for intelligent signal processing\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1076,
+  "output_tokens": 70,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: the future of neural networks Abstract: The paper describes some recent developments in neural networks and discusses the applicability of neural networks in the development of a machine that mimics the human brain. The paper mentions a new architecture, the pulsed neural network that is being considered as the next generation of neural networks. The paper also explores the use of memristors in the development of a brain-like computer called the MoNETA. A new model, multi/infinite dimensi\n\n[Document 2] Title: a neuro fuzzy technique for implementing the half adder circuit using the canfis model Abstract: A Neural Network, in general, is not considered to be a good solver of mathematical and binary arithmetic problems. However, networks have been developed for such problems as the XOR circuit. This paper presents a technique for the implementation of the Half-adder circuit using the CoActive Neuro-Fuzzy Inference System (CANFIS) Model and attempts to solve the problem using the NeuroSolutions 5\n\n[Document 3] Title: application of fuzzy mathematics to speech to text conversion by elimination of paralinguistic content Abstract: For the past few decades, man has been trying to create an intelligent computer which can talk and respond like he can. The task of creating a system that can talk like a human being is the primary objective of Automatic Speech Recognition. Various Speech Recognition techniques have been developed in theory and have been applied in practice. This paper discusses the problems th\n\n[Document 4] Title: speech signal filters based on soft computing techniques a comparison Abstract: The paper presents a comparison of various soft computing techniques used for filtering and enhancing speech signals. The three major techniques that fall under soft computing are neural networks, fuzzy systems and genetic algorithms. Other hybrid techniques such as neuro-fuzzy systems are also available. In general, soft computing techniques have been experimentally observed to give far superior performance a\n\n[Document 5] Title: applicability of crisp and fuzzy logic in intelligent response generation Abstract: This paper discusses the merits and demerits of crisp logic and fuzzy logic with respect to their applicability in intelligent response generation by a human being and by a robot. Intelligent systems must have the capability of taking decisions that are wise and handle situations intelligently. A direct relationship exists between the level of perfection in handling a situation and the level of completenes\n\n[Document 6] Title: representation of a sentence using a polar fuzzy neutrosophic semantic net Abstract: A semantic net can be used to represent a sentence. A sentence in a language contains semantics which are polar in nature, that is, semantics which are positive, neutral and negative. Neutrosophy is a relatively new field of science which can be used to mathematically represent triads of concepts. These triads include truth, indeterminacy and falsehood, and so also positivity, neutrality and negativity. T\n\n[Document 7] Title: memristor based synaptic sampling machines Abstract: Synaptic Sampling Machine (SSM) is a type of neural network model that considers biological unreliability of the synapses. We propose the circuit design of the SSM neural network which is realized through the memristive-CMOS crossbar structure with the synaptic sampling cell (SSC) being used as a basic stochastic unit. The increase in the edge computing devices in the Internet of things era, drives the need for hardware acceleration for\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

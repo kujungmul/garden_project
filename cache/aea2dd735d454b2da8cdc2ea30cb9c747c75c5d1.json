@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Parametric density estimation and statistical correlation modeling for machine learning with incomplete data",
+  "Hierarchical correlation reconstruction techniques for density estimation and probability distribution prediction",
+  "Rapid parametric methods for multivariate density estimation exploiting statistical dependencies"
+ ],
+ "raw": "{\"candidates\": [\"Parametric density estimation and statistical correlation modeling for machine learning with incomplete data\", \"Hierarchical correlation reconstruction techniques for density estimation and probability distribution prediction\", \"Rapid parametric methods for multivariate density estimation exploiting statistical dependencies\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1017,
+  "output_tokens": 56,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: hierarchical correlation reconstruction with missing data Abstract: Machine learning often needs to estimate density from a multidimensional data sample, where we would also like to model correlations between coordinates. Additionally, we often have missing data case: that data points have only partial information - can miss information about some coordinates. This paper adapts rapid parametric density estimation technique for this purpose: modelling density as a linear combination, for w\n\n[Document 2] Title: exploiting statistical dependencies of time series with hierarchical correlation reconstruction Abstract: While we are usually focused on forecasting future values of time series, it is often valuable to additionally predict their entire probability distributions, e.g. to evaluate risk, Monte Carlo simulations. On example of time series of $\\approx$ 30000 Dow Jones Industrial Averages, there will be presented application of hierarchical correlation reconstruction for this purpose: MSE est\n\n[Document 3] Title: rapid parametric density estimation Abstract: Parametric density estimation, for example as Gaussian distribution, is the base of the field of statistics. Machine learning requires inexpensive estimation of much more complex densities, and the basic approach is relatively costly maximum likelihood estimation (MLE). There will be discussed inexpensive density estimation, for example literally fitting a polynomial (or Fourier series) to the sample, which coefficients are calculated by just \n\n[Document 4] Title: polynomial based rotation invariant features Abstract: One of basic difficulties of machine learning is handling unknown rotations of objects, for example in image recognition. A related problem is evaluation of similarity of shapes, for example of two chemical molecules, for which direct approach requires costly pairwise rotation alignment and comparison. Rotation invariants are useful tools for such purposes, allowing to extract features describing shape up to rotation, which can be use\n\n[Document 5] Title: credibility evaluation of income data with hierarchical correlation reconstruction Abstract: In situations like tax declarations or analyzes of household budgets we would like to automatically evaluate credibility of exogenous variable (declared income) based on some available (endogenous) variables - we want to build a model and train it on provided data sample to predict (conditional) probability distribution of exogenous variable based on values of endogenous variables. Using Polish ho\n\n[Document 6] Title: normalized rotation shape descriptors and lossy compression of molecular shape Abstract: There is a common need to search of molecular databases for compounds resembling some shape, what suggests having similar biological activity while searching for new drugs. The large size of the databases requires fast methods for such initial screening, for example based on feature vectors constructed to fulfill the requirement that similar molecules should correspond to close vectors. Ultrafast Shap\n\n[Document 7] Title: p np as minimization of degree 4 polynomial or grassmann number problem Abstract: While the P vs NP problem is mainly being attacked form the point of view of discrete mathematics, this paper propses two reformulations into the field of abstract algebra and of continuous global optimization - which advanced tools might bring new perspectives and approaches to attack this problem. The first one is equivalence of satisfying the 3-SAT problem with the question of reaching zero of a nonnegati\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

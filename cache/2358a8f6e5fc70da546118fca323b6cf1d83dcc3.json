@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Mechanism design and incentive structures for demand response programs in electricity markets",
+  "Contract design and baseline estimation methods for reducing gaming in incentive-based demand response",
+  "Economic models and trading mechanisms for demand response in wholesale electricity markets"
+ ],
+ "raw": "{\"candidates\": [\"Mechanism design and incentive structures for demand response programs in electricity markets\", \"Contract design and baseline estimation methods for reducing gaming in incentive-based demand response\", \"Economic models and trading mechanisms for demand response in wholesale electricity markets\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 930,
+  "output_tokens": 55,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: limiting gaming opportunities on incentive based demand response programs Abstract: Abstract   Incentive-based demand response is a program where participant users are paid to reduce energy consumption from an established baseline. Counter-factual models to estimate the baselines are vulnerable for gaming. In this paper, a novel demand response contract between a user and an aggregator is developed to induce individual rationality (voluntary participation) and asymptotic incentive-compati\n\n[Document 2] Title: mechanism design for demand response programs Abstract: Demand Response (DR) programs serve to reduce the consumption of electricity at times when the supply is scarce and expensive. The utility informs the aggregator of an anticipated DR event. The aggregator calls on a subset of its pool of recruited agents to reduce their electricity use. Agents are paid for reducing their energy consumption from contractually established baselines. Baselines are counter-factual consumption estimates o\n\n[Document 3] Title: rational consumer decisions in a peak time rebate program Abstract: A rational behavior of a consumer is analyzed when the user participates in a Peak Time Rebate (PTR) mechanism, which is a demand response (DR) incentive program based on a baseline. A multi-stage stochastic programming is proposed from the demand side in order to understand the rational decisions. The consumer preferences are modeled as a risk-averse function under additive uncertainty. The user chooses the optimal consu\n\n[Document 4] Title: a minimal incentive based demand response program with self reported baseline mechanism Abstract: In this paper we propose a novel incentive based demand response (DR) program with self reported baseline mechanism. Every consumer, recruited for the novel program only reports its baseline, which is the minimal information necessary for any DR program. The selection of consumers is randomized to control baseline inflation. The mechanism comprises a reward for those consumers who reduce thei\n\n[Document 5] Title: a novel incentive based demand response model for cournot competition in electricity markets Abstract: This paper presents an analysis of competition between generators when incentive-based demand response is employed in an electricity market. Thermal and hydropower generation are considered in the model. A smooth inverse demand function is designed using a sigmoid and two linear functions for modeling the consumer preferences under incentive-based demand response program. Generators comp\n\n[Document 6] Title: selling demand response using options Abstract: Wholesale electricity markets in many jurisdictions use a two-settlement structure: a day-ahead market for bulk power transactions and a real-time market for fine-grain supply-demand balancing. This paper explores trading demand response assets within this two-settlement market structure. We consider two approaches for trading demand response assets: (a) an intermediate spot market with contingent pricing, and (b) an over-the-counter options\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Hybrid connectionist-symbolic architectures integrating neural networks with declarative knowledge representation",
+  "Bottom-up skill learning models combining procedural knowledge acquisition with symbolic reasoning systems",
+  "Multi-agent reinforcement learning with symbol grounding and distributed decision-making mechanisms"
+ ],
+ "raw": "{\"candidates\": [\"Hybrid connectionist-symbolic architectures integrating neural networks with declarative knowledge representation\", \"Bottom-up skill learning models combining procedural knowledge acquisition with symbolic reasoning systems\", \"Multi-agent reinforcement learning with symbol grounding and distributed decision-making mechanisms\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1059,
+  "output_tokens": 61,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 10,
+ "prompt": "Below are 7 representative documents (out of 10 total) from one community of a citation network of computer-science papers.\n\n[Document 1] A Hybrid Architecture for Situated Learning of Reactive Sequential Decision Making In developing autonomous agents, one usually emphasizes only (situated) procedural knowledge, ignoring more explicit declarative knowledge. On the other hand, in developing symbolic reasoning models, one usually emphasizes only declarative knowledge, ignoring procedural knowledge. In contrast, we have developed a learning model Clarion, which is a hybrid connectionist model consisting of both localist and distribu\n\n[Document 2] From Implicit Skills to Explicit Knowledge: A Bottom-Up Model of Skill Learning This paper presents a skill learning model CLARION. Different from existing models of mostly high-level skill learning that use a top-down approach (that is, turning declarative knowledge into procedural knowledge through practice), we adopt a bottom-up approach toward low-level skill learning, where procedural knowledge develops first and declarative knowledge develops later. Our model is formed by integrating conne\n\n[Document 3] A Cellular Neural Associative Array for Symbolic Vision . A system which combines the descriptional power of symbolic representations with the parallel and distributed processing model of cellular automata and the speed and robustness of connectionist symbol processing is described. Following a cellular automata based approach, the aim of the system is to transform initial symbolic descriptions of patterns to corresponding object level descriptions in order to identify patterns in complex or noi\n\n[Document 4] Multi-Agent Reinforcement Learning: Weighting and Partitioning This paper addresses weighting and partitioning in complex reinforcement learning tasks, with the aim of facilitating learning. The paper presents some ideas regarding weighting of multiple agents and extends them into partitioning an input/state space into multiple regions with differential weighting in these regions, to exploit differential characteristics of regions and differential characteristics of agents to reduce the learning\n\n[Document 5] Hybrid Neural Systems   This chapter provides an introduction to the eld of hybrid  neural systems. Hybrid neural systems are computational systems which  are based mainly on articial neural networks but also allow a symbolic  interpretation or interaction with symbolic components. In this overview,  we will describe recent results of hybrid neural systems. We will give  a brief overview of the main methods used, outline the work that is  presented here, and provide additional references. We wil\n\n[Document 6] Symbol Grounding: A New Look At An Old Idea Symbols should be grounded, as has been argued before. But we insist that they should be  grounded not only in subsymbolic activities, but also in the interaction between the agent and the  world. The point is that concepts are not formed in isolation (from the world), in abstraction, or  \\objectively\". They are formed in relation to the experience of agents, through their perceptual  /motor apparatuses, in their world and linked to their goals and act\n\n[Document 7] Individual Action and Collective Function: from Sociology to Multi-Agent Learning > How do we characterize the process and the dynamics of co-learning, conceptually, mathematically, or computationally?   How do social structures and relations interact with co-learning of multiple agents?  1  And so on.  A key question, however, is as follows, which deserves some discussion here. Adam Smith (1976) put it this way:  He generally, indeed, neither intends to promote the public interest, nor knows ho\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

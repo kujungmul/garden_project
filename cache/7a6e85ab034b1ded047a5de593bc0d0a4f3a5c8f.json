@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Machine learning methods for improving data representation, feature construction, and alignment tasks",
+  "Deep learning applications for real-world detection, generation, and decision-making problems",
+  "Techniques for enhancing neural network architectures and handling incomplete or unstructured data"
+ ],
+ "raw": "{\"candidates\": [\"Machine learning methods for improving data representation, feature construction, and alignment tasks\", \"Deep learning applications for real-world detection, generation, and decision-making problems\", \"Techniques for enhancing neural network architectures and handling incomplete or unstructured data\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1004,
+  "output_tokens": 60,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: unsupervised feature construction for improving data representation and semantics Abstract: Attribute-based format is the main data representation format used by machine learning algorithms. When the attributes do not properly describe the initial data, performance starts to degrade. Some algorithms address this problem by internally changing the representation space, but the newly constructed features rarely have any meaning. We seek to construct, in an unsupervised way, new attributes t\n\n[Document 2] Title: weakly supervised knowledge graph alignment with adversarial learning Abstract: This paper studies aligning knowledge graphs from different sources or languages. Most existing methods train supervised methods for the alignment, which usually require a large number of aligned knowledge triplets. However, such a large number of aligned knowledge triplets may not be available or are expensive to obtain in many domains. Therefore, in this paper we propose to study aligning knowledge graphs in\n\n[Document 3] Title: real time illegal parking detection system based on deep learning Abstract: The increasing illegal parking has become more and more serious. Nowadays the methods of detecting illegally parked vehicles are based on background segmentation. However, this method is weakly robust and sensitive to environment. Benefitting from deep learning, this paper proposes a novel illegal vehicle parking detection system. Illegal vehicles captured by camera are firstly located and classified by the famous\n\n[Document 4] Title: anonymizing unstructured data Abstract: In this paper we consider the problem of anonymizing datasets in which each individual is associated with a set of items that constitute private information about the individual. Illustrative datasets include market-basket datasets and search engine query logs. We formalize the notion of k-anonymity for set-valued data as a variant of the k-anonymity model for traditional relational datasets. We define an optimization problem that arises from this d\n\n[Document 5] Title: towards deeper generative architectures for gans using dense connections Abstract: In this paper, we present the result of adopting skip connections and dense layers, previously used in image classification tasks, in the Fisher GAN implementation. We have experimented with different numbers of layers and inserting these connections in different sections of the network. Our findings suggests that networks implemented with the connections produce better images than the baseline, and the num\n\n[Document 6] Title: a story of two streams reinforcement learning models from human behavior and neuropsychiatry Abstract: Drawing an inspiration from behavioral studies of human decision making, we propose here a more general and flexible parametric framework for reinforcement learning that extends standard Q-learning to a two-stream model for processing positive and negative rewards, and allows to incorporate a wide range of reward-processing biases -- an important component of human decision making which \n\n[Document 7] Title: usage of permissioned blockchain architecture for big data in electronic medical records Abstract: With the advent of blockchain technology, multiple research avenues and platforms for dialogue have opened up. However technology transfer to the pubic has not been implemented, such that regular public can access and make use of secure and decentralized software. Most blockchain solutions till date deal with financial applications or monetary transactions, which may not be helpful or be acc\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

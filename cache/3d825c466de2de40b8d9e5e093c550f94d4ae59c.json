@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Non-contact thermal imaging for monitoring respiratory patterns and physiological signals",
+  "Mobile thermal camera systems for contactless breathing analysis and stress detection",
+  "Low-cost thermal imaging applications for vital sign monitoring and health assessment"
+ ],
+ "raw": "{\"candidates\": [\"Non-contact thermal imaging for monitoring respiratory patterns and physiological signals\", \"Mobile thermal camera systems for contactless breathing analysis and stress detection\", \"Low-cost thermal imaging applications for vital sign monitoring and health assessment\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1033,
+  "output_tokens": 51,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: thermsense smartphone based breathing sensing platform using noncontact low cost thermal camera Abstract: The ability of sensing breathing Is becoming an increasingly important function for technology that aims at supporting both psychological and physical wellbeing. We demonstrate ThermSense, a new breathing sensing platform based on smartphone technology and low-cost thermal camera, which allows a user to measure his/her breathing pattern in a contact-free manner. With the designed key \n\n[Document 2] Title: robust tracking of respiratory rate in high dynamic range scenes using mobile thermal imaging Abstract: The ability to monitor the respiratory rate, one of the vital signs, is extremely important for the medical treatment, healthcare and fitness sectors. In many situations, mobile methods, which allow users to undertake everyday activities, are required. However, current monitoring systems can be obtrusive, requiring users to wear respiration belts or nasal probes. Alternatively, contactl\n\n[Document 3] Title: nose heat exploring stress induced nasal thermal variability through mobile thermal imaging Abstract: Automatically monitoring and quantifying stress-induced thermal dynamic information in real-world settings is an extremely important but challenging problem. In this paper, we explore whether we can use mobile thermal imaging to measure the rich physiological cues of mental stress that can be deduced from a person's nose temperature. To answer this question we build i) a framework for mon\n\n[Document 4] Title: physiological and affective computing through thermal imaging a survey Abstract: Thermal imaging-based physiological and affective computing is an emerging research area enabling technologies to monitor our bodily functions and understand psychological and affective needs in a contactless manner. However, up to recently, research has been mainly carried out in very controlled lab settings. As small size and even low-cost versions of thermal video cameras have started to appear on the mark\n\n[Document 5] Title: deepbreath deep learning of breathing patterns for automatic stress recognition using low cost thermal imaging in unconstrained settings Abstract: We propose DeepBreath, a deep learning model which automatically recognises people's psychological stress level (mental overload) from their breathing patterns. Using a low cost thermal camera, we track a person's breathing patterns as temperature changes around his/her nostril. The paper's technical contribution is threefold. First of all, ins\n\n[Document 6] Title: abnormal respiratory patterns classifier may contribute to large scale screening of people infected with covid 19 in an accurate and unobtrusive manner Abstract: Research significance: During the epidemic prevention and control period, our study can be helpful in prognosis, diagnosis and screening for the patients infected with COVID-19 (the novel coronavirus) based on breathing characteristics. According to the latest clinical research, the respiratory pattern of COVID-19 is different fr\n\n[Document 7] Title: realpen providing realism in handwriting tasks on touch surfaces using auditory tactile feedback Abstract: We present RealPen, an augmented stylus for capacitive tablet screens that recreates the physical sensation of writing on paper with a pencil, ball-point pen or marker pen. The aim is to create a more engaging experience when writing on touch surfaces, such as screens of tablet computers. This is achieved by regenerating the friction-induced oscillation and sound of a real writing to\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Accessories and attachments for DJI Osmo handheld gimbal cameras",
+  "Performance issues and equipment solutions for DJI Osmo stabilized video capture",
+  "Mounts, filters, and extensions for DJI Osmo mobile videography"
+ ],
+ "raw": "{\"candidates\": [\"Accessories and attachments for DJI Osmo handheld gimbal cameras\", \"Performance issues and equipment solutions for DJI Osmo stabilized video capture\", \"Mounts, filters, and extensions for DJI Osmo mobile videography\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1242,
+  "output_tokens": 65,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 81,
+ "prompt": "Below are 10 representative documents (out of 81 total) from one community of a co-purchase network of Amazon photography products (customer reviews).\n\n[Document 1] Four Stars Works very well. Enhances the picture/video quality on my DJI Osmo.\n\n[Document 2] Five Stars Worked perfectly on my DJI Osmo plus.\n\n[Document 3] Five Stars Only thing that works well with Osmo.\n\n[Document 4] Well made and works great! I purchased this mount to so that I could attach my Osmo to my bike when I'm riding. I must say that all of the DJI's accessories that I've purchase thus far have been well made. Extremely sturdy and durable. This is no different. It's easy to mount no instructions needed. The only minor problem that I had was that you have to remove the bracket that normally holds your phone...so you won't be able to see what you are filming. I'd recomment purchasing a separate phone \n\n[Document 5] Stable as promised, but has serious flaws Stabilization is great, but there are some serious flaws that DJI needs to address soon for the viability of the product: 1. Fan noise - the fan noise so loud (and so close to the mic) that audio captured with Osmo is unusable. Erratic and annoying fan noise make the audio unusable. 2. Camera drifts - in selfie mode and during movement center shifts away. 3. Heat - the camera unit heats up VERY quickly 4. Battery life - only lasts about an hour I wish I \n\n[Document 6] A must-have for Osmo/ Drone owners. Bought this for the Osmo. Prior to these filters, the camera is pretty much completely useless in full daylight. These filters are great: no vignetting and no noticeable loss in image quality. I would call is a must-have for Osmo/ Drone owners.\n\n[Document 7] Why Would You Not Buy This? You can't go wrong with this Extension Arm. Its made with the same material as the DJI version and its over $10 cheaper! It also has an extra grip mount on the end to combine another device, something that the DJI brand does not. I purchased this Arm along with the Universal mount&nbsp;<a data-hook=\"product-link-linked\" class=\"a-link-normal\" href=\"/iKNOWTECH-Universal-Frame-Mount-Pro-Extra-Accessories-for-DJI-OSMO-Handheld-4K-Gimbal-Pro/dp/B01CNQYB3A/ref=cm_cr_arp_d_r\n\n[Document 8] Doesn't fit Osmo+. Maybe it fits the Osmo but I can verify that it does not fit the Osmo+. It's rigid plastic with 1/8\" breaks top and bottom assumably to allow enough flex for it to snap on ... but it doesn't. I'm a strong guy and I tried with all my might to snap it on but was afraid I might break the camera, or the gimbal, or the hood, or my hand if I pushed any harder. I have a nice circular bruise/dent in my palm from the effort. I have 35+ years shooting and have worked with all kinds of b\n\n[Document 9] Stunning 4k video and steady professional look... But Audio is aweful and it overheats The DJI Osmo takes exceptional video in daytime. It is truly amazing how steady the video look. It looks professional and the clarity of the 4K video simply looks stunning on my laptop with 3.7-Megapixel (1440p) screen. However, the built-in mic is basically useless. First of all the audio volume is very low. Second, whatever tiny sound it picks up will be drowned out by the gimbal motors and fan noise. Batter\n\n[Document 10] Great item! It does what I need it to do. Really expands my options on my Osmo rig. I typically attach a small LED light and my wireless lav receiver. It works very well.\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

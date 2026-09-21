@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Consumer reviews of VHS cassette tapes and video recording media quality",
+  "Blank VHS tape products for recording television shows and home video archiving",
+  "User experiences with different brands of standard-grade VHS recording cassettes"
+ ],
+ "raw": "{\"candidates\": [\"Consumer reviews of VHS cassette tapes and video recording media quality\", \"Blank VHS tape products for recording television shows and home video archiving\", \"User experiences with different brands of standard-grade VHS recording cassettes\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1001,
+  "output_tokens": 56,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 66,
+ "prompt": "Below are 10 representative documents (out of 66 total) from one community of a co-purchase network of Amazon photography products (customer reviews).\n\n[Document 1] Five Stars very nice tapes ordered them before\n\n[Document 2] Five Stars These were a gift and I received a great thank you. Some people still use their VHS machines.\n\n[Document 3] Good thing that Amazon carries VHS tapes as they're getting ... Purchased for a family member. Very satisfactory performance of the product. Good thing that Amazon carries VHS tapes as they're getting hard to find at brick 'n mortars. Decent value for the money. Recommended and will buy again.\n\n[Document 4] I like these! They are economical & have worked well for me! I have purchased a good many of these \"Sony VHS Cassettes 120 Minute\" video tapes and have had excellent results. They have taped well and withstood many viewings... so far, with no troubles at all.\n\n[Document 5] Great quality, low price! Quality VHS tapes are hard to find these days with everything going digital. This are a must have for the older crowd who still uses VCRS to record their shows.\n\n[Document 6] best standard grade vhs tape I've used Was buying Sony tape at Walmart but my VCRs kept eating them (have four VCRs - two are Sony). Purchased these Maxell and expected the same thing to happen but to my surprise they work perfectly. Only record in SP mode since most movies are edited to fit into 2 hour time frame anyway, and the two series I record are one hour each. Extended recording results in lower picture quality, and the manuals for my VCRs state that as well. Taped recording was excellen\n\n[Document 7] Four Stars Good tapes.\n\n[Document 8] The Best Blank Tape Around I am a collector of TV shows. I have 30+ tapes filled with TV shows that I recorded. I've recorded on several different brands, including Panasonic, Sony, and Maxell. The Panasonic tapes played back terribly. Sony gave me a little trouble but not much. Maxell gave me no trouble, but they're hard to find in my area. So TDK is my choice. It has never given me trouble, it is readily available, I can tape in EP with almost no quality loss. A note to other collectors and/or\n\n[Document 9] Five Stars Very satisfied with the clarity this tape produces.\n\n[Document 10] Poor Quality Tapes!!!! I bought a 10-pack of TDK tapes in April, 2005 - The boxes say: \"TDK - SUPERIOR QUALITY - Standard T-120\" - \"VHS Standard Grade\" - \"Videotape for everyday and repeated use recording\". The tapes that do work so far, have grainy and blurry pictures and the colors are not vivid and the sound quality is horrible and distorted. The packaging was not up to Amazon's standards. The video tapes were not wrapped or protected inside the box and this is probably why I have at least 1 \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Mobile and ubiquitous computing systems with location awareness and real-world autonomous agent control",
+  "Context-aware computing architectures for mobile agents and augmented everyday artifacts in distributed environments",
+  "Autonomous systems integration combining mobile computing, environmental sensing, and adaptive agent coordination mechanisms"
+ ],
+ "raw": "{\"candidates\": [\"Mobile and ubiquitous computing systems with location awareness and real-world autonomous agent control\", \"Context-aware computing architectures for mobile agents and augmented everyday artifacts in distributed environments\", \"Autonomous systems integration combining mobile computing, environmental sensing, and adaptive agent coordination mechanisms\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 862,
+  "output_tokens": 64,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Mobile Info Search: Information Integration for Location-Aware Computing this paper we introduce a research project entitled Mobile Info Search (MIS), and describe  its goal, architecture, implementation, and experimental results.  The goal of MIS is to collect, structure, and integrate distributed and diverse local information  from the Internet in a practicable form and make it available through a simple interface  to mobile users in various situations or contexts. We do this in a location-ori\n\n[Document 2] Using Motives and Artificial Emotion for Long-Term Activity of an Autonomous Robot To operate over a long period of time in the real world, autonomous mobile robots must have the capabilityofrecharging themselves whenever necessary. In addition to be able to nd and dockintoacharging station, robots must be able to decide when and for how long to recharge. This decision is inuenced by the energetic capacity of their batteries and the contingencies of their environments. To deal with this temporal\n\n[Document 3] Composition of Services with Mobile Code Mobile code is slowly gaining acceptance but it is still not clear where it is really useful. If not used judiciously it may incur greater complexity of programming and degradation of performances. The goal of this paper is to show that mobile code is particularly well suited as a glue for the composition of immobile services, where flexibility and extensibility are necessary. To support our claim we describe two services and one application that have bee\n\n[Document 4] Achieving Coordination through Combining Joint Planning and Joint Learning . There are two major approaches to activity coordination in multiagent systems. First, by endowing the agents with the capability to jointly plan, that is, to jointly generate hypothetical activity sequences. Second, by endowing the agents with the capability to jointly learn, that is, to jointly choose the actions to be executed on the basis of what they know from experience about the interdependencies of their actions.\n\n[Document 5] MediaCups: Experience with Design and Use of Computer-Augmented Everyday Artefacts Our view of ubiquitous computing is artefact-centred: in this view, computers are considered as secondary artefacts that enable items of everyday use as networked digital artefacts. This view is expressed in an artefact computing model and investigated in the Mediacup project, an evolving artefact computing environment. The Mediacup project provides insights into the augmentation of artefacts with sensing, process\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

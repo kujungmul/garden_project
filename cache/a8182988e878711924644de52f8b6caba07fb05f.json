@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "algorithmic methods for approximating distance metrics and optimization problems in metric spaces",
+  "optimization algorithms for approximate solutions to computationally intractable problems over structured domains",
+  "approximation algorithms and computational methods for NP-hard optimization and matching problems"
+ ],
+ "raw": "{\"candidates\": [\"algorithmic methods for approximating distance metrics and optimization problems in metric spaces\", \"optimization algorithms for approximate solutions to computationally intractable problems over structured domains\", \"approximation algorithms and computational methods for NP-hard optimization and matching problems\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1084,
+  "output_tokens": 58,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: on constant factor approximation for earth mover distance over doubling metrics Abstract: Given a metric space $(X,d_X)$, the earth mover distance between two distributions over $X$ is defined as the minimum cost of a bipartite matching between the two distributions. The doubling dimension of a metric $(X, d_X)$ is the smallest value $\\alpha$ such that every ball in $X$ can be covered by $2^\\alpha$ ball of half the radius. We study efficient algorithms for approximating earth mover distan\n\n[Document 2] Title: coalitional games in partition form for joint spectrum sensing and access in cognitive radio networks Abstract: Unlicensed secondary users (SUs) in cognitive radio networks are subject to an inherent tradeoff between spectrum sensing and spectrum access. Although each SU has an incentive to sense the primary user (PU) channels for locating spectrum holes, this exploration of the spectrum can come at the expense of a shorter transmission time, and, hence, a possibly smaller capacity for da\n\n[Document 3] Title: sampling of stochastic operators Abstract: We develop sampling methodology aimed at identifying stochastic operators that satisfy a support size restriction on the autocorrelation of the operators stochastic spreading function. The data that we use to reconstruct the operator (or, in some cases only the autocorrelation of the spreading function) is based on the response of the unknown operator to a known, deterministic test signal.\n\n[Document 4] Title: non separable quasiconcave utilities are easy in a perfect price discrimination market model Abstract: Recent results, establishing evidence of intractability for such restrictive utility functions as additively separable, piecewise-linear and concave, under both Fisher and Arrow-Debreu market models, have prompted the question of whether we have failed to capture some essential elements of real markets, which seem to do a good job of finding prices that maintain parity between supply and\n\n[Document 5] Title: endol2h deep super resolution for capsule endoscopy Abstract: Wireless capsule endoscopy is the preferred modality for diagnosis and assessment of small bowel disease. However, the poor resolution is a limitation for both subjective and automated diagnostics. Enhanced-resolution endoscopy has shown to improve adenoma detection rate for conventional endoscopy and is likely to do the same for capsule endoscopy. In this work, we propose and quantitatively validate a novel framework to learn \n\n[Document 6] Title: fonts 2 handwriting a seed augment train framework for universal digit classification Abstract: In this paper, we propose a Seed-Augment-Train/Transfer (SAT) framework that contains a synthetic seed image dataset generation procedure for languages with different numeral systems using freely available open font file datasets. This seed dataset of images is then augmented to create a purely synthetic training dataset, which is in turn used to train a deep neural network and test on held-out\n\n[Document 7] Title: optimal p ary cyclic codes with two zeros Abstract: As a subclass of linear codes, cyclic codes have efficient encoding and decoding algorithms, so they are widely used in many areas such as consumer electronics, data storage systems and communication systems. In this paper, we give a general construction of optimal p-ary cyclic codes which leads to three explicit constructions. In addition, another class of p-ary optimal cyclic codes are presented.\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

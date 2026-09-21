@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Multi-agent reinforcement learning and information-theoretic approaches to strategic behavior in games",
+  "Learning algorithms for Markov decision processes with emphasis on behavior diversity and task inference",
+  "Computational complexity and optimization methods in machine learning and formal systems"
+ ],
+ "raw": "{\"candidates\": [\"Multi-agent reinforcement learning and information-theoretic approaches to strategic behavior in games\", \"Learning algorithms for Markov decision processes with emphasis on behavior diversity and task inference\", \"Computational complexity and optimization methods in machine learning and formal systems\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1058,
+  "output_tokens": 58,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: fast task inference with variational intrinsic successor features Abstract: It has been established that diverse behaviors spanning the controllable subspace of an Markov decision process can be trained by rewarding a policy for being distinguishable from other policies \\citep{gregor2016variational, eysenbach2018diversity, warde2018unsupervised}. However, one limitation of this formulation is generalizing behaviors beyond the finite set being explicitly learned, as is needed for use on su\n\n[Document 2] Title: critical remarks on single link search in learning belief networks Abstract: In learning belief networks, the single link lookahead search is widely adopted to reduce the search space. We show that there exists a class of probabilistic domain models which displays a special pattern of dependency. We analyze the behavior of several learning algorithms using different scoring metrics such as the entropy, conditional independence, minimal description length and Bayesian metrics. We demonstra\n\n[Document 3] Title: learning to share and hide intentions using information regularization Abstract: Learning to cooperate with friends and compete with foes is a key component of multi-agent reinforcement learning. Typically to do so, one requires access to either a model of or interaction with the other agent(s). Here we show how to learn effective strategies for cooperation and competition in an asymmetric information game with no such model or interaction. Our approach is to encourage an agent to reveal \n\n[Document 4] Title: hiding information in big data based on deep learning Abstract: The current approach of information hiding based on deep learning model can not directly use the original data as carriers, which means the approach can not make use of the existing data in big data to hiding information. We proposed a novel method of information hiding in big data based on deep learning. Our method uses the existing data in big data as carriers and uses deep learning models to hide and extract secret message\n\n[Document 5] Title: a generalized markov chain modelling approach to 1 lambda es linear optimization technical report Abstract: Several recent publications investigated Markov-chain modelling of linear optimization by a $(1,\\lambda )$-ES, considering both unconstrained and linearly constrained optimization, and both constant and varying step size. All of them assume normality of the involved random steps, and while this is consistent with a black-box scenario, information on the function to be optimized (e.g\n\n[Document 6] Title: on the relative power of reduction notions in arithmetic circuit complexity Abstract: We show that the two main reduction notions in arithmetic circuit complexity, p-projections and c-reductions, differ in power. We do so by showing unconditionally that there are polynomials that are VNP-complete under c-reductions but not under p-projections. We also show that the question of which polynomials are VNP-complete under which type of reductions depends on the underlying field.\n\n[Document 7] Title: style analyzer fixing code style inconsistencies with interpretable unsupervised algorithms Abstract: Source code reviews are manual, time-consuming, and expensive. Human involvement should be focused on analyzing the most relevant aspects of the program, such as logic and maintainability, rather than amending style, syntax, or formatting defects. Some tools with linting capabilities can format code automatically and report various stylistic violations for supported programming languages.\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

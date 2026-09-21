@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Photography studio seamless paper and vinyl backdrop products for professional and amateur photographers",
+  "Photographic background papers, matting supplies, and backdrop stands for studio use",
+  "Professional photography materials including seamless backgrounds, mats, and mounting equipment"
+ ],
+ "raw": "{\"candidates\": [\"Photography studio seamless paper and vinyl backdrop products for professional and amateur photographers\", \"Photographic background papers, matting supplies, and backdrop stands for studio use\", \"Professional photography materials including seamless backgrounds, mats, and mounting equipment\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1128,
+  "output_tokens": 57,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 3058,
+ "prompt": "Below are 10 representative documents (out of 3058 total) from one community of a co-purchase network of Amazon photography products (customer reviews).\n\n[Document 1] Five Stars Love this backdrop. Arrived quickly and photographs great!\n\n[Document 2] Wonderful background, fast shipping I ordered this for a military ball backdrop. It was PERFECT. Arrived by noon (I had it shipped next business day delivery), and was in PERFECT condition. This did not shred at all, was not torn, and was a wonderful backdrop. It photographed beautifully, and just one section was required and lasted the entire evening, with well over 300 people walking on it throughout the event. I never had to fix the drop once on the stand, or replace the section during the 5 \n\n[Document 3] I was super skeptical of this because I saw reviews of a ... I was super skeptical of this because I saw reviews of a ton of other backdrops and so many were too sheer or see through. This is great quality especially for the price. I got the whole bundle and I'm super pleased\n\n[Document 4] Better Than Fabric Backgrounds I bought this, and a black roll, to see what it was like in lieu of fabric backgrounds. Infinitely better. Doesn't wrinkle so light will distribute evenly, and makes a nice curve onto the floor or other surface for that edgeless look. The only, very minute problem is the tape with which it is bound in, black and white striped, but it's not really even an issue given that you can use it as sort of a guide for positioning and how much to roll out. And it's paper, no \n\n[Document 5] Excellent value and quality We are photographers and use a lot of mounts and mats in various sizes. We have purchased directly from Golden State and also thru Amazon for years. Nothing fancy here, but great product at a great price. Basic single bevel cut white mats with backs and clear bags. Very convenient. Highly recommended.\n\n[Document 6] Great product - works as described! I am so very pleased with this product. Set up is so easy and it is surely sturdy enough for my needs. I forgot to buy sand bags to use the sand bag pouches provided and it was fine for the event. The backdrop I created used a vinyl 5X7 background with many paper flowers attached to it and the unit was sturdy enough to hold it all. I am short so I had to keep lengthening and shortening the poles to get things just right and it worked out fine. The latches are \n\n[Document 7] Great Seamless Paper! Love this paper! The color is amazing and it's pretty durable when taped down and I use it a lot in the studio with kids.\n\n[Document 8] Love their mattes, but prefer with backing board and bag Love their mattes, wish I had read the item listing better as I really wanted the backing boards and bags too...\n\n[Document 9] Excellent Quality This product far exceeded my expectations. I run a photography business and this product is perfect for matting my photos. I thought since it was cheaper than other mats on the market that the quality would also be cheaper, this is not so. The quality is excellent. The mats did not come scratched or bent, making all of them usable. I am very glad it came with both the front, backings, and a very professional looking bag to put them in. I definitely will buy this product again. \n\n[Document 10] Happy with this Very clean, very heavy paper. No problems with it at all, except for getting the tape off the rolled up paper. This has photographed beautifully. The swatch on amazon is true to color as well. The delivery and packaging were both very satisfactory!\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

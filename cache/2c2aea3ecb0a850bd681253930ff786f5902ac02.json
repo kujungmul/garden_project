@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Web information retrieval and hyperlink analysis techniques for discovering and organizing online resources",
+  "Machine learning methods for extracting, classifying, and mining information from text and web data",
+  "Algorithms and systems for automated information discovery, extraction, and user-centric web browsing"
+ ],
+ "raw": "{\"candidates\": [\"Web information retrieval and hyperlink analysis techniques for discovering and organizing online resources\", \"Machine learning methods for extracting, classifying, and mining information from text and web data\", \"Algorithms and systems for automated information discovery, extraction, and user-centric web browsing\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1126,
+  "output_tokens": 65,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Mining the Link Structure of the World Wide Web The World Wide Web contains an enormous amount of information, but it can be exceedingly difficult for users to locate resources that are both high in quality and relevant to their information needs. We develop algorithms that exploit the hyperlink structure of the WWW for information discovery and categorization, the construction of high-quality resource lists, and the analysis of on-line hyperlinked communities. 1 Introduction  The World Wide Web\n\n[Document 2] WebMate: A Personal Agent for Browsing and Searching The World-Wide Web is developing very fast. Currently, #nding useful information  on the Web is a time consuming process. In this paper, we presentWebMate, an  agent that helps users to e#ectively browse and search the Web. WebMate extends  the state of the art in Web-based information retrieval in manyways. First, it uses  multiple TF-IDF vectors to keep track of user interests in di#erent domains. These  domains are automatically learned byW\n\n[Document 3] Information Extraction by Text Classification: Corpus Mining for Features This paper describes a method for building an Information Extraction (IE) system using standard text classification machine learning techniques, and datamining for complex features on a large corpus of example texts that are only superficially annotated. We have successfully used this method to build an IE system (Textractor) for job advertisements. 1. Introduction For rapid development of an Information Extraction system \n\n[Document 4] Learning to Recognize 3D Objects A learning account for the problem of object recognition is developed within the  PAC (Probably Approximately Correct) model of learnability. The key assumption  underlying this work is that objects can be recognized (or, discriminated) using simple  representations in terms of \\syntactically\" simple relations over the raw image. Although  the potential number of these simple relations could be huge, only a few of  them are actually present in each observed image\n\n[Document 5] On the Expressiveness of Distributed Leasing in Linda-like Coordination Languages S. All local authors can be reached via e-mail at the address last-name@cs.unibo.it. Questions and comments should be addressed to tr-admin@cs.unibo.it.  Recent Titles from the UBLCS Technical Report Series  99-2 A Theory of Efficiency for Markovian Processes, M. Bernardo, W.R. Cleaveland, February 1999 (Revisied March 2000).  99-3 A Reliable Registry for the Jgroup Distributed Object Model, A. Montresor, March 199\n\n[Document 6] Independent Component Analysis: A flexible non-linearity and decorrelating manifold approach Independent Components Analysis finds a linear transformation to variables which are maximally statistically independent. We examine ICA and algorithms for finding the best transformation from the point of view of maximising the likelihood of the data. In particular, we discuss the way in which scaling of the unmixing matrix permits a \"static\" nonlinearity to adapt to various marginal densities. We demon\n\n[Document 7] Bare-Hand Human-Computer Interaction In this paper, we describe techniques for barehanded interaction between human and computer. Barehanded means that no device and no wires are attached to the user, who controls the computer directly with the movements of his/her hand. Our approach is centered on the needs of the user. We therefore define requirements for real-time barehanded interaction, derived from application scenarios and usability considerations. Based on those requirements a finger-find\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

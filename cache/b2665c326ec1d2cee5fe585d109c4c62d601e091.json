@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Security and trust mechanisms for mobile agents in distributed electronic commerce systems",
+  "Cryptographic protocols and authentication schemes protecting mobile agents from malicious servers",
+  "Formal specification and verification of mobile agent security properties using cryptographic techniques"
+ ],
+ "raw": "{\"candidates\": [\"Security and trust mechanisms for mobile agents in distributed electronic commerce systems\", \"Cryptographic protocols and authentication schemes protecting mobile agents from malicious servers\", \"Formal specification and verification of mobile agent security properties using cryptographic techniques\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1061,
+  "output_tokens": 53,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Secret Computation with Secrets for Mobile Agent using One-time Proxy Signature As an application for electronic commerce, a mobile agent is now used to search for special products or services and is executed for a specific job designated by a customer in the server's environment on behalf of a customer. On the way of performing its role, a mobile agent can be vulnerable to several cryptographic attacks. These attacks can be more serious when done by malicious servers. Among schemes to resolve t\n\n[Document 2] Introducing Trusted Third Parties to the Mobile Agent Paradigm Abstract. The mobile agent paradigm gains ever more acceptance for the creation of distributed applications, particularly in the domain of electronic commerce. In such applications, a mobile agent roams the global Internet in search of services for its owner. One of the problems with this approach is that malicious service providers on the agent's itinerary can access con dential information contained in the agent or tamper with the \n\n[Document 3] Secure Mobile Agent using Strong Non-designated Proxy Signature It is expected that mobile agent will be widely used for electronic  commerce as an important key technology. If a mobile agent can  sign a message in a remote server on behalf of a customer without exposing  his/her private key, it can be used not only to search for special  products or services, but also to make a contract with a remote server. To  construct mobile agents, [KBC00] used an RSA-based undetachable signature  scheme, \n\n[Document 4] Trust Relationships in a Mobile Agent System . The notion of trust is presented as an important component  in a security infrastructure for mobile agents. A trust model that can  be used in tackling the aspect of protecting mobile agents from hostile  platforms is proposed. We dene several trust relationships in our model,  and present a trust derivation algorithm that can be used to infer new  relationships from existing ones. An example of how such a model can  be utilized in a practical syste\n\n[Document 5] Cryptographic Traces for Mobile Agents . Mobile code systems are technologies that allow applications  to move their code, and possibly the corresponding state, among the  nodes of a wide-area network. Code mobility is a flexible and powerful  mechanism that can be exploited to build distributed applications  in an Internet scale. At the same time, the ability to move code to and  from remote hosts introduces serious security issues. These issues include  authentication of the parties involved a\n\n[Document 6] Secure Communication for Secure Agent-Based Electronic Commerce Applications Although electronic commerce is a relatively new concept, it  has already become a normal aspect of our daily life. The software agent  technology is also relatively new. In the area of electronic commerce, software  agents could be used for example to search for the lowest prices and  the best services, to buy goods on behalf of a user, etc. These applications  involve a number of security issues, such as communication\n\n[Document 7] Using Process Algebras to Formally Specify Mobile Agent Data Integrity Properties: a Case Study This paper shows how cryptographic protocols for mobile agent data integrity properties can be formally specified by using spi calculus, an extension of # calculus with cryptographic properties. In particular, by means of a case study, it is shown how a specification technique initially conceived only for classical cryptographic protocols can be used in the context of mobile agents as well. Our case s\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

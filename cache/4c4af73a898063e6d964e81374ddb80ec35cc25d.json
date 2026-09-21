@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "methods and measures for comparing ranked lists and search results across different sources",
+  "quantitative comparison techniques for evaluating ranking quality and information retrieval outputs",
+  "metrics for assessing similarity and differences between ordered result sets and ranked selections"
+ ],
+ "raw": "{\"candidates\": [\"methods and measures for comparing ranked lists and search results across different sources\", \"quantitative comparison techniques for evaluating ranking quality and information retrieval outputs\", \"metrics for assessing similarity and differences between ordered result sets and ranked selections\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 852,
+  "output_tokens": 54,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: methods for comparing rankings of search engine results Abstract: In this paper we present a number of measures that compare rankings of search engine results. We apply these measures to five queries that were monitored daily for two periods of about 21 days each. Rankings of the different search engines (Google, Yahoo and Teoma for text searches and Google, Yahoo and Picsearch for image searches) are compared on a daily basis, in addition to longitudinal comparisons of the same engine fo\n\n[Document 2] Title: the anatomy of a search and mining system for digital archives Abstract: Samtla (Search And Mining Tools with Linguistic Analysis) is a digital humanities system designed in collaboration with historians and linguists to assist them with their research work in quantifying the content of any textual corpora through approximate phrase search and document comparison. The retrieval engine uses a character-based n-gram language model rather than the conventional word-based one so as to achieve\n\n[Document 3] Title: an information measure for comparing top k lists Abstract: Comparing the top $k$ elements between two or more ranked results is a common task in many contexts and settings. A few measures have been proposed to compare top $k$ lists with attractive mathematical properties, but they face a number of pitfalls and shortcomings in practice. This work introduces a new measure to compare any two top k lists based on measuring the information these lists convey. Our method investigates the compre\n\n[Document 4] Title: hashtag centric immersive search on social media Abstract: Social media information distributes in different Online Social Networks (OSNs). This paper addresses the problem integrating the cross-OSN information to facilitate an immersive social media search experience. We exploit hashtag, which is widely used to annotate and organize multi-modal items in different OSNs, as the bridge for information aggregation and organization. A three-stage solution framework is proposed for hashtag rep\n\n[Document 5] Title: comparing typical opening move choices made by humans and chess engines Abstract: The opening book is an important component of a chess engine, and thus computer chess programmers have been developing automated methods to improve the quality of their books. For chess, which has a very rich opening theory, large databases of high-quality games can be used as the basis of an opening book, from which statistics relating to move choices from given positions can be collected. In order to find \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

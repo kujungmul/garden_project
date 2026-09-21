@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Mobile agents technology for distributed systems, network management, and flexible application deployment",
+  "Software mobile agents for network control, QoS management, and distributed computing",
+  "Mobile agent platforms and strategies for dynamic network management and distributed services"
+ ],
+ "raw": "{\"candidates\": [\"Mobile agents technology for distributed systems, network management, and flexible application deployment\", \"Software mobile agents for network control, QoS management, and distributed computing\", \"Mobile agent platforms and strategies for dynamic network management and distributed services\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 805,
+  "output_tokens": 54,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] MAP: Design and Implementation of a Mobile Agents Platform The recent development of telecommunication networks has contributed to the success of applications such as information retrieval and electronic commerce, as well as all the services that take advantage of communication in distributed systems. In this area, the emerging technology of mobile agents aroused considerable interest. Mobile agents are applications that can move through the network for carrying out a given task on behalf of the\n\n[Document 2] Using Mobile Agents to implement flexible Network Management strategies Due to their intrinsic complexity, computer and communication systems require increasingly  more sophisticated management starategies to be adopted in order to guarantee adequate levels  of performance and reliability. The centralized paradigm adopted by the SNMP is appropriate  in several network management applications, but the quick expansion of networks has posed the  problem of its scalability, as well as for any other \n\n[Document 3] An Agent Based Framework for Mobile Users User mobility together with an easy access to distributed resources is one of the greatest challenge to be faced in the future years. At the same time, agent technology is seen as a very promising approach to deal with distributed computing and user mobility. In this paper an agent-based strategy for support of mobile users is presented. It is based on a mobile agent platform developed at the University of Catania, which has been enhanced in order to all\n\n[Document 4] Experiences in the use of Mobile Agents for developing distributed applications Introduction  The recent development of telecommunication networks has contributed to the success of distributed systems, and has stimulated the research for a new generation of applications, such as the access to remote databases, the Web, and e-commerce. Traditional programming in distributed systems has been based on the well-known client/server paradigm. An alternative to such traditional mechanisms has recently \n\n[Document 5] Programmable Agents for Flexible QoS Management in IP Networks Network programmability seems to be a promising solution to network management and quality of service (QoS) control. Software mobile-agents technology is boosting the evolution toward application-level control of network functionalities. Code may be deployed in the network dynamically and on demand for the benefit of applications or application classes. Agents support a dynamic distribution of control and management functions across \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

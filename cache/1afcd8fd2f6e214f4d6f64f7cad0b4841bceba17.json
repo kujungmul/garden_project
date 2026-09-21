@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Neural network architectures for natural language processing and grammatical inference tasks",
+  "Recurrent and connectionist networks applied to syntactic parsing and linguistic structure learning",
+  "Machine learning approaches to grammatical analysis and natural language understanding with neural systems"
+ ],
+ "raw": "{\"candidates\": [\"Neural network architectures for natural language processing and grammatical inference tasks\", \"Recurrent and connectionist networks applied to syntactic parsing and linguistic structure learning\", \"Machine learning approaches to grammatical analysis and natural language understanding with neural systems\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 929,
+  "output_tokens": 56,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of machine-learning papers (title + abstract).\n\n[Document 1] Title: Natural Language Grammatical Inference with Recurrent Neural Networks  \tAbstract: This paper examines the inductive inference of a complex grammar with neural networks specifically, the task considered is that of training a network to classify natural language sentences as grammatical or ungrammatical, thereby exhibiting the same kind of discriminatory power provided by the Principles and Parameters linguistic framework, or Government-and-Binding theory. Neural networks are trained, witho\n\n[Document 2] Title: Simple Synchrony Networks Learning to Parse Natural Language with Temporal Synchrony Variable Binding  \tAbstract: The Simple Synchrony Network (SSN) is a new connectionist architecture, incorporating the insights of Temporal Synchrony Variable Binding (TSVB) into Simple Recurrent Networks. The use of TSVB means SSNs can output representations of structures, and can learn generalisations over the constituents of these structures (as required by systematicity). This paper describes the SSN \n\n[Document 3] Title: Improved Bounds about On-line Learning of Smooth Functions of a Single Variable  \tAbstract: We consider the complexity of learning classes of smooth functions formed by bounding different norms of a function's derivative. The learning model is the generalization of the mistake-bound model to continuous-valued functions. Suppose F q is the set of all absolutely continuous functions f from [0; 1] to R such that jjf 0 jj q 1, and opt(F q ; m) is the best possible bound on the worst-case sum \n\n[Document 4] Title: ANNEALED THEORIES OF LEARNING  \tAbstract: We study annealed theories of learning boolean functions using a concept class of finite cardinality. The naive annealed theory can be used to derive a universal learning curve bound for zero temperature learning, similar to the inverse square root bound from the Vapnik-Chervonenkis theory. Tighter, nonuniversal learning curve bounds are also derived. A more refined annealed theory leads to still tighter bounds, which in some cases are very simila\n\n[Document 5] Title: Data Mining for Association Rules with Unsupervised Neural Networks  \tAbstract: results for Gaussian mixture models and factor analysis are discussed. \n\n[Document 6] Title: SaxEx a case-based reasoning system for generating expressive musical performances  \tAbstract: We have studied the problem of generating expressive musical performances in the context of tenor saxophone interpretations. We have done several recordings of a tenor sax playing different Jazz ballads with different degrees of expressiveness including an inexpressive interpretation of each ballad. These recordings are analyzed, using SMS spectral modeling techniques, to extract information rel\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

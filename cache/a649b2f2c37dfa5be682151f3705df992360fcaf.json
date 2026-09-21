@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Machine learning methods for classification, prediction, and rule induction tasks",
+  "Intelligent agents and adaptive systems for user assistance and task automation",
+  "Learning and decision-making algorithms for autonomous systems and robots"
+ ],
+ "raw": "{\"candidates\": [\"Machine learning methods for classification, prediction, and rule induction tasks\", \"Intelligent agents and adaptive systems for user assistance and task automation\", \"Learning and decision-making algorithms for autonomous systems and robots\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 1086,
+  "output_tokens": 49,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 7,
+ "prompt": "Below are 7 representative documents (out of 7 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Amalthaea: Information Discovery and Filtering using a Multiagent Evolving Ecosystem Agents are semi-intelligent programs that assist the user in performing repetitive  and time-consuming tasks. Information discovery and information filtering are  a suitable domain for applying agent technology. Ideas drawn from the field of  autonomous agents and artificial life are combined in the creation of an evolving  ecosystem composed of competing and cooperating agents. A co-evolution model  of informat\n\n[Document 2] IaDEA: A Development Environment Architecture for Building Generic Intelligent User Interface Agents The need exists in the work force for generic intelligent user interface agents to address the problem of increasing taskload that is overwhelming the human user. Interface agents could help alleviate user taskload by providing abstractions and intelligent assistance in a self-contained software agent that communicates with the user through the existing user interface and also adapts to user need\n\n[Document 3] An Investigation of Machine Learning Based Prediction Systems Traditionally, researchers have used either o\u20ac-the-shelf models such as COCOMO, or developed local models using statistical techniques such as stepwise regression, to obtain software e\u20acort estimates. More recently, attention has turned to a variety of machine learning methods such as arti\u00aecial neural networks (ANNs), case-based reasoning (CBR) and rule induction (RI). This paper outlines some comparative research into the use of these\n\n[Document 4] A Fuzzy Beam-Search Rule Induction Algorithm . This paper proposes a fuzzy beam search rule induction algorithm for the classification task. The use of fuzzy logic and fuzzy sets not only provides us with a powerful, flexible approach to cope with uncertainty, but also allows us to express the discovered rules in a representation more intuitive and comprehensible for the user, by using linguistic terms (such as low, medium, high) rather than continuous, numeric values in rule conditions. The pro\n\n[Document 5] Knowing What to Imitate and Knowing When You Succeed If we are to build robots that can imitate the actions of a human instructor, the robotics community must address a variety  of issues. In this paper, we examine two of these issues. First, how does the robot know which things it should imitate?  Second, how does the robot know when its actions are an adequate imitation of the original? We further describe an  on-going research effort to implement systems for a humanoid robot that address thes\n\n[Document 6] Infinite-Horizon Policy-Gradient Estimation Gradient-based approaches to direct policy search in reinforcement learning have received  much recent attention as a means to solve problems of partial observability and to avoid some of  the problems associated with policy degradation in value-function methods. In this paper we introduce   GPOMDP, a simulation-based algorithm for generating a biased estimate of the gradient of  the average reward in Partially Observable Markov Decision Processes (POM\n\n[Document 7] Integrity Constraints: Semantics and Applications this paper.) Finally, by having ICs expressed in logic, one can use deduction and logic as one's basic and natural tools for handling, and reasoning over, database specifications (facts, rules, queries, and ICs). This applies for relational databases, with or without rules, and can be applied to object-oriented and object-relational databases as well. There is a broad body of work on logic and relational databases, and a general consensus on what\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

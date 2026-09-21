@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Service discovery and management infrastructure for heterogeneous mobile and ubiquitous computing environments",
+  "Dynamic reconfiguration and security mechanisms for distributed service-oriented systems",
+  "Middleware frameworks for scalable service access in pervasive and active computing spaces"
+ ],
+ "raw": "{\"candidates\": [\"Service discovery and management infrastructure for heterogeneous mobile and ubiquitous computing environments\", \"Dynamic reconfiguration and security mechanisms for distributed service-oriented systems\", \"Middleware frameworks for scalable service access in pervasive and active computing spaces\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 774,
+  "output_tokens": 59,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] A Highly Adaptable Infrastructure for Service Discovery and Management in Ubiquitous Computing In an age where wirelessly networked appliances and devices are becoming commonplace, there is a necessity for providing a standard interface to them that is easily accessible by any mobile user. The design outlined in this paper provides an infrastructure and communication protocol for presenting services to heterogeneous mobile clients in a physical space via some short range wireless links. This sys\n\n[Document 2] Secure Dynamic Reconfiguration of Scalable CORBA Systems with Mobile Agents . As various Internet services, electronic commerce, and information and communication systems permeate our lives, their continual availability becomes a dominant issue. But continuing software evolution requires system recon guration. Running systems must upgrade their components or change their con guration parameters. In addition, Internet services often need to serve thousands or millions of users. This scenario rais\n\n[Document 3] A Secure Infrastructure for Service Discovery Access in Pervasive Computing Security is paramount to the success of pervasive computing environments. The system presented in this paper provides a communications and security infrastructure that goes far in advancing the goal of anywhere - anytime computing. Our work securely enables clients to access and utilize services in heterogeneous networks. We provide a service registration and discovery mechanism implemented through a hierarchy of service\n\n[Document 4] Using Dynamic Configuration to Manage A Scalable Multimedia Distribution System Multimedia applications and interfaces will change radically the way computer systems will look like in the coming years. Radio and TV broadcasting will assume a digital format and their distribution networks will be integrated to the Internet. Existing hardware and software infrastructures, however, are unable to provide all the scalability, flexibility, and quality of service that these applications require. We pre\n\n[Document 5] A Flexible, Interoperable Framework for Active Spaces this paper we describe the requirements faced by such a system and propose an integrated architecture meeting these requirements. The paper focuses on a representation of Active Spaces using standard Naming and Trading mechanisms and on an object-oriented framework for managing heterogeneous devices.\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

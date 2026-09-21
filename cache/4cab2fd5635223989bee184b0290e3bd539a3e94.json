@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Diverse machine learning and computational methods spanning domain adaptation, cost-sensitive classification, and formal verification techniques",
+  "Applications of neural networks and algorithmic techniques across computer vision, particle physics reconstruction, and automated reasoning",
+  "Advanced computational approaches for object detection, event reconstruction, proof automation, and cost-sensitive machine learning"
+ ],
+ "raw": "{\"candidates\": [\"Diverse machine learning and computational methods spanning domain adaptation, cost-sensitive classification, and formal verification techniques\", \"Applications of neural networks and algorithmic techniques across computer vision, particle physics reconstruction, and automated reasoning\", \"Advanced computational approaches for object detection, event reconstruction, proof automation, and cost-sensitive machine learning\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 979,
+  "output_tokens": 71,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of arXiv computer-science papers (title + abstract).\n\n[Document 1] Title: unsupervised adversarial visual level domain adaptation for learning video object detectors from images Abstract: Deep learning based object detectors require thousands of diversified bounding box and class annotated examples. Though image object detectors have shown rapid progress in recent years with the release of multiple large-scale static image datasets, object detection on videos still remains an open problem due to scarcity of annotated video frames. Having a robust video object d\n\n[Document 2] Title: catch and prolong recurrent neural network for seeking track candidates Abstract: One of the most important problems of data processing in high energy and nuclear physics is the event reconstruction. Its main part is the track reconstruction procedure which consists in looking for all tracks that elementary particles leave when they pass through a detector among a huge number of points, so-called hits, produced when flying particles fire detector coordinate planes. Unfortunately, the trac\n\n[Document 3] Title: certified connection tableaux proofs for hol light and tptp Abstract: In the recent years, the Metis prover based on ordered paramodulation and model elimination has replaced the earlier built-in methods for general-purpose proof automation in HOL4 and Isabelle/HOL. In the annual CASC competition, the leanCoP system based on connection tableaux has however performed better than Metis. In this paper we show how the leanCoP's core algorithm can be implemented inside HOLLight. leanCoP's flag\n\n[Document 4] Title: untangling adaboost based cost sensitive classification part ii empirical analysis Abstract: A lot of approaches, each following a different strategy, have been proposed in the literature to provide AdaBoost with cost-sensitive properties. In the first part of this series of two papers, we have presented these algorithms in a homogeneous notational framework, proposed a clustering scheme for them and performed a thorough theoretical analysis of those approaches with a fully theoretical fo\n\n[Document 5] Title: a logic with reverse modalities for history preserving bisimulations Abstract: We introduce event identifier logic (EIL) which extends Henn essy-Milner logic by the addition of (1) reverse as well as forward modalities, and (2) identifier s to keep track of events. We show that this logic corresponds to hereditary history-preserv ing (HH) bisimulation equivalence within a particular true-concurrency model, namely stable configu ration structures. We furthermore show how natural sublogics \n\n[Document 6] Title: evolution of conversations in the age of email overload Abstract: Email is a ubiquitous communications tool in the workplace and plays an important role in social interactions. Previous studies of email were largely based on surveys and limited to relatively small populations of email users within organizations. In this paper, we report results of a large-scale study of more than 2 million users exchanging 16 billion emails over several months. We quantitatively characterize the replying \n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

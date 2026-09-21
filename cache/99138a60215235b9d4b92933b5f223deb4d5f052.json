@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "XML-based data integration and adaptive information management for heterogeneous web sources",
+  "Web information retrieval, personalization, and virtual document management systems",
+  "Adaptive web applications and personalized information filtering from distributed repositories"
+ ],
+ "raw": "{\"candidates\": [\"XML-based data integration and adaptive information management for heterogeneous web sources\", \"Web information retrieval, personalization, and virtual document management systems\", \"Adaptive web applications and personalized information filtering from distributed repositories\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 853,
+  "output_tokens": 53,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 5,
+ "prompt": "Below are 5 representative documents (out of 5 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Revisiting and Versioning in Virtual Special Reports Adaptation/personalization is one of the main issues for web  applications and require large repositories. Creating adaptive web applications  from these repositories requires to have methods to facilitate web application  creation and management and to ensure reuse, sharing and exchange of data  through the internet/intranet. Virtual documents deal with these issues. In our  framework, we are interested in adaptive virtual documents for autho\n\n[Document 2] On Wrapping Query Languages and Efficient XML Integration Modern applications/portals, e-commerce, digital libraries, etc.) require integrated access to various information sources (from traditional RDBMS to semistructured Web repositories), fast deployment and low maintenance cost in a rapidly evolving environment. Because of its flexibility, there is an increasing interest in using XML as a middleware model for such applications. XML enables fast wrapping and declarative integration. However, \n\n[Document 3] A Reinforcement Learning Agent for Personalized Information Filtering This paper describes a method for learning user's interests in the Web-based personalized information filtering system called WAIR. The proposed method analyzes user's reactions to the presented documents and learns from them the profiles for the individual users. Reinforcement learning is used to adapt the term weights in the user profile so that user's preferences are best represented. In contrast to conventional relevance f\n\n[Document 4] Open video: A framework for a test collection This paper provides a framework for such a test collection and describes the Open  Video Project that has begun to develop a test collection based on this framework. The  proposed test collection is meant to be used to study a wide range of problems, such  as tests of algorithms for creating surrogates for video content or interfaces that display  result sets from queries. An important challenge in developing such a collection is storing  and distrib\n\n[Document 5] An Ejection Chain Approach for the Generalized Assignment Problem this paper, we propose an ejection chain approach under the framework of tabu search (TS) for the generalized assignment problem (GAP), which is known to be NP-hard (Sahni and Gonzalez 1976). GAP seeks a minimum cost assignment of n jobs to m agents subject to a resource constraint for each agent. Among various heuristic algorithms developed for GAP are: a combination of the greedy method and local search by Martello and Toth (198\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}

@@ -1,0 +1,27 @@
+{
+ "candidates": [
+  "Mobile agents and middleware architectures for distributed information retrieval and integration on the Internet",
+  "Adaptive learning and search strategies for accessing heterogeneous web-based information sources",
+  "Scalable distributed systems for querying and integrating multiple Internet data sources"
+ ],
+ "raw": "{\"candidates\": [\"Mobile agents and middleware architectures for distributed information retrieval and integration on the Internet\", \"Adaptive learning and search strategies for accessing heterogeneous web-based information sources\", \"Scalable distributed systems for querying and integrating multiple Internet data sources\"]}",
+ "stop_reason": "end_turn",
+ "usage": {
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 0,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "cache_creation_input_tokens": 0,
+  "cache_read_input_tokens": 0,
+  "inference_geo": "not_available",
+  "input_tokens": 960,
+  "output_tokens": 60,
+  "output_tokens_details": null,
+  "server_tool_use": null,
+  "service_tier": "standard"
+ },
+ "model": "claude-haiku-4-5",
+ "prompt_version": "v3",
+ "size": 6,
+ "prompt": "Below are 6 representative documents (out of 6 total) from one community of a citation network of computer-science papers.\n\n[Document 1] Mobile Agents for Information Integration . The large amount of information that is spread over the Internet is an  important resource for all people but also introduces some issues that must be  faced. The dynamism and the uncertainty of the Internet, along with the heterogeneity  of the sources of information are the two main challanges for the  today's technologies. This paper proposes an approach based on mobile agents  integrated in an information integration infrastructure. Mobile agents c\n\n[Document 2] WebSail: From On-line Learning to Web Search In this paper we investigate the applicability of on-line learning algorithms to the real-world problem of web search. Consider that web documents are indexed using n Boolean features. We first present a practically efficient on-line learning algorithm TW2 to search for web documents represented by a disjunction of at most k relevant features. We then design and implement WebSail, a real-time adaptive web search learner, with TW2 as its learning compo\n\n[Document 3] A Statistical Method for Estimating the Usefulness of Text Databases Searching desired data in the Internet is one of the most common ways the Internet is used. No single  search engine is capable of searching all data in the Internet. The approach that provides an interface for  invoking multiple search engines for each user query has the potential to satisfy more users. When the  number of search engines under the interface is large, invoking all search engines for each query is often  not cos\n\n[Document 4] What Sort Of Control System Is Able To Have A Personality? This paper outlines a design-based methodology for the study of mind as a part of the broad discipline of Artificial Intelligence. Within that framework some architectural requirements for human-like minds are discussed, and some preliminary suggestions made regarding mechanisms underlying motivation, emotions, and personality. A brief description is given of the `Nursemaid' or `Minder' scenario being used at the University of Birmingham\n\n[Document 5] A Scalable, Distributed Middleware Service Architecture to Support Mobile Internet Applications Middleware layers placed between user clients and application servers have been used to perform a variety of functions. In previous work we have used middleware to perform a new capability, application session handoff, using a single Middleware Server to provide all functionality. However, to improve the scalability of our architecture, we have designed an efficient distributed Middleware Service laye\n\n[Document 6] A Tableau Calculus for Temporal Description Logic: The Expanding Domain Case . In this paper we present a tableau calculus for a temporal extension of the  description logic ALC, called T LALC . This logic is based on the temporal language with  `Until' interpreted over the natural numbers with expanding ALC-domains. The tableau  calculus forms an elaborated combination of Wolper's tableau calculus for propositional  linear temporal logic, the standard tableau-algorithm for ALC, and the method o\n\nWrite 3 alternative one-sentence descriptions (at most 20 words each) of the topic shared by this community. Each should be a noun phrase like \"algorithms for detecting cohesive communities in large attributed networks\". Be specific: avoid generic phrases such as \"research on computer science\". Do not mention the number of documents or the word \"community\".\n\nReturn only JSON: {\"candidates\": [\"...\", \"...\", \"...\"]}"
+}
